@@ -1,0 +1,2094 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADC1	drivers\include\stm8s.h	2602;"	macro
+ADC1_AWCRH_RESET_VALUE	drivers\include\stm8s.h	348;"	macro
+ADC1_AWCRL_RESET_VALUE	drivers\include\stm8s.h	349;"	macro
+ADC1_BaseAddress	drivers\include\stm8s.h	2585;"	macro
+ADC1_CR1_ADON	drivers\include\stm8s.h	365;"	macro
+ADC1_CR1_CONT	drivers\include\stm8s.h	364;"	macro
+ADC1_CR1_RESET_VALUE	drivers\include\stm8s.h	339;"	macro
+ADC1_CR1_SPSEL	drivers\include\stm8s.h	363;"	macro
+ADC1_CR2_ALIGN	drivers\include\stm8s.h	369;"	macro
+ADC1_CR2_EXTSEL	drivers\include\stm8s.h	368;"	macro
+ADC1_CR2_EXTTRIG	drivers\include\stm8s.h	367;"	macro
+ADC1_CR2_RESET_VALUE	drivers\include\stm8s.h	340;"	macro
+ADC1_CR2_SCAN	drivers\include\stm8s.h	370;"	macro
+ADC1_CR3_DBUF	drivers\include\stm8s.h	372;"	macro
+ADC1_CR3_OVR	drivers\include\stm8s.h	373;"	macro
+ADC1_CR3_RESET_VALUE	drivers\include\stm8s.h	341;"	macro
+ADC1_CSR_AWD	drivers\include\stm8s.h	358;"	macro
+ADC1_CSR_AWDIE	drivers\include\stm8s.h	360;"	macro
+ADC1_CSR_CH	drivers\include\stm8s.h	361;"	macro
+ADC1_CSR_EOC	drivers\include\stm8s.h	357;"	macro
+ADC1_CSR_EOCIE	drivers\include\stm8s.h	359;"	macro
+ADC1_CSR_RESET_VALUE	drivers\include\stm8s.h	338;"	macro
+ADC1_HTRH_RESET_VALUE	drivers\include\stm8s.h	345;"	macro
+ADC1_HTRL_RESET_VALUE	drivers\include\stm8s.h	344;"	macro
+ADC1_IRQHandler	stm8s_it.h	108;"	prototype	signature:(void)
+ADC1_LTRH_RESET_VALUE	drivers\include\stm8s.h	346;"	macro
+ADC1_LTRL_RESET_VALUE	drivers\include\stm8s.h	347;"	macro
+ADC1_TDRH_RESET_VALUE	drivers\include\stm8s.h	343;"	macro
+ADC1_TDRL_RESET_VALUE	drivers\include\stm8s.h	342;"	macro
+ADC1_TypeDef	drivers\include\stm8s.h	333;"	typedef	typeref:struct:ADC1_struct
+ADC1_struct	drivers\include\stm8s.h	293;"	struct
+ADC2	drivers\include\stm8s.h	2607;"	macro
+ADC2_BaseAddress	drivers\include\stm8s.h	2586;"	macro
+ADC2_CR1_ADON	drivers\include\stm8s.h	419;"	macro
+ADC2_CR1_CONT	drivers\include\stm8s.h	418;"	macro
+ADC2_CR1_RESET_VALUE	drivers\include\stm8s.h	402;"	macro
+ADC2_CR1_SPSEL	drivers\include\stm8s.h	417;"	macro
+ADC2_CR2_ALIGN	drivers\include\stm8s.h	423;"	macro
+ADC2_CR2_EXTSEL	drivers\include\stm8s.h	422;"	macro
+ADC2_CR2_EXTTRIG	drivers\include\stm8s.h	421;"	macro
+ADC2_CR2_RESET_VALUE	drivers\include\stm8s.h	403;"	macro
+ADC2_CSR_CH	drivers\include\stm8s.h	415;"	macro
+ADC2_CSR_EOC	drivers\include\stm8s.h	413;"	macro
+ADC2_CSR_EOCIE	drivers\include\stm8s.h	414;"	macro
+ADC2_CSR_RESET_VALUE	drivers\include\stm8s.h	401;"	macro
+ADC2_IRQHandler	stm8s_it.h	106;"	prototype	signature:(void)
+ADC2_TDRH_RESET_VALUE	drivers\include\stm8s.h	405;"	macro
+ADC2_TDRL_RESET_VALUE	drivers\include\stm8s.h	404;"	macro
+ADC2_TypeDef	drivers\include\stm8s.h	396;"	typedef	typeref:struct:ADC2_struct
+ADC2_struct	drivers\include\stm8s.h	385;"	struct
+APR	drivers\include\stm8s.h	438;"	member	struct:AWU_struct
+AREA	drivers\include\stm8s.h	2818;"	macro
+ARR	drivers\include\stm8s.h	1065;"	member	struct:TIM4_struct
+ARR	drivers\include\stm8s.h	1265;"	member	struct:TIM6_struct
+ARRH	drivers\include\stm8s.h	1133;"	member	struct:TIM5_struct
+ARRH	drivers\include\stm8s.h	627;"	member	struct:TIM1_struct
+ARRH	drivers\include\stm8s.h	838;"	member	struct:TIM2_struct
+ARRH	drivers\include\stm8s.h	960;"	member	struct:TIM3_struct
+ARRL	drivers\include\stm8s.h	1134;"	member	struct:TIM5_struct
+ARRL	drivers\include\stm8s.h	628;"	member	struct:TIM1_struct
+ARRL	drivers\include\stm8s.h	839;"	member	struct:TIM2_struct
+ARRL	drivers\include\stm8s.h	961;"	member	struct:TIM3_struct
+AWCRH	drivers\include\stm8s.h	330;"	member	struct:ADC1_struct
+AWCRL	drivers\include\stm8s.h	331;"	member	struct:ADC1_struct
+AWSRH	drivers\include\stm8s.h	328;"	member	struct:ADC1_struct
+AWSRL	drivers\include\stm8s.h	329;"	member	struct:ADC1_struct
+AWU	drivers\include\stm8s.h	2610;"	macro
+AWU_APR_APR	drivers\include\stm8s.h	462;"	macro
+AWU_APR_RESET_VALUE	drivers\include\stm8s.h	447;"	macro
+AWU_BaseAddress	drivers\include\stm8s.h	2571;"	macro
+AWU_CSR_AWUEN	drivers\include\stm8s.h	459;"	macro
+AWU_CSR_AWUF	drivers\include\stm8s.h	458;"	macro
+AWU_CSR_MSR	drivers\include\stm8s.h	460;"	macro
+AWU_CSR_RESET_VALUE	drivers\include\stm8s.h	446;"	macro
+AWU_IRQHandler	stm8s_it.h	47;"	prototype	signature:(void)
+AWU_TBR_AWUTB	drivers\include\stm8s.h	464;"	macro
+AWU_TBR_RESET_VALUE	drivers\include\stm8s.h	448;"	macro
+AWU_TypeDef	drivers\include\stm8s.h	441;"	typedef	typeref:struct:AWU_struct
+AWU_struct	drivers\include\stm8s.h	435;"	struct
+AffBit	drivers\include\stm8s.h	2792;"	macro
+AppModeType	krnl\include\ei_krnl.h	34;"	typedef
+BEEP	drivers\include\stm8s.h	2612;"	macro
+BEEP_BaseAddress	drivers\include\stm8s.h	2572;"	macro
+BEEP_CSR_BEEPDIV	drivers\include\stm8s.h	494;"	macro
+BEEP_CSR_BEEPEN	drivers\include\stm8s.h	493;"	macro
+BEEP_CSR_BEEPSEL	drivers\include\stm8s.h	492;"	macro
+BEEP_CSR_RESET_VALUE	drivers\include\stm8s.h	484;"	macro
+BEEP_TypeDef	drivers\include\stm8s.h	479;"	typedef	typeref:struct:BEEP_struct
+BEEP_struct	drivers\include\stm8s.h	475;"	struct
+BKR	drivers\include\stm8s.h	638;"	member	struct:TIM1_struct
+BRR1	drivers\include\stm8s.h	1766;"	member	struct:UART1_struct
+BRR1	drivers\include\stm8s.h	1864;"	member	struct:UART2_struct
+BRR1	drivers\include\stm8s.h	1971;"	member	struct:UART3_struct
+BRR1	drivers\include\stm8s.h	2063;"	member	struct:UART4_struct
+BRR2	drivers\include\stm8s.h	1767;"	member	struct:UART1_struct
+BRR2	drivers\include\stm8s.h	1865;"	member	struct:UART2_struct
+BRR2	drivers\include\stm8s.h	1972;"	member	struct:UART3_struct
+BRR2	drivers\include\stm8s.h	2064;"	member	struct:UART4_struct
+BTR1	drivers\include\stm8s.h	2292;"	member	struct:__anon22::__anon23::__anon29
+BTR2	drivers\include\stm8s.h	2293;"	member	struct:__anon22::__anon23::__anon29
+BYTE_0	drivers\include\stm8s.h	2799;"	macro
+BYTE_1	drivers\include\stm8s.h	2800;"	macro
+BYTE_2	drivers\include\stm8s.h	2801;"	macro
+BYTE_3	drivers\include\stm8s.h	2802;"	macro
+BitAction	drivers\include\stm8s.h	232;"	typedef	typeref:enum:__anon19
+BitClr	drivers\include\stm8s.h	2820;"	macro
+BitSet	drivers\include\stm8s.h	2821;"	macro
+BitStatus	drivers\include\stm8s.h	232;"	typedef	typeref:enum:__anon19
+BitVal	drivers\include\stm8s.h	2822;"	macro
+CAN	drivers\include\stm8s.h	2615;"	macro
+CAN_BTR1_RESET_VALUE	drivers\include\stm8s.h	2499;"	macro
+CAN_BTR2_RESET_VALUE	drivers\include\stm8s.h	2500;"	macro
+CAN_BaseAddress	drivers\include\stm8s.h	2587;"	macro
+CAN_DGR_LBKM	drivers\include\stm8s.h	2378;"	macro
+CAN_DGR_RESET_VALUE	drivers\include\stm8s.h	2492;"	macro
+CAN_DGR_RX	drivers\include\stm8s.h	2381;"	macro
+CAN_DGR_SAMP	drivers\include\stm8s.h	2380;"	macro
+CAN_DGR_SLIM	drivers\include\stm8s.h	2379;"	macro
+CAN_DGR_TXM2E	drivers\include\stm8s.h	2382;"	macro
+CAN_EIER_BOFIE	drivers\include\stm8s.h	2419;"	macro
+CAN_EIER_EPVIE	drivers\include\stm8s.h	2418;"	macro
+CAN_EIER_ERRIE	drivers\include\stm8s.h	2421;"	macro
+CAN_EIER_EWGIE	drivers\include\stm8s.h	2417;"	macro
+CAN_EIER_LECIE	drivers\include\stm8s.h	2420;"	macro
+CAN_EIER_RESET_VALUE	drivers\include\stm8s.h	2496;"	macro
+CAN_ESR_BOFF	drivers\include\stm8s.h	2410;"	macro
+CAN_ESR_EPVF	drivers\include\stm8s.h	2409;"	macro
+CAN_ESR_EWGF	drivers\include\stm8s.h	2408;"	macro
+CAN_ESR_LEC	drivers\include\stm8s.h	2414;"	macro
+CAN_ESR_LEC0	drivers\include\stm8s.h	2411;"	macro
+CAN_ESR_LEC1	drivers\include\stm8s.h	2412;"	macro
+CAN_ESR_LEC2	drivers\include\stm8s.h	2413;"	macro
+CAN_ESR_RESET_VALUE	drivers\include\stm8s.h	2495;"	macro
+CAN_FCR1_FACT0	drivers\include\stm8s.h	2459;"	macro
+CAN_FCR1_FACT1	drivers\include\stm8s.h	2460;"	macro
+CAN_FCR1_FSC00	drivers\include\stm8s.h	2466;"	macro
+CAN_FCR1_FSC01	drivers\include\stm8s.h	2467;"	macro
+CAN_FCR1_FSC10	drivers\include\stm8s.h	2468;"	macro
+CAN_FCR1_FSC11	drivers\include\stm8s.h	2469;"	macro
+CAN_FCR2_FACT2	drivers\include\stm8s.h	2461;"	macro
+CAN_FCR2_FACT3	drivers\include\stm8s.h	2462;"	macro
+CAN_FCR2_FSC20	drivers\include\stm8s.h	2470;"	macro
+CAN_FCR2_FSC21	drivers\include\stm8s.h	2471;"	macro
+CAN_FCR2_FSC30	drivers\include\stm8s.h	2472;"	macro
+CAN_FCR2_FSC31	drivers\include\stm8s.h	2473;"	macro
+CAN_FCR3_FACT4	drivers\include\stm8s.h	2463;"	macro
+CAN_FCR3_FACT5	drivers\include\stm8s.h	2464;"	macro
+CAN_FCR3_FSC40	drivers\include\stm8s.h	2474;"	macro
+CAN_FCR3_FSC41	drivers\include\stm8s.h	2475;"	macro
+CAN_FCR3_FSC50	drivers\include\stm8s.h	2476;"	macro
+CAN_FCR3_FSC51	drivers\include\stm8s.h	2477;"	macro
+CAN_FCR_RESET_VALUE	drivers\include\stm8s.h	2503;"	macro
+CAN_FMR1_FMH0	drivers\include\stm8s.h	2445;"	macro
+CAN_FMR1_FMH1	drivers\include\stm8s.h	2447;"	macro
+CAN_FMR1_FMH2	drivers\include\stm8s.h	2449;"	macro
+CAN_FMR1_FMH3	drivers\include\stm8s.h	2451;"	macro
+CAN_FMR1_FML0	drivers\include\stm8s.h	2444;"	macro
+CAN_FMR1_FML1	drivers\include\stm8s.h	2446;"	macro
+CAN_FMR1_FML2	drivers\include\stm8s.h	2448;"	macro
+CAN_FMR1_FML3	drivers\include\stm8s.h	2450;"	macro
+CAN_FMR1_RESET_VALUE	drivers\include\stm8s.h	2501;"	macro
+CAN_FMR2_FMH4	drivers\include\stm8s.h	2454;"	macro
+CAN_FMR2_FMH5	drivers\include\stm8s.h	2456;"	macro
+CAN_FMR2_FML4	drivers\include\stm8s.h	2453;"	macro
+CAN_FMR2_FML5	drivers\include\stm8s.h	2455;"	macro
+CAN_FMR2_RESET_VALUE	drivers\include\stm8s.h	2502;"	macro
+CAN_IER_FFIE	drivers\include\stm8s.h	2372;"	macro
+CAN_IER_FMPIE	drivers\include\stm8s.h	2371;"	macro
+CAN_IER_FOVIE	drivers\include\stm8s.h	2373;"	macro
+CAN_IER_RESET_VALUE	drivers\include\stm8s.h	2491;"	macro
+CAN_IER_TMEIE	drivers\include\stm8s.h	2370;"	macro
+CAN_IER_WKUIE	drivers\include\stm8s.h	2374;"	macro
+CAN_MCR_ABOM	drivers\include\stm8s.h	2336;"	macro
+CAN_MCR_AWUM	drivers\include\stm8s.h	2335;"	macro
+CAN_MCR_INRQ	drivers\include\stm8s.h	2330;"	macro
+CAN_MCR_NART	drivers\include\stm8s.h	2334;"	macro
+CAN_MCR_RESET_VALUE	drivers\include\stm8s.h	2486;"	macro
+CAN_MCR_RFLM	drivers\include\stm8s.h	2333;"	macro
+CAN_MCR_SLEEP	drivers\include\stm8s.h	2331;"	macro
+CAN_MCR_TTCM	drivers\include\stm8s.h	2337;"	macro
+CAN_MCR_TXFP	drivers\include\stm8s.h	2332;"	macro
+CAN_MCSR_ABRQ	drivers\include\stm8s.h	2392;"	macro
+CAN_MCSR_ALST	drivers\include\stm8s.h	2395;"	macro
+CAN_MCSR_RESET_VALUE	drivers\include\stm8s.h	2507;"	macro
+CAN_MCSR_RQCP	drivers\include\stm8s.h	2393;"	macro
+CAN_MCSR_TERR	drivers\include\stm8s.h	2396;"	macro
+CAN_MCSR_TXOK	drivers\include\stm8s.h	2394;"	macro
+CAN_MCSR_TXRQ	drivers\include\stm8s.h	2391;"	macro
+CAN_MDLCR_DLC	drivers\include\stm8s.h	2398;"	macro
+CAN_MDLCR_TGT	drivers\include\stm8s.h	2399;"	macro
+CAN_MDLC_RESET_VALUE	drivers\include\stm8s.h	2506;"	macro
+CAN_MFMI_RESET_VALUE	drivers\include\stm8s.h	2505;"	macro
+CAN_MIDR1_IDE	drivers\include\stm8s.h	2402;"	macro
+CAN_MIDR1_RTR	drivers\include\stm8s.h	2401;"	macro
+CAN_MSR_ERRI	drivers\include\stm8s.h	2342;"	macro
+CAN_MSR_INAK	drivers\include\stm8s.h	2340;"	macro
+CAN_MSR_RESET_VALUE	drivers\include\stm8s.h	2487;"	macro
+CAN_MSR_RX	drivers\include\stm8s.h	2345;"	macro
+CAN_MSR_SLAK	drivers\include\stm8s.h	2341;"	macro
+CAN_MSR_TX	drivers\include\stm8s.h	2344;"	macro
+CAN_MSR_WKUI	drivers\include\stm8s.h	2343;"	macro
+CAN_PSR_PS0	drivers\include\stm8s.h	2386;"	macro
+CAN_PSR_PS1	drivers\include\stm8s.h	2387;"	macro
+CAN_PSR_PS2	drivers\include\stm8s.h	2388;"	macro
+CAN_PSR_RESET_VALUE	drivers\include\stm8s.h	2493;"	macro
+CAN_RECR_REC0	drivers\include\stm8s.h	2434;"	macro
+CAN_RECR_REC1	drivers\include\stm8s.h	2435;"	macro
+CAN_RECR_REC2	drivers\include\stm8s.h	2436;"	macro
+CAN_RECR_REC3	drivers\include\stm8s.h	2437;"	macro
+CAN_RECR_REC4	drivers\include\stm8s.h	2438;"	macro
+CAN_RECR_REC5	drivers\include\stm8s.h	2439;"	macro
+CAN_RECR_REC6	drivers\include\stm8s.h	2440;"	macro
+CAN_RECR_REC7	drivers\include\stm8s.h	2441;"	macro
+CAN_RECR_RESET_VALUE	drivers\include\stm8s.h	2498;"	macro
+CAN_RFR_FMP01	drivers\include\stm8s.h	2364;"	macro
+CAN_RFR_FOVR	drivers\include\stm8s.h	2366;"	macro
+CAN_RFR_FULL	drivers\include\stm8s.h	2365;"	macro
+CAN_RFR_RESET_VALUE	drivers\include\stm8s.h	2490;"	macro
+CAN_RFR_RFOM	drivers\include\stm8s.h	2367;"	macro
+CAN_RX_IRQHandler	stm8s_it.h	60;"	prototype	signature:(void)
+CAN_TECR_RESET_VALUE	drivers\include\stm8s.h	2497;"	macro
+CAN_TECR_TEC0	drivers\include\stm8s.h	2424;"	macro
+CAN_TECR_TEC1	drivers\include\stm8s.h	2425;"	macro
+CAN_TECR_TEC2	drivers\include\stm8s.h	2426;"	macro
+CAN_TECR_TEC3	drivers\include\stm8s.h	2427;"	macro
+CAN_TECR_TEC4	drivers\include\stm8s.h	2428;"	macro
+CAN_TECR_TEC5	drivers\include\stm8s.h	2429;"	macro
+CAN_TECR_TEC6	drivers\include\stm8s.h	2430;"	macro
+CAN_TECR_TEC7	drivers\include\stm8s.h	2431;"	macro
+CAN_TPR_CODE0	drivers\include\stm8s.h	2356;"	macro
+CAN_TPR_LOW0	drivers\include\stm8s.h	2360;"	macro
+CAN_TPR_LOW1	drivers\include\stm8s.h	2361;"	macro
+CAN_TPR_LOW2	drivers\include\stm8s.h	2362;"	macro
+CAN_TPR_RESET_VALUE	drivers\include\stm8s.h	2489;"	macro
+CAN_TPR_TME0	drivers\include\stm8s.h	2357;"	macro
+CAN_TPR_TME1	drivers\include\stm8s.h	2358;"	macro
+CAN_TPR_TME2	drivers\include\stm8s.h	2359;"	macro
+CAN_TSR_RESET_VALUE	drivers\include\stm8s.h	2488;"	macro
+CAN_TSR_RQCP0	drivers\include\stm8s.h	2348;"	macro
+CAN_TSR_RQCP012	drivers\include\stm8s.h	2351;"	macro
+CAN_TSR_RQCP1	drivers\include\stm8s.h	2349;"	macro
+CAN_TSR_RQCP2	drivers\include\stm8s.h	2350;"	macro
+CAN_TSR_TXOK0	drivers\include\stm8s.h	2352;"	macro
+CAN_TSR_TXOK1	drivers\include\stm8s.h	2353;"	macro
+CAN_TSR_TXOK2	drivers\include\stm8s.h	2354;"	macro
+CAN_TX_IRQHandler	stm8s_it.h	61;"	prototype	signature:(void)
+CAN_TypeDef	drivers\include\stm8s.h	2323;"	typedef	typeref:struct:__anon22
+CCER1	drivers\include\stm8s.h	1128;"	member	struct:TIM5_struct
+CCER1	drivers\include\stm8s.h	621;"	member	struct:TIM1_struct
+CCER1	drivers\include\stm8s.h	833;"	member	struct:TIM2_struct
+CCER1	drivers\include\stm8s.h	956;"	member	struct:TIM3_struct
+CCER2	drivers\include\stm8s.h	1129;"	member	struct:TIM5_struct
+CCER2	drivers\include\stm8s.h	622;"	member	struct:TIM1_struct
+CCER2	drivers\include\stm8s.h	834;"	member	struct:TIM2_struct
+CCMR1	drivers\include\stm8s.h	1125;"	member	struct:TIM5_struct
+CCMR1	drivers\include\stm8s.h	617;"	member	struct:TIM1_struct
+CCMR1	drivers\include\stm8s.h	830;"	member	struct:TIM2_struct
+CCMR1	drivers\include\stm8s.h	954;"	member	struct:TIM3_struct
+CCMR2	drivers\include\stm8s.h	1126;"	member	struct:TIM5_struct
+CCMR2	drivers\include\stm8s.h	618;"	member	struct:TIM1_struct
+CCMR2	drivers\include\stm8s.h	831;"	member	struct:TIM2_struct
+CCMR2	drivers\include\stm8s.h	955;"	member	struct:TIM3_struct
+CCMR3	drivers\include\stm8s.h	1127;"	member	struct:TIM5_struct
+CCMR3	drivers\include\stm8s.h	619;"	member	struct:TIM1_struct
+CCMR3	drivers\include\stm8s.h	832;"	member	struct:TIM2_struct
+CCMR4	drivers\include\stm8s.h	620;"	member	struct:TIM1_struct
+CCMR_TIxDirect_Set	drivers\include\stm8s.h	750;"	macro
+CCOR	drivers\include\stm8s.h	514;"	member	struct:CLK_struct
+CCR1H	drivers\include\stm8s.h	1135;"	member	struct:TIM5_struct
+CCR1H	drivers\include\stm8s.h	630;"	member	struct:TIM1_struct
+CCR1H	drivers\include\stm8s.h	840;"	member	struct:TIM2_struct
+CCR1H	drivers\include\stm8s.h	962;"	member	struct:TIM3_struct
+CCR1L	drivers\include\stm8s.h	1136;"	member	struct:TIM5_struct
+CCR1L	drivers\include\stm8s.h	631;"	member	struct:TIM1_struct
+CCR1L	drivers\include\stm8s.h	841;"	member	struct:TIM2_struct
+CCR1L	drivers\include\stm8s.h	963;"	member	struct:TIM3_struct
+CCR2H	drivers\include\stm8s.h	1137;"	member	struct:TIM5_struct
+CCR2H	drivers\include\stm8s.h	632;"	member	struct:TIM1_struct
+CCR2H	drivers\include\stm8s.h	842;"	member	struct:TIM2_struct
+CCR2H	drivers\include\stm8s.h	964;"	member	struct:TIM3_struct
+CCR2L	drivers\include\stm8s.h	1138;"	member	struct:TIM5_struct
+CCR2L	drivers\include\stm8s.h	633;"	member	struct:TIM1_struct
+CCR2L	drivers\include\stm8s.h	843;"	member	struct:TIM2_struct
+CCR2L	drivers\include\stm8s.h	965;"	member	struct:TIM3_struct
+CCR3H	drivers\include\stm8s.h	1139;"	member	struct:TIM5_struct
+CCR3H	drivers\include\stm8s.h	634;"	member	struct:TIM1_struct
+CCR3H	drivers\include\stm8s.h	844;"	member	struct:TIM2_struct
+CCR3L	drivers\include\stm8s.h	1140;"	member	struct:TIM5_struct
+CCR3L	drivers\include\stm8s.h	635;"	member	struct:TIM1_struct
+CCR3L	drivers\include\stm8s.h	845;"	member	struct:TIM2_struct
+CCR4H	drivers\include\stm8s.h	636;"	member	struct:TIM1_struct
+CCR4L	drivers\include\stm8s.h	637;"	member	struct:TIM1_struct
+CCRH	drivers\include\stm8s.h	1337;"	member	struct:I2C_struct
+CCRL	drivers\include\stm8s.h	1336;"	member	struct:I2C_struct
+CFG	drivers\include\stm8s.h	2701;"	macro
+CFG_BaseAddress	drivers\include\stm8s.h	2588;"	macro
+CFG_GCR_AL	drivers\include\stm8s.h	2538;"	macro
+CFG_GCR_RESET_VALUE	drivers\include\stm8s.h	2527;"	macro
+CFG_GCR_SWD	drivers\include\stm8s.h	2537;"	macro
+CFG_TypeDef	drivers\include\stm8s.h	2521;"	typedef	typeref:struct:CFG_struct
+CFG_struct	drivers\include\stm8s.h	2517;"	struct
+CKDIVR	drivers\include\stm8s.h	511;"	member	struct:CLK_struct
+CLK	drivers\include\stm8s.h	2618;"	macro
+CLK_BaseAddress	drivers\include\stm8s.h	2568;"	macro
+CLK_CCOR_CCOBSY	drivers\include\stm8s.h	589;"	macro
+CLK_CCOR_CCOEN	drivers\include\stm8s.h	592;"	macro
+CLK_CCOR_CCORDY	drivers\include\stm8s.h	590;"	macro
+CLK_CCOR_CCOSEL	drivers\include\stm8s.h	591;"	macro
+CLK_CCOR_RESET_VALUE	drivers\include\stm8s.h	535;"	macro
+CLK_CKDIVR_CPUDIV	drivers\include\stm8s.h	566;"	macro
+CLK_CKDIVR_F_CPUDIV1	drivers\source\stm8s_clk.c	30;"	macro	file:
+CLK_CKDIVR_F_HSIDIV1	drivers\source\stm8s_clk.c	31;"	macro	file:
+CLK_CKDIVR_HSIDIV	drivers\include\stm8s.h	565;"	macro
+CLK_CKDIVR_RESET_VALUE	drivers\include\stm8s.h	531;"	macro
+CLK_CMSR_CKM	drivers\include\stm8s.h	556;"	macro
+CLK_CMSR_RESET_VALUE	drivers\include\stm8s.h	528;"	macro
+CLK_CSSR_AUX	drivers\include\stm8s.h	586;"	macro
+CLK_CSSR_CSSD	drivers\include\stm8s.h	584;"	macro
+CLK_CSSR_CSSDIE	drivers\include\stm8s.h	585;"	macro
+CLK_CSSR_CSSEN	drivers\include\stm8s.h	587;"	macro
+CLK_CSSR_RESET_VALUE	drivers\include\stm8s.h	534;"	macro
+CLK_ECKR_HSEEN	drivers\include\stm8s.h	554;"	macro
+CLK_ECKR_HSERDY	drivers\include\stm8s.h	553;"	macro
+CLK_ECKR_RESET_VALUE	drivers\include\stm8s.h	527;"	macro
+CLK_HSITRIMR_HSITRIM	drivers\include\stm8s.h	594;"	macro
+CLK_HSITRIMR_HSITRIM_VALUE	drivers\source\stm8s_clk.c	29;"	macro	file:
+CLK_HSITRIMR_RESET_VALUE	drivers\include\stm8s.h	536;"	macro
+CLK_ICKR_FHWU	drivers\include\stm8s.h	549;"	macro
+CLK_ICKR_HSIEN	drivers\include\stm8s.h	551;"	macro
+CLK_ICKR_HSIRDY	drivers\include\stm8s.h	550;"	macro
+CLK_ICKR_LSIEN	drivers\include\stm8s.h	548;"	macro
+CLK_ICKR_LSIRDY	drivers\include\stm8s.h	547;"	macro
+CLK_ICKR_RESET_VALUE	drivers\include\stm8s.h	526;"	macro
+CLK_ICKR_SWUAH	drivers\include\stm8s.h	546;"	macro
+CLK_IRQHandler	stm8s_it.h	48;"	prototype	signature:(void)
+CLK_PCKENR1_I2C	drivers\include\stm8s.h	578;"	macro
+CLK_PCKENR1_RESET_VALUE	drivers\include\stm8s.h	532;"	macro
+CLK_PCKENR1_SPI	drivers\include\stm8s.h	577;"	macro
+CLK_PCKENR1_TIM1	drivers\include\stm8s.h	568;"	macro
+CLK_PCKENR1_TIM2	drivers\include\stm8s.h	570;"	macro
+CLK_PCKENR1_TIM3	drivers\include\stm8s.h	569;"	macro
+CLK_PCKENR1_TIM4	drivers\include\stm8s.h	572;"	macro
+CLK_PCKENR1_TIM5	drivers\include\stm8s.h	571;"	macro
+CLK_PCKENR1_TIM6	drivers\include\stm8s.h	573;"	macro
+CLK_PCKENR1_UART1	drivers\include\stm8s.h	576;"	macro
+CLK_PCKENR1_UART2	drivers\include\stm8s.h	575;"	macro
+CLK_PCKENR1_UART3	drivers\include\stm8s.h	574;"	macro
+CLK_PCKENR2_ADC	drivers\include\stm8s.h	581;"	macro
+CLK_PCKENR2_AWU	drivers\include\stm8s.h	582;"	macro
+CLK_PCKENR2_CAN	drivers\include\stm8s.h	580;"	macro
+CLK_PCKENR2_RESET_VALUE	drivers\include\stm8s.h	533;"	macro
+CLK_SWCR_RESET_VALUE	drivers\include\stm8s.h	530;"	macro
+CLK_SWCR_SWBSY	drivers\include\stm8s.h	563;"	macro
+CLK_SWCR_SWEN	drivers\include\stm8s.h	562;"	macro
+CLK_SWCR_SWIEN	drivers\include\stm8s.h	561;"	macro
+CLK_SWCR_SWIF	drivers\include\stm8s.h	560;"	macro
+CLK_SWIMCCR_RESET_VALUE	drivers\include\stm8s.h	537;"	macro
+CLK_SWIMCCR_SWIMDIV	drivers\include\stm8s.h	596;"	macro
+CLK_SWR_RESET_VALUE	drivers\include\stm8s.h	529;"	macro
+CLK_SWR_SWI	drivers\include\stm8s.h	558;"	macro
+CLK_TypeDef	drivers\include\stm8s.h	520;"	typedef	typeref:struct:CLK_struct
+CLK_struct	drivers\include\stm8s.h	503;"	struct
+CMSR	drivers\include\stm8s.h	508;"	member	struct:CLK_struct
+CNTR	drivers\include\stm8s.h	1063;"	member	struct:TIM4_struct
+CNTR	drivers\include\stm8s.h	1263;"	member	struct:TIM6_struct
+CNTRH	drivers\include\stm8s.h	1130;"	member	struct:TIM5_struct
+CNTRH	drivers\include\stm8s.h	623;"	member	struct:TIM1_struct
+CNTRH	drivers\include\stm8s.h	835;"	member	struct:TIM2_struct
+CNTRH	drivers\include\stm8s.h	957;"	member	struct:TIM3_struct
+CNTRL	drivers\include\stm8s.h	1131;"	member	struct:TIM5_struct
+CNTRL	drivers\include\stm8s.h	624;"	member	struct:TIM1_struct
+CNTRL	drivers\include\stm8s.h	836;"	member	struct:TIM2_struct
+CNTRL	drivers\include\stm8s.h	958;"	member	struct:TIM3_struct
+COMMON_H	common\include\ei_common.h	12;"	macro
+CONST	drivers\include\stm8s.h	125;"	macro
+CONST	drivers\include\stm8s.h	131;"	macro
+CONST	drivers\include\stm8s.h	145;"	macro
+CPU_CC_I1I0	drivers\include\stm8s.h	1457;"	macro
+CR	drivers\include\stm8s.h	1630;"	member	struct:WWDG_struct
+CR1	drivers\include\stm8s.h	1055;"	member	struct:TIM4_struct
+CR1	drivers\include\stm8s.h	1118;"	member	struct:TIM5_struct
+CR1	drivers\include\stm8s.h	1257;"	member	struct:TIM6_struct
+CR1	drivers\include\stm8s.h	1325;"	member	struct:I2C_struct
+CR1	drivers\include\stm8s.h	1470;"	member	struct:EXTI_struct
+CR1	drivers\include\stm8s.h	1511;"	member	struct:FLASH_struct
+CR1	drivers\include\stm8s.h	1693;"	member	struct:SPI_struct
+CR1	drivers\include\stm8s.h	1768;"	member	struct:UART1_struct
+CR1	drivers\include\stm8s.h	1866;"	member	struct:UART2_struct
+CR1	drivers\include\stm8s.h	1973;"	member	struct:UART3_struct
+CR1	drivers\include\stm8s.h	2065;"	member	struct:UART4_struct
+CR1	drivers\include\stm8s.h	269;"	member	struct:GPIO_struct
+CR1	drivers\include\stm8s.h	317;"	member	struct:ADC1_struct
+CR1	drivers\include\stm8s.h	388;"	member	struct:ADC2_struct
+CR1	drivers\include\stm8s.h	609;"	member	struct:TIM1_struct
+CR1	drivers\include\stm8s.h	821;"	member	struct:TIM2_struct
+CR1	drivers\include\stm8s.h	949;"	member	struct:TIM3_struct
+CR2	drivers\include\stm8s.h	1119;"	member	struct:TIM5_struct
+CR2	drivers\include\stm8s.h	1258;"	member	struct:TIM6_struct
+CR2	drivers\include\stm8s.h	1326;"	member	struct:I2C_struct
+CR2	drivers\include\stm8s.h	1471;"	member	struct:EXTI_struct
+CR2	drivers\include\stm8s.h	1512;"	member	struct:FLASH_struct
+CR2	drivers\include\stm8s.h	1694;"	member	struct:SPI_struct
+CR2	drivers\include\stm8s.h	1769;"	member	struct:UART1_struct
+CR2	drivers\include\stm8s.h	1867;"	member	struct:UART2_struct
+CR2	drivers\include\stm8s.h	1974;"	member	struct:UART3_struct
+CR2	drivers\include\stm8s.h	2066;"	member	struct:UART4_struct
+CR2	drivers\include\stm8s.h	270;"	member	struct:GPIO_struct
+CR2	drivers\include\stm8s.h	318;"	member	struct:ADC1_struct
+CR2	drivers\include\stm8s.h	389;"	member	struct:ADC2_struct
+CR2	drivers\include\stm8s.h	610;"	member	struct:TIM1_struct
+CR3	drivers\include\stm8s.h	1770;"	member	struct:UART1_struct
+CR3	drivers\include\stm8s.h	1868;"	member	struct:UART2_struct
+CR3	drivers\include\stm8s.h	1975;"	member	struct:UART3_struct
+CR3	drivers\include\stm8s.h	2067;"	member	struct:UART4_struct
+CR3	drivers\include\stm8s.h	319;"	member	struct:ADC1_struct
+CR4	drivers\include\stm8s.h	1771;"	member	struct:UART1_struct
+CR4	drivers\include\stm8s.h	1869;"	member	struct:UART2_struct
+CR4	drivers\include\stm8s.h	1976;"	member	struct:UART3_struct
+CR4	drivers\include\stm8s.h	2068;"	member	struct:UART4_struct
+CR5	drivers\include\stm8s.h	1772;"	member	struct:UART1_struct
+CR5	drivers\include\stm8s.h	1870;"	member	struct:UART2_struct
+CR5	drivers\include\stm8s.h	2069;"	member	struct:UART4_struct
+CR6	drivers\include\stm8s.h	1871;"	member	struct:UART2_struct
+CR6	drivers\include\stm8s.h	1978;"	member	struct:UART3_struct
+CR6	drivers\include\stm8s.h	2070;"	member	struct:UART4_struct
+CRCPR	drivers\include\stm8s.h	1698;"	member	struct:SPI_struct
+CSR	drivers\include\stm8s.h	316;"	member	struct:ADC1_struct
+CSR	drivers\include\stm8s.h	387;"	member	struct:ADC2_struct
+CSR	drivers\include\stm8s.h	437;"	member	struct:AWU_struct
+CSR	drivers\include\stm8s.h	477;"	member	struct:BEEP_struct
+CSSR	drivers\include\stm8s.h	513;"	member	struct:CLK_struct
+ChgBit	drivers\include\stm8s.h	2791;"	macro
+ClrBit	drivers\include\stm8s.h	2789;"	macro
+Config	drivers\include\stm8s.h	2301;"	member	union:__anon22::__anon23	typeref:struct:__anon22::__anon23::__anon29
+DB0RH	drivers\include\stm8s.h	295;"	member	struct:ADC1_struct
+DB0RL	drivers\include\stm8s.h	296;"	member	struct:ADC1_struct
+DB1RH	drivers\include\stm8s.h	297;"	member	struct:ADC1_struct
+DB1RL	drivers\include\stm8s.h	298;"	member	struct:ADC1_struct
+DB2RH	drivers\include\stm8s.h	299;"	member	struct:ADC1_struct
+DB2RL	drivers\include\stm8s.h	300;"	member	struct:ADC1_struct
+DB3RH	drivers\include\stm8s.h	301;"	member	struct:ADC1_struct
+DB3RL	drivers\include\stm8s.h	302;"	member	struct:ADC1_struct
+DB4RH	drivers\include\stm8s.h	303;"	member	struct:ADC1_struct
+DB4RL	drivers\include\stm8s.h	304;"	member	struct:ADC1_struct
+DB5RH	drivers\include\stm8s.h	305;"	member	struct:ADC1_struct
+DB5RL	drivers\include\stm8s.h	306;"	member	struct:ADC1_struct
+DB6RH	drivers\include\stm8s.h	307;"	member	struct:ADC1_struct
+DB6RL	drivers\include\stm8s.h	308;"	member	struct:ADC1_struct
+DB7RH	drivers\include\stm8s.h	309;"	member	struct:ADC1_struct
+DB7RL	drivers\include\stm8s.h	310;"	member	struct:ADC1_struct
+DB8RH	drivers\include\stm8s.h	311;"	member	struct:ADC1_struct
+DB8RL	drivers\include\stm8s.h	312;"	member	struct:ADC1_struct
+DB9RH	drivers\include\stm8s.h	313;"	member	struct:ADC1_struct
+DB9RL	drivers\include\stm8s.h	314;"	member	struct:ADC1_struct
+DDR	drivers\include\stm8s.h	268;"	member	struct:GPIO_struct
+DGR	drivers\include\stm8s.h	2177;"	member	struct:__anon22
+DISABLE	drivers\include\stm8s.h	234;"	enumerator	enum:__anon20
+DM	drivers\include\stm8s.h	2703;"	macro
+DM_BaseAddress	drivers\include\stm8s.h	2590;"	macro
+DR	drivers\include\stm8s.h	1331;"	member	struct:I2C_struct
+DR	drivers\include\stm8s.h	1697;"	member	struct:SPI_struct
+DR	drivers\include\stm8s.h	1765;"	member	struct:UART1_struct
+DR	drivers\include\stm8s.h	1863;"	member	struct:UART2_struct
+DR	drivers\include\stm8s.h	1970;"	member	struct:UART3_struct
+DR	drivers\include\stm8s.h	2062;"	member	struct:UART4_struct
+DRH	drivers\include\stm8s.h	320;"	member	struct:ADC1_struct
+DRH	drivers\include\stm8s.h	391;"	member	struct:ADC2_struct
+DRL	drivers\include\stm8s.h	321;"	member	struct:ADC1_struct
+DRL	drivers\include\stm8s.h	392;"	member	struct:ADC2_struct
+DTR	drivers\include\stm8s.h	639;"	member	struct:TIM1_struct
+DUKR	drivers\include\stm8s.h	1521;"	member	struct:FLASH_struct
+ECKR	drivers\include\stm8s.h	506;"	member	struct:CLK_struct
+EEPROM	drivers\include\stm8s.h	124;"	macro
+EEPROM	drivers\include\stm8s.h	130;"	macro
+EEPROM	drivers\include\stm8s.h	144;"	macro
+EEPROM_EEC_IRQHandler	stm8s_it.h	116;"	prototype	signature:(void)
+EGR	drivers\include\stm8s.h	1062;"	member	struct:TIM4_struct
+EGR	drivers\include\stm8s.h	1124;"	member	struct:TIM5_struct
+EGR	drivers\include\stm8s.h	1262;"	member	struct:TIM6_struct
+EGR	drivers\include\stm8s.h	616;"	member	struct:TIM1_struct
+EGR	drivers\include\stm8s.h	829;"	member	struct:TIM2_struct
+EGR	drivers\include\stm8s.h	953;"	member	struct:TIM3_struct
+EIER	drivers\include\stm8s.h	2289;"	member	struct:__anon22::__anon23::__anon29
+EI_CLK_H	drivers\include\stm8s_clk.h	12;"	macro
+EI_CLRBIT	common\include\ei_common.h	170;"	macro
+EI_DELAY	krnl\configuration\ei_krnl_cfg.h	108;"	macro
+EI_HSIC_CONFIG_H	hsic\configuration\ei_hsic_cfg.h	13;"	macro
+EI_HSIC_H	hsic\include\ei_hsic.h	13;"	macro
+EI_IWDG_H	drivers\include\stm8s_iwdg.h	15;"	macro
+EI_KRNL_BUFFER1_LEN	krnl\configuration\ei_krnl_cfg.h	51;"	macro
+EI_KRNL_BUFFER2_LEN	krnl\configuration\ei_krnl_cfg.h	52;"	macro
+EI_KRNL_BUFFER3_LEN	krnl\configuration\ei_krnl_cfg.h	50;"	macro
+EI_KRNL_COMPENSATION_COUNTER_VALUE	krnl\include\ei_krnl_ticktimer.h	39;"	macro
+EI_KRNL_CONFIG_H	krnl\configuration\ei_krnl_cfg.h	12;"	macro
+EI_KRNL_COUNTER_THRESHOLD_H	krnl\include\ei_krnl_ticktimer.h	30;"	macro
+EI_KRNL_COUNTER_THRESHOLD_L	krnl\include\ei_krnl_ticktimer.h	31;"	macro
+EI_KRNL_EMPTY_TASK	krnl\sources\ei_krnl.c	31;"	macro	file:
+EI_KRNL_ENABLE_CANCEL_ALARM	krnl\configuration\ei_krnl_cfg.h	43;"	macro
+EI_KRNL_ENABLE_FIFO_QUEUE1	krnl\configuration\ei_krnl_cfg.h	32;"	macro
+EI_KRNL_ENABLE_FIFO_QUEUE2	krnl\configuration\ei_krnl_cfg.h	33;"	macro
+EI_KRNL_ENABLE_FIFO_QUEUE3	krnl\configuration\ei_krnl_cfg.h	31;"	macro
+EI_KRNL_ENABLE_SHUTDOWN	krnl\configuration\ei_krnl_cfg.h	44;"	macro
+EI_KRNL_FIFO_QUEUE1	krnl\include\ei_krnl_queue.h	24;"	macro
+EI_KRNL_FIFO_QUEUE2	krnl\include\ei_krnl_queue.h	25;"	macro
+EI_KRNL_FIFO_QUEUE3	krnl\include\ei_krnl_queue.h	23;"	macro
+EI_KRNL_H	krnl\include\ei_krnl.h	12;"	macro
+EI_KRNL_INTERRUPT_LEVEL_USED	krnl\include\ei_krnl_ticktimer.h	37;"	macro
+EI_KRNL_NO_INTERRUPT_ENABLE_FLAG	krnl\include\ei_krnl_ticktimer.h	38;"	macro
+EI_KRNL_NUMBER_OF_TASK	krnl\configuration\ei_krnl_cfg.h	97;"	macro
+EI_KRNL_QUEUE_H	krnl\include\ei_krnl_queue.h	12;"	macro
+EI_KRNL_TASK_DISPATCHER_IT_USED	krnl\include\ei_krnl_ticktimer.h	40;"	macro
+EI_KRNL_TICK_DIVIDER	krnl\configuration\ei_krnl_cfg.h	62;"	macro
+EI_KRNL_TICK_EI_PERIOD	krnl\configuration\ei_krnl_cfg.h	67;"	macro
+EI_KRNL_TICK_TIMER_H	krnl\include\ei_krnl_ticktimer.h	11;"	macro
+EI_NO_DELAY	krnl\configuration\ei_krnl_cfg.h	106;"	macro
+EI_NO_PERIOD	krnl\configuration\ei_krnl_cfg.h	107;"	macro
+EI_PERIOD	krnl\configuration\ei_krnl_cfg.h	109;"	macro
+EI_READBIT	common\include\ei_common.h	86;"	macro
+EI_READBYT	common\include\ei_common.h	102;"	macro
+EI_READSHRT	common\include\ei_common.h	119;"	macro
+EI_READWRD	common\include\ei_common.h	134;"	macro
+EI_SETBIT	common\include\ei_common.h	153;"	macro
+EI_STSD_CONFIG_H	stsd\configuration\ei_stsd_cfg.h	12;"	macro
+EI_TASK1_DELAY	common\source\ei_sampletask.c	16;"	macro	file:
+EI_TASK1_Init	common\include\ei_sampletask.h	19;"	prototype	signature:(void)
+EI_TASK1_Init	common\source\ei_sampletask.c	51;"	function	signature:(void)
+EI_TASK1_PERIOD	common\source\ei_sampletask.c	17;"	macro	file:
+EI_TASK1_Task_al	krnl\configuration\ei_krnl_cfg.h	92;"	enumerator	enum:__anon31
+EI_TASK1_WakeUp	common\include\ei_sampletask.h	16;"	prototype	signature:(void)
+EI_TASK1_WakeUp	common\source\ei_sampletask.c	45;"	function	signature:(void)
+EI_TASK2_DELAY	common\source\ei_sampletask.c	19;"	macro	file:
+EI_TASK2_Init	common\include\ei_sampletask.h	25;"	prototype	signature:(void)
+EI_TASK2_Init	common\source\ei_sampletask.c	64;"	function	signature:(void)
+EI_TASK2_PERIOD	common\source\ei_sampletask.c	20;"	macro	file:
+EI_TASK2_Task_al	krnl\configuration\ei_krnl_cfg.h	93;"	enumerator	enum:__anon31
+EI_TASK2_WakeUp	common\include\ei_sampletask.h	22;"	prototype	signature:(void)
+EI_TASK2_WakeUp	common\source\ei_sampletask.c	58;"	function	signature:(void)
+EI_WRTBYT	common\include\ei_common.h	37;"	macro
+EI_WRTSHRT	common\include\ei_common.h	52;"	macro
+EI_WRTWRD	common\include\ei_common.h	67;"	macro
+EI_clk_InitializeClock	drivers\include\stm8s_clk.h	19;"	prototype	signature:(void)
+EI_clk_InitializeClock	drivers\source\stm8s_clk.c	42;"	function	signature:(void)
+EI_clk_SelectClock	drivers\include\stm8s_clk.h	28;"	prototype	signature:(uint8_t ClockSource)
+EI_clk_SelectClock	drivers\source\stm8s_clk.c	97;"	function	signature:(uint8_t ClockSource)
+EI_hsic_ClockInit	hsic\include\ei_hsic.h	22;"	prototype	signature:(void)
+EI_hsic_ClockSelection	hsic\include\ei_hsic.h	20;"	prototype	signature:(uint8_t ClockSource)
+EI_hsic_InternalWdogInit	hsic\include\ei_hsic.h	26;"	prototype	signature:(void)
+EI_hsic_WatchdogRefresh	hsic\include\ei_hsic.h	24;"	prototype	signature:(void)
+EI_iwdg_InternalWdogInit	drivers\include\stm8s_iwdg.h	30;"	prototype	signature:(void)
+EI_iwdg_InternalWdogInit	drivers\source\stm8s_iwdg.c	59;"	function	signature:(void)
+EI_iwdg_WatchdogRefresh	drivers\include\stm8s_iwdg.h	23;"	prototype	signature:(void)
+EI_iwdg_WatchdogRefresh	drivers\source\stm8s_iwdg.c	40;"	function	signature:(void)
+EI_krnl_AckTickInterrupt	krnl\include\ei_krnl_ticktimer.h	70;"	macro
+EI_krnl_AllowNestedTickInterrupt	krnl\include\ei_krnl_ticktimer.h	76;"	macro
+EI_krnl_CancelAlarm	krnl\include\ei_krnl.h	163;"	prototype	signature:(u8 TaskNumber)
+EI_krnl_CancelAlarm	krnl\include\ei_krnl.h	165;"	macro
+EI_krnl_DisableAllInterrupts	krnl\include\ei_krnl.h	58;"	macro
+EI_krnl_DisableTickEnableAllIsr	krnl\sources\ei_krnl.c	86;"	macro	file:
+EI_krnl_DisableTickInterrupt	krnl\include\ei_krnl_ticktimer.h	66;"	macro
+EI_krnl_EnableAllInterrupts	krnl\include\ei_krnl.h	74;"	macro
+EI_krnl_EnableNmi	krnl\include\ei_krnl_ticktimer.h	74;"	macro
+EI_krnl_EnableTickInterrupt	krnl\include\ei_krnl_ticktimer.h	62;"	macro
+EI_krnl_IncTickCnt	krnl\sources\ei_krnl.c	134;"	function	signature:(void)
+EI_krnl_IncTickCnt	krnl\sources\ei_krnl_ticktimer.c	33;"	prototype	file:	signature:(void)
+EI_krnl_InitOS	krnl\sources\ei_krnl.c	150;"	function	signature:(void)
+EI_krnl_InitOS	krnl\sources\ei_krnl_startos.c	30;"	prototype	file:	signature:(void)
+EI_krnl_InitTickTimer	krnl\include\ei_krnl_ticktimer.h	44;"	macro
+EI_krnl_Queue1TaskExecuter	krnl\sources\ei_krnl.c	277;"	function	signature:(u8 ei_krnl_Task_Id)
+EI_krnl_Queue1TaskExecuter	krnl\sources\ei_krnl_ticktimer.c	32;"	prototype	file:	signature:(u8 ei_krnl_Task_Id)
+EI_krnl_Queue2TaskExecuter	krnl\sources\ei_krnl.c	327;"	function	signature:(u8 ei_krnl_Task_Id)
+EI_krnl_Queue2TaskExecuter	krnl\sources\ei_krnl_ticktimer.c	31;"	prototype	file:	signature:(u8 ei_krnl_Task_Id)
+EI_krnl_Queue3TaskExecuter	krnl\sources\ei_krnl.c	375;"	function	signature:(u8 ei_krnl_Task_Id)
+EI_krnl_Queue3TaskExecuter	krnl\sources\ei_krnl_startos.c	31;"	prototype	file:	signature:(u8 ei_krnl_Task_Id)
+EI_krnl_RestoreNestedTickInterrupt	krnl\include\ei_krnl_ticktimer.h	77;"	macro
+EI_krnl_SetRelAlarm	krnl\include\ei_krnl.h	151;"	prototype	signature:(u8 TaskNumber,u8 FirstDelay,u8 Period)
+EI_krnl_SetRelAlarm	krnl\sources\ei_krnl.c	116;"	function	signature:(u8 TaskNumber, u8 FirstDelay, u8 Period)
+EI_krnl_ShutdownOS	krnl\include\ei_krnl.h	134;"	prototype	signature:(StatusType Error)
+EI_krnl_ShutdownOS	krnl\include\ei_krnl.h	136;"	macro
+EI_krnl_ShutdownOS	krnl\sources\ei_krnl_shutdownos.c	47;"	function	signature:(StatusType Error)
+EI_krnl_StartOS	krnl\include\ei_krnl.h	122;"	prototype	signature:(AppModeType Mode)
+EI_krnl_StartOS	krnl\sources\ei_krnl_startos.c	45;"	function	signature:(AppModeType Mode)
+EI_krnl_StartTickTimer	krnl\include\ei_krnl_ticktimer.h	58;"	macro
+EI_krnl_StopTickTimer	krnl\include\ei_krnl_ticktimer.h	54;"	macro
+EI_krnl_TaskPeriodMng	krnl\sources\ei_krnl.c	197;"	function	signature:(u8 ei_krnl_Task_Id)
+EI_krnl_TaskPeriodMng	krnl\sources\ei_krnl_ticktimer.c	30;"	prototype	file:	signature:(u8 ei_krnl_Task_Id)
+EI_krnl_Tick_Run	krnl\include\ei_krnl.h	181;"	prototype	signature:(void)
+EI_krnl_Tick_Run	krnl\sources\ei_krnl_ticktimer.c	46;"	function	signature:(void)
+EI_krnl_Tick_Stop	krnl\include\ei_krnl.h	191;"	prototype	signature:(void)
+EI_krnl_Tick_Stop	krnl\sources\ei_krnl_ticktimer.c	61;"	function	signature:(void)
+EI_stsd_BootMicro	stsd\include\ei_stsd.h	67;"	prototype	signature:(void)
+EI_stsd_BootMicro	stsd\sources\ei_stsd.c	29;"	function	signature:(void)
+EI_stsd_CheckStackOvf	stsd\include\ei_stsd.h	35;"	macro
+EI_stsd_InitCheckStackOvf	stsd\include\ei_stsd.h	34;"	macro
+EI_stsd_PowerON_Reset	stsd\configuration\ei_stsd_cfg.h	46;"	prototype	signature:(void)
+EI_stsd_Reset	stsd\include\ei_stsd.h	53;"	prototype	signature:(void)
+EI_stsd_Reset	stsd\sources\ei_stsd.c	122;"	function	signature:(void)
+EI_stsd_ShutdownHook	stsd\include\ei_stsd.h	104;"	prototype	signature:(StatusType error)
+EI_stsd_ShutdownHook	stsd\sources\ei_stsd.c	95;"	function	signature:(StatusType error)
+EI_stsd_Start	stsd\sources\ei_stsd.c	107;"	function	signature:(void)
+EI_stsd_StartUpHook	stsd\configuration\ei_stsd_cfg.h	47;"	prototype	signature:(void)
+EI_stsd_StartupHook	stsd\include\ei_stsd.h	92;"	prototype	signature:(void)
+EI_stsd_StartupHook	stsd\sources\ei_stsd.c	45;"	function	signature:(void)
+EI_stsd_main	stsd\include\ei_stsd.h	79;"	prototype	signature:(void)
+ENABLE	drivers\include\stm8s.h	234;"	enumerator	enum:__anon20
+ERROR	drivers\include\stm8s.h	237;"	enumerator	enum:__anon21
+ESR	drivers\include\stm8s.h	2288;"	member	struct:__anon22::__anon23::__anon29
+ETR	drivers\include\stm8s.h	612;"	member	struct:TIM1_struct
+EXTI	drivers\include\stm8s.h	2620;"	macro
+EXTI_BaseAddress	drivers\include\stm8s.h	2566;"	macro
+EXTI_CR1_PAIS	drivers\include\stm8s.h	1493;"	macro
+EXTI_CR1_PBIS	drivers\include\stm8s.h	1492;"	macro
+EXTI_CR1_PCIS	drivers\include\stm8s.h	1491;"	macro
+EXTI_CR1_PDIS	drivers\include\stm8s.h	1490;"	macro
+EXTI_CR1_RESET_VALUE	drivers\include\stm8s.h	1479;"	macro
+EXTI_CR2_PEIS	drivers\include\stm8s.h	1496;"	macro
+EXTI_CR2_RESET_VALUE	drivers\include\stm8s.h	1480;"	macro
+EXTI_CR2_TLIS	drivers\include\stm8s.h	1495;"	macro
+EXTI_PORTA_IRQHandler	stm8s_it.h	49;"	prototype	signature:(void)
+EXTI_PORTB_IRQHandler	stm8s_it.h	50;"	prototype	signature:(void)
+EXTI_PORTC_IRQHandler	stm8s_it.h	51;"	prototype	signature:(void)
+EXTI_PORTD_IRQHandler	stm8s_it.h	52;"	prototype	signature:(void)
+EXTI_PORTE_IRQHandler	stm8s_it.h	53;"	prototype	signature:(void)
+EXTI_PORTF_IRQHandler	stm8s_it.h	56;"	prototype	signature:(void)
+EXTI_TypeDef	drivers\include\stm8s.h	1473;"	typedef	typeref:struct:EXTI_struct
+EXTI_struct	drivers\include\stm8s.h	1468;"	struct
+E_OK	krnl\include\ei_krnl.h	25;"	macro
+ErrorStatus	drivers\include\stm8s.h	237;"	typedef	typeref:enum:__anon21
+F0R1	drivers\include\stm8s.h	2225;"	member	struct:__anon22::__anon23::__anon26
+F0R2	drivers\include\stm8s.h	2226;"	member	struct:__anon22::__anon23::__anon26
+F0R3	drivers\include\stm8s.h	2227;"	member	struct:__anon22::__anon23::__anon26
+F0R4	drivers\include\stm8s.h	2228;"	member	struct:__anon22::__anon23::__anon26
+F0R5	drivers\include\stm8s.h	2229;"	member	struct:__anon22::__anon23::__anon26
+F0R6	drivers\include\stm8s.h	2230;"	member	struct:__anon22::__anon23::__anon26
+F0R7	drivers\include\stm8s.h	2231;"	member	struct:__anon22::__anon23::__anon26
+F0R8	drivers\include\stm8s.h	2232;"	member	struct:__anon22::__anon23::__anon26
+F1R1	drivers\include\stm8s.h	2234;"	member	struct:__anon22::__anon23::__anon26
+F1R2	drivers\include\stm8s.h	2235;"	member	struct:__anon22::__anon23::__anon26
+F1R3	drivers\include\stm8s.h	2236;"	member	struct:__anon22::__anon23::__anon26
+F1R4	drivers\include\stm8s.h	2237;"	member	struct:__anon22::__anon23::__anon26
+F1R5	drivers\include\stm8s.h	2238;"	member	struct:__anon22::__anon23::__anon26
+F1R6	drivers\include\stm8s.h	2239;"	member	struct:__anon22::__anon23::__anon26
+F1R7	drivers\include\stm8s.h	2240;"	member	struct:__anon22::__anon23::__anon26
+F1R8	drivers\include\stm8s.h	2241;"	member	struct:__anon22::__anon23::__anon26
+F2R1	drivers\include\stm8s.h	2246;"	member	struct:__anon22::__anon23::__anon27
+F2R2	drivers\include\stm8s.h	2247;"	member	struct:__anon22::__anon23::__anon27
+F2R3	drivers\include\stm8s.h	2248;"	member	struct:__anon22::__anon23::__anon27
+F2R4	drivers\include\stm8s.h	2249;"	member	struct:__anon22::__anon23::__anon27
+F2R5	drivers\include\stm8s.h	2250;"	member	struct:__anon22::__anon23::__anon27
+F2R6	drivers\include\stm8s.h	2251;"	member	struct:__anon22::__anon23::__anon27
+F2R7	drivers\include\stm8s.h	2252;"	member	struct:__anon22::__anon23::__anon27
+F2R8	drivers\include\stm8s.h	2253;"	member	struct:__anon22::__anon23::__anon27
+F3R1	drivers\include\stm8s.h	2255;"	member	struct:__anon22::__anon23::__anon27
+F3R2	drivers\include\stm8s.h	2256;"	member	struct:__anon22::__anon23::__anon27
+F3R3	drivers\include\stm8s.h	2257;"	member	struct:__anon22::__anon23::__anon27
+F3R4	drivers\include\stm8s.h	2258;"	member	struct:__anon22::__anon23::__anon27
+F3R5	drivers\include\stm8s.h	2259;"	member	struct:__anon22::__anon23::__anon27
+F3R6	drivers\include\stm8s.h	2260;"	member	struct:__anon22::__anon23::__anon27
+F3R7	drivers\include\stm8s.h	2261;"	member	struct:__anon22::__anon23::__anon27
+F3R8	drivers\include\stm8s.h	2262;"	member	struct:__anon22::__anon23::__anon27
+F4R1	drivers\include\stm8s.h	2267;"	member	struct:__anon22::__anon23::__anon28
+F4R2	drivers\include\stm8s.h	2268;"	member	struct:__anon22::__anon23::__anon28
+F4R3	drivers\include\stm8s.h	2269;"	member	struct:__anon22::__anon23::__anon28
+F4R4	drivers\include\stm8s.h	2270;"	member	struct:__anon22::__anon23::__anon28
+F4R5	drivers\include\stm8s.h	2271;"	member	struct:__anon22::__anon23::__anon28
+F4R6	drivers\include\stm8s.h	2272;"	member	struct:__anon22::__anon23::__anon28
+F4R7	drivers\include\stm8s.h	2273;"	member	struct:__anon22::__anon23::__anon28
+F4R8	drivers\include\stm8s.h	2274;"	member	struct:__anon22::__anon23::__anon28
+F5R1	drivers\include\stm8s.h	2276;"	member	struct:__anon22::__anon23::__anon28
+F5R2	drivers\include\stm8s.h	2277;"	member	struct:__anon22::__anon23::__anon28
+F5R3	drivers\include\stm8s.h	2278;"	member	struct:__anon22::__anon23::__anon28
+F5R4	drivers\include\stm8s.h	2279;"	member	struct:__anon22::__anon23::__anon28
+F5R5	drivers\include\stm8s.h	2280;"	member	struct:__anon22::__anon23::__anon28
+F5R6	drivers\include\stm8s.h	2281;"	member	struct:__anon22::__anon23::__anon28
+F5R7	drivers\include\stm8s.h	2282;"	member	struct:__anon22::__anon23::__anon28
+F5R8	drivers\include\stm8s.h	2283;"	member	struct:__anon22::__anon23::__anon28
+FALSE	drivers\include\stm8s.h	230;"	enumerator	enum:__anon18
+FAR	drivers\include\stm8s.h	121;"	macro
+FAR	drivers\include\stm8s.h	127;"	macro
+FAR	drivers\include\stm8s.h	141;"	macro
+FCR1	drivers\include\stm8s.h	2297;"	member	struct:__anon22::__anon23::__anon29
+FCR2	drivers\include\stm8s.h	2298;"	member	struct:__anon22::__anon23::__anon29
+FCR3	drivers\include\stm8s.h	2299;"	member	struct:__anon22::__anon23::__anon29
+FLASH	drivers\include\stm8s.h	2622;"	macro
+FLASH_BaseAddress	drivers\include\stm8s.h	2565;"	macro
+FLASH_CR1_AHALT	drivers\include\stm8s.h	1545;"	macro
+FLASH_CR1_FIX	drivers\include\stm8s.h	1547;"	macro
+FLASH_CR1_HALT	drivers\include\stm8s.h	1544;"	macro
+FLASH_CR1_IE	drivers\include\stm8s.h	1546;"	macro
+FLASH_CR1_RESET_VALUE	drivers\include\stm8s.h	1529;"	macro
+FLASH_CR2_ERASE	drivers\include\stm8s.h	1551;"	macro
+FLASH_CR2_FPRG	drivers\include\stm8s.h	1552;"	macro
+FLASH_CR2_OPT	drivers\include\stm8s.h	1549;"	macro
+FLASH_CR2_PRG	drivers\include\stm8s.h	1553;"	macro
+FLASH_CR2_RESET_VALUE	drivers\include\stm8s.h	1530;"	macro
+FLASH_CR2_WPRG	drivers\include\stm8s.h	1550;"	macro
+FLASH_DUKR_DUK	drivers\include\stm8s.h	1569;"	macro
+FLASH_DUKR_RESET_VALUE	drivers\include\stm8s.h	1534;"	macro
+FLASH_IAPSR_DUL	drivers\include\stm8s.h	1562;"	macro
+FLASH_IAPSR_EOP	drivers\include\stm8s.h	1563;"	macro
+FLASH_IAPSR_HVOFF	drivers\include\stm8s.h	1561;"	macro
+FLASH_IAPSR_PUL	drivers\include\stm8s.h	1564;"	macro
+FLASH_IAPSR_RESET_VALUE	drivers\include\stm8s.h	1532;"	macro
+FLASH_IAPSR_WR_PG_DIS	drivers\include\stm8s.h	1565;"	macro
+FLASH_NCR2_NERASE	drivers\include\stm8s.h	1557;"	macro
+FLASH_NCR2_NFPRG	drivers\include\stm8s.h	1558;"	macro
+FLASH_NCR2_NOPT	drivers\include\stm8s.h	1555;"	macro
+FLASH_NCR2_NPRG	drivers\include\stm8s.h	1559;"	macro
+FLASH_NCR2_NWPRG	drivers\include\stm8s.h	1556;"	macro
+FLASH_NCR2_RESET_VALUE	drivers\include\stm8s.h	1531;"	macro
+FLASH_PUKR_PUK	drivers\include\stm8s.h	1567;"	macro
+FLASH_PUKR_RESET_VALUE	drivers\include\stm8s.h	1533;"	macro
+FLASH_TypeDef	drivers\include\stm8s.h	1523;"	typedef	typeref:struct:FLASH_struct
+FLASH_struct	drivers\include\stm8s.h	1509;"	struct
+FMR1	drivers\include\stm8s.h	2295;"	member	struct:__anon22::__anon23::__anon29
+FMR2	drivers\include\stm8s.h	2296;"	member	struct:__anon22::__anon23::__anon29
+FPR	drivers\include\stm8s.h	1514;"	member	struct:FLASH_struct
+FR01	drivers\include\stm8s.h	2204;"	member	struct:__anon22::__anon23::__anon25
+FR02	drivers\include\stm8s.h	2205;"	member	struct:__anon22::__anon23::__anon25
+FR03	drivers\include\stm8s.h	2206;"	member	struct:__anon22::__anon23::__anon25
+FR04	drivers\include\stm8s.h	2207;"	member	struct:__anon22::__anon23::__anon25
+FR05	drivers\include\stm8s.h	2208;"	member	struct:__anon22::__anon23::__anon25
+FR06	drivers\include\stm8s.h	2209;"	member	struct:__anon22::__anon23::__anon25
+FR07	drivers\include\stm8s.h	2210;"	member	struct:__anon22::__anon23::__anon25
+FR08	drivers\include\stm8s.h	2211;"	member	struct:__anon22::__anon23::__anon25
+FR09	drivers\include\stm8s.h	2213;"	member	struct:__anon22::__anon23::__anon25
+FR10	drivers\include\stm8s.h	2214;"	member	struct:__anon22::__anon23::__anon25
+FR11	drivers\include\stm8s.h	2215;"	member	struct:__anon22::__anon23::__anon25
+FR12	drivers\include\stm8s.h	2216;"	member	struct:__anon22::__anon23::__anon25
+FR13	drivers\include\stm8s.h	2217;"	member	struct:__anon22::__anon23::__anon25
+FR14	drivers\include\stm8s.h	2218;"	member	struct:__anon22::__anon23::__anon25
+FR15	drivers\include\stm8s.h	2219;"	member	struct:__anon22::__anon23::__anon25
+FR16	drivers\include\stm8s.h	2220;"	member	struct:__anon22::__anon23::__anon25
+FREQR	drivers\include\stm8s.h	1327;"	member	struct:I2C_struct
+FW_VERSION	common\include\ei_version.h	19;"	macro
+Filter	drivers\include\stm8s.h	2221;"	member	union:__anon22::__anon23	typeref:struct:__anon22::__anon23::__anon25
+Filter01	drivers\include\stm8s.h	2242;"	member	union:__anon22::__anon23	typeref:struct:__anon22::__anon23::__anon26
+Filter23	drivers\include\stm8s.h	2263;"	member	union:__anon22::__anon23	typeref:struct:__anon22::__anon23::__anon27
+Filter45	drivers\include\stm8s.h	2284;"	member	union:__anon22::__anon23	typeref:struct:__anon22::__anon23::__anon28
+FlagStatus	drivers\include\stm8s.h	232;"	typedef	typeref:enum:__anon19
+FunctionalState	drivers\include\stm8s.h	234;"	typedef	typeref:enum:__anon20
+GCR	drivers\include\stm8s.h	2519;"	member	struct:CFG_struct
+GPIOA	drivers\include\stm8s.h	2626;"	macro
+GPIOA_BaseAddress	drivers\include\stm8s.h	2556;"	macro
+GPIOB	drivers\include\stm8s.h	2628;"	macro
+GPIOB_BaseAddress	drivers\include\stm8s.h	2557;"	macro
+GPIOC	drivers\include\stm8s.h	2630;"	macro
+GPIOC_BaseAddress	drivers\include\stm8s.h	2558;"	macro
+GPIOD	drivers\include\stm8s.h	2632;"	macro
+GPIOD_BaseAddress	drivers\include\stm8s.h	2559;"	macro
+GPIOE	drivers\include\stm8s.h	2634;"	macro
+GPIOE_BaseAddress	drivers\include\stm8s.h	2560;"	macro
+GPIOF	drivers\include\stm8s.h	2636;"	macro
+GPIOF_BaseAddress	drivers\include\stm8s.h	2561;"	macro
+GPIOG	drivers\include\stm8s.h	2640;"	macro
+GPIOG_BaseAddress	drivers\include\stm8s.h	2562;"	macro
+GPIOH	drivers\include\stm8s.h	2645;"	macro
+GPIOH_BaseAddress	drivers\include\stm8s.h	2563;"	macro
+GPIOI	drivers\include\stm8s.h	2646;"	macro
+GPIOI_BaseAddress	drivers\include\stm8s.h	2564;"	macro
+GPIO_CR1_RESET_VALUE	drivers\include\stm8s.h	280;"	macro
+GPIO_CR2_RESET_VALUE	drivers\include\stm8s.h	281;"	macro
+GPIO_DDR_RESET_VALUE	drivers\include\stm8s.h	279;"	macro
+GPIO_DeInit	drivers\include\stm8s_gpio.h	139;"	prototype	signature:(GPIO_TypeDef* GPIOx)
+GPIO_DeInit	drivers\source\stm8s_gpio.c	53;"	function	signature:(GPIO_TypeDef* GPIOx)
+GPIO_ExternalPullUpConfig	drivers\include\stm8s_gpio.h	148;"	prototype	signature:(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef GPIO_Pin, FunctionalState NewState)
+GPIO_IMPORTalPullUpConfig	drivers\source\stm8s_gpio.c	225;"	function	signature:(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef GPIO_Pin, FunctionalState NewState)
+GPIO_Init	drivers\include\stm8s_gpio.h	140;"	prototype	signature:(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef GPIO_Pin, GPIO_Mode_TypeDef GPIO_Mode)
+GPIO_Init	drivers\source\stm8s_gpio.c	71;"	function	signature:(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef GPIO_Pin, GPIO_Mode_TypeDef GPIO_Mode)
+GPIO_MODE_IN_FL_IT	drivers\include\stm8s_gpio.h	58;"	enumerator	enum:__anon16
+GPIO_MODE_IN_FL_NO_IT	drivers\include\stm8s_gpio.h	56;"	enumerator	enum:__anon16
+GPIO_MODE_IN_PU_IT	drivers\include\stm8s_gpio.h	59;"	enumerator	enum:__anon16
+GPIO_MODE_IN_PU_NO_IT	drivers\include\stm8s_gpio.h	57;"	enumerator	enum:__anon16
+GPIO_MODE_OUT_OD_HIZ_FAST	drivers\include\stm8s_gpio.h	64;"	enumerator	enum:__anon16
+GPIO_MODE_OUT_OD_HIZ_SLOW	drivers\include\stm8s_gpio.h	66;"	enumerator	enum:__anon16
+GPIO_MODE_OUT_OD_LOW_FAST	drivers\include\stm8s_gpio.h	60;"	enumerator	enum:__anon16
+GPIO_MODE_OUT_OD_LOW_SLOW	drivers\include\stm8s_gpio.h	62;"	enumerator	enum:__anon16
+GPIO_MODE_OUT_PP_HIGH_FAST	drivers\include\stm8s_gpio.h	65;"	enumerator	enum:__anon16
+GPIO_MODE_OUT_PP_HIGH_SLOW	drivers\include\stm8s_gpio.h	67;"	enumerator	enum:__anon16
+GPIO_MODE_OUT_PP_LOW_FAST	drivers\include\stm8s_gpio.h	61;"	enumerator	enum:__anon16
+GPIO_MODE_OUT_PP_LOW_SLOW	drivers\include\stm8s_gpio.h	63;"	enumerator	enum:__anon16
+GPIO_Mode_TypeDef	drivers\include\stm8s_gpio.h	68;"	typedef	typeref:enum:__anon16
+GPIO_ODR_RESET_VALUE	drivers\include\stm8s.h	278;"	macro
+GPIO_PIN_0	drivers\include\stm8s_gpio.h	77;"	enumerator	enum:__anon17
+GPIO_PIN_1	drivers\include\stm8s_gpio.h	78;"	enumerator	enum:__anon17
+GPIO_PIN_2	drivers\include\stm8s_gpio.h	79;"	enumerator	enum:__anon17
+GPIO_PIN_3	drivers\include\stm8s_gpio.h	80;"	enumerator	enum:__anon17
+GPIO_PIN_4	drivers\include\stm8s_gpio.h	81;"	enumerator	enum:__anon17
+GPIO_PIN_5	drivers\include\stm8s_gpio.h	82;"	enumerator	enum:__anon17
+GPIO_PIN_6	drivers\include\stm8s_gpio.h	83;"	enumerator	enum:__anon17
+GPIO_PIN_7	drivers\include\stm8s_gpio.h	84;"	enumerator	enum:__anon17
+GPIO_PIN_ALL	drivers\include\stm8s_gpio.h	87;"	enumerator	enum:__anon17
+GPIO_PIN_HNIB	drivers\include\stm8s_gpio.h	86;"	enumerator	enum:__anon17
+GPIO_PIN_LNIB	drivers\include\stm8s_gpio.h	85;"	enumerator	enum:__anon17
+GPIO_Pin_TypeDef	drivers\include\stm8s_gpio.h	88;"	typedef	typeref:enum:__anon17
+GPIO_ReadInputData	drivers\include\stm8s_gpio.h	145;"	prototype	signature:(GPIO_TypeDef* GPIOx)
+GPIO_ReadInputData	drivers\source\stm8s_gpio.c	202;"	function	signature:(GPIO_TypeDef* GPIOx)
+GPIO_ReadInputPin	drivers\include\stm8s_gpio.h	147;"	prototype	signature:(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef GPIO_Pin)
+GPIO_ReadInputPin	drivers\source\stm8s_gpio.c	213;"	function	signature:(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef GPIO_Pin)
+GPIO_ReadOutputData	drivers\include\stm8s_gpio.h	146;"	prototype	signature:(GPIO_TypeDef* GPIOx)
+GPIO_ReadOutputData	drivers\source\stm8s_gpio.c	191;"	function	signature:(GPIO_TypeDef* GPIOx)
+GPIO_TypeDef	drivers\include\stm8s.h	272;"	typedef	typeref:struct:GPIO_struct
+GPIO_Write	drivers\include\stm8s_gpio.h	141;"	prototype	signature:(GPIO_TypeDef* GPIOx, uint8_t PortVal)
+GPIO_Write	drivers\source\stm8s_gpio.c	141;"	function	signature:(GPIO_TypeDef* GPIOx, uint8_t PortVal)
+GPIO_WriteHigh	drivers\include\stm8s_gpio.h	142;"	prototype	signature:(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef PortPins)
+GPIO_WriteHigh	drivers\source\stm8s_gpio.c	154;"	function	signature:(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef PortPins)
+GPIO_WriteLow	drivers\include\stm8s_gpio.h	143;"	prototype	signature:(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef PortPins)
+GPIO_WriteLow	drivers\source\stm8s_gpio.c	167;"	function	signature:(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef PortPins)
+GPIO_WriteReverse	drivers\include\stm8s_gpio.h	144;"	prototype	signature:(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef PortPins)
+GPIO_WriteReverse	drivers\source\stm8s_gpio.c	180;"	function	signature:(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef PortPins)
+GPIO_struct	drivers\include\stm8s.h	264;"	struct
+GTR	drivers\include\stm8s.h	1773;"	member	struct:UART1_struct
+GTR	drivers\include\stm8s.h	1872;"	member	struct:UART2_struct
+GTR	drivers\include\stm8s.h	2071;"	member	struct:UART4_struct
+HSE_VALUE	drivers\include\stm8s.h	108;"	macro
+HSE_VALUE	drivers\include\stm8s.h	110;"	macro
+HSIC_CPU_CLOCK	drivers\source\stm8s_clk.c	22;"	macro	file:
+HSIC_FX_DIV_BY_1	drivers\source\stm8s_clk.c	25;"	macro	file:
+HSITRIMR	drivers\include\stm8s.h	517;"	member	struct:CLK_struct
+HSI_VALUE	drivers\include\stm8s.h	117;"	macro
+HTRH	drivers\include\stm8s.h	324;"	member	struct:ADC1_struct
+HTRL	drivers\include\stm8s.h	325;"	member	struct:ADC1_struct
+I2C	drivers\include\stm8s.h	2655;"	macro
+I2C_BaseAddress	drivers\include\stm8s.h	2574;"	macro
+I2C_CCRH_CCR	drivers\include\stm8s.h	1417;"	macro
+I2C_CCRH_DUTY	drivers\include\stm8s.h	1416;"	macro
+I2C_CCRH_FS	drivers\include\stm8s.h	1415;"	macro
+I2C_CCRH_RESET_VALUE	drivers\include\stm8s.h	1358;"	macro
+I2C_CCRL_CCR	drivers\include\stm8s.h	1413;"	macro
+I2C_CCRL_RESET_VALUE	drivers\include\stm8s.h	1357;"	macro
+I2C_CR1_ENGC	drivers\include\stm8s.h	1370;"	macro
+I2C_CR1_NOSTRETCH	drivers\include\stm8s.h	1369;"	macro
+I2C_CR1_PE	drivers\include\stm8s.h	1371;"	macro
+I2C_CR1_RESET_VALUE	drivers\include\stm8s.h	1347;"	macro
+I2C_CR2_ACK	drivers\include\stm8s.h	1375;"	macro
+I2C_CR2_POS	drivers\include\stm8s.h	1374;"	macro
+I2C_CR2_RESET_VALUE	drivers\include\stm8s.h	1348;"	macro
+I2C_CR2_START	drivers\include\stm8s.h	1377;"	macro
+I2C_CR2_STOP	drivers\include\stm8s.h	1376;"	macro
+I2C_CR2_SWRST	drivers\include\stm8s.h	1373;"	macro
+I2C_DR_DR	drivers\include\stm8s.h	1388;"	macro
+I2C_DR_RESET_VALUE	drivers\include\stm8s.h	1352;"	macro
+I2C_FREQR_FREQ	drivers\include\stm8s.h	1379;"	macro
+I2C_FREQR_RESET_VALUE	drivers\include\stm8s.h	1349;"	macro
+I2C_IRQHandler	stm8s_it.h	93;"	prototype	signature:(void)
+I2C_ITR_ITBUFEN	drivers\include\stm8s.h	1409;"	macro
+I2C_ITR_ITERREN	drivers\include\stm8s.h	1411;"	macro
+I2C_ITR_ITEVTEN	drivers\include\stm8s.h	1410;"	macro
+I2C_ITR_RESET_VALUE	drivers\include\stm8s.h	1356;"	macro
+I2C_OARH_ADD	drivers\include\stm8s.h	1386;"	macro
+I2C_OARH_ADDCONF	drivers\include\stm8s.h	1385;"	macro
+I2C_OARH_ADDMODE	drivers\include\stm8s.h	1384;"	macro
+I2C_OARH_RESET_VALUE	drivers\include\stm8s.h	1351;"	macro
+I2C_OARL_ADD	drivers\include\stm8s.h	1381;"	macro
+I2C_OARL_ADD0	drivers\include\stm8s.h	1382;"	macro
+I2C_OARL_RESET_VALUE	drivers\include\stm8s.h	1350;"	macro
+I2C_SR1_ADD10	drivers\include\stm8s.h	1393;"	macro
+I2C_SR1_ADDR	drivers\include\stm8s.h	1395;"	macro
+I2C_SR1_BTF	drivers\include\stm8s.h	1394;"	macro
+I2C_SR1_RESET_VALUE	drivers\include\stm8s.h	1353;"	macro
+I2C_SR1_RXNE	drivers\include\stm8s.h	1391;"	macro
+I2C_SR1_SB	drivers\include\stm8s.h	1396;"	macro
+I2C_SR1_STOPF	drivers\include\stm8s.h	1392;"	macro
+I2C_SR1_TXE	drivers\include\stm8s.h	1390;"	macro
+I2C_SR2_AF	drivers\include\stm8s.h	1400;"	macro
+I2C_SR2_ARLO	drivers\include\stm8s.h	1401;"	macro
+I2C_SR2_BERR	drivers\include\stm8s.h	1402;"	macro
+I2C_SR2_OVR	drivers\include\stm8s.h	1399;"	macro
+I2C_SR2_RESET_VALUE	drivers\include\stm8s.h	1354;"	macro
+I2C_SR2_WUFH	drivers\include\stm8s.h	1398;"	macro
+I2C_SR3_BUSY	drivers\include\stm8s.h	1406;"	macro
+I2C_SR3_GENCALL	drivers\include\stm8s.h	1404;"	macro
+I2C_SR3_MSL	drivers\include\stm8s.h	1407;"	macro
+I2C_SR3_RESET_VALUE	drivers\include\stm8s.h	1355;"	macro
+I2C_SR3_TRA	drivers\include\stm8s.h	1405;"	macro
+I2C_TRISER_RESET_VALUE	drivers\include\stm8s.h	1359;"	macro
+I2C_TRISER_TRISE	drivers\include\stm8s.h	1419;"	macro
+I2C_TypeDef	drivers\include\stm8s.h	1341;"	typedef	typeref:struct:I2C_struct
+I2C_struct	drivers\include\stm8s.h	1323;"	struct
+IAPSR	drivers\include\stm8s.h	1516;"	member	struct:FLASH_struct
+ICKR	drivers\include\stm8s.h	505;"	member	struct:CLK_struct
+ICR	drivers\include\stm8s.h	1695;"	member	struct:SPI_struct
+IDR	drivers\include\stm8s.h	267;"	member	struct:GPIO_struct
+IER	drivers\include\stm8s.h	1060;"	member	struct:TIM4_struct
+IER	drivers\include\stm8s.h	1121;"	member	struct:TIM5_struct
+IER	drivers\include\stm8s.h	1260;"	member	struct:TIM6_struct
+IER	drivers\include\stm8s.h	2176;"	member	struct:__anon22
+IER	drivers\include\stm8s.h	613;"	member	struct:TIM1_struct
+IER	drivers\include\stm8s.h	826;"	member	struct:TIM2_struct
+IER	drivers\include\stm8s.h	950;"	member	struct:TIM3_struct
+IMPORT	common\include\ei_common.h	22;"	macro
+INFINITE_LOOP	common\include\ei_common.h	23;"	macro
+INTERRUPT	drivers\include\stm8s.h	2769;"	macro
+INTERRUPT	drivers\include\stm8s.h	2771;"	macro
+INTERRUPT_HANDLER	drivers\include\stm8s.h	2747;"	macro
+INTERRUPT_HANDLER	drivers\include\stm8s.h	2752;"	macro
+INTERRUPT_HANDLER	drivers\include\stm8s.h	2759;"	macro
+INTERRUPT_HANDLER_TRAP	drivers\include\stm8s.h	2748;"	macro
+INTERRUPT_HANDLER_TRAP	drivers\include\stm8s.h	2753;"	macro
+INTERRUPT_HANDLER_TRAP	drivers\include\stm8s.h	2762;"	macro
+INTERRUPT_HANDLER_TRAP	stm8s_it.c	66;"	function
+IN_RAM	drivers\include\stm8s.h	170;"	macro
+IN_RAM	drivers\include\stm8s.h	172;"	macro
+IN_RAM	drivers\include\stm8s.h	174;"	macro
+IN_RAM	drivers\include\stm8s.h	177;"	macro
+ISPR1	drivers\include\stm8s.h	1432;"	member	struct:ITC_struct
+ISPR2	drivers\include\stm8s.h	1433;"	member	struct:ITC_struct
+ISPR3	drivers\include\stm8s.h	1434;"	member	struct:ITC_struct
+ISPR4	drivers\include\stm8s.h	1435;"	member	struct:ITC_struct
+ISPR5	drivers\include\stm8s.h	1436;"	member	struct:ITC_struct
+ISPR6	drivers\include\stm8s.h	1437;"	member	struct:ITC_struct
+ISPR7	drivers\include\stm8s.h	1438;"	member	struct:ITC_struct
+ISPR8	drivers\include\stm8s.h	1439;"	member	struct:ITC_struct
+ISR	krnl\include\ei_krnl.h	105;"	macro
+ISR	krnl\include\ei_krnl.h	203;"	prototype	signature:(EI_krnl_Tick_it)
+ISR	krnl\sources\ei_krnl_ticktimer.c	78;"	function
+IS_FUNCTIONALSTATE_OK	drivers\include\stm8s.h	235;"	macro
+IS_GPIO_MODE_OK	drivers\include\stm8s_gpio.h	110;"	macro
+IS_GPIO_PIN_OK	drivers\include\stm8s_gpio.h	128;"	macro
+IS_STATE_VALUE_OK	drivers\include\stm8s.h	2805;"	macro
+IS_TIM2_CHANNEL_OK	drivers\include\stm8s_tim2.h	135;"	macro
+IS_TIM2_CLEAR_FLAG_OK	drivers\include\stm8s_tim2.h	271;"	macro
+IS_TIM2_EVENT_SOURCE_OK	drivers\include\stm8s_tim2.h	239;"	macro
+IS_TIM2_FORCED_ACTION_OK	drivers\include\stm8s_tim2.h	49;"	macro
+IS_TIM2_GET_FLAG_OK	drivers\include\stm8s_tim2.h	263;"	macro
+IS_TIM2_GET_IT_OK	drivers\include\stm8s_tim2.h	215;"	macro
+IS_TIM2_IC_FILTER_OK	drivers\include\stm8s_tim2.h	202;"	macro
+IS_TIM2_IC_POLARITY_OK	drivers\include\stm8s_tim2.h	169;"	macro
+IS_TIM2_IC_PRESCALER_OK	drivers\include\stm8s_tim2.h	196;"	macro
+IS_TIM2_IC_SELECTION1_OK	drivers\include\stm8s_tim2.h	184;"	macro
+IS_TIM2_IC_SELECTION_OK	drivers\include\stm8s_tim2.h	180;"	macro
+IS_TIM2_IT_OK	drivers\include\stm8s_tim2.h	213;"	macro
+IS_TIM2_OCM_OK	drivers\include\stm8s_tim2.h	108;"	macro
+IS_TIM2_OC_MODE_OK	drivers\include\stm8s_tim2.h	101;"	macro
+IS_TIM2_OC_POLARITY_OK	drivers\include\stm8s_tim2.h	149;"	macro
+IS_TIM2_OPM_MODE_OK	drivers\include\stm8s_tim2.h	124;"	macro
+IS_TIM2_OUTPUT_STATE_OK	drivers\include\stm8s_tim2.h	159;"	macro
+IS_TIM2_PRESCALER_OK	drivers\include\stm8s_tim2.h	73;"	macro
+IS_TIM2_PRESCALER_RELOAD_OK	drivers\include\stm8s_tim2.h	227;"	macro
+IS_TIM2_PWMI_CHANNEL_OK	drivers\include\stm8s_tim2.h	139;"	macro
+IS_TIM2_UPDATE_SOURCE_OK	drivers\include\stm8s_tim2.h	248;"	macro
+ITC	drivers\include\stm8s.h	2699;"	macro
+ITC_BaseAddress	drivers\include\stm8s.h	2589;"	macro
+ITC_SPRX_RESET_VALUE	drivers\include\stm8s.h	1447;"	macro
+ITC_TypeDef	drivers\include\stm8s.h	1441;"	typedef	typeref:struct:ITC_struct
+ITC_struct	drivers\include\stm8s.h	1430;"	struct
+ITR	drivers\include\stm8s.h	1335;"	member	struct:I2C_struct
+ITStatus	drivers\include\stm8s.h	232;"	typedef	typeref:enum:__anon19
+IWDG	drivers\include\stm8s.h	2652;"	macro
+IWDG_BaseAddress	drivers\include\stm8s.h	2570;"	macro
+IWDG_KR_KEY_ACCESS	drivers\source\stm8s_iwdg.c	26;"	macro	file:
+IWDG_KR_KEY_ENABLE	drivers\source\stm8s_iwdg.c	25;"	macro	file:
+IWDG_KR_KEY_REFRESH	drivers\source\stm8s_iwdg.c	27;"	macro	file:
+IWDG_PR_RESET_VALUE	drivers\include\stm8s.h	1616;"	macro
+IWDG_RLR_RESET_VALUE	drivers\include\stm8s.h	1617;"	macro
+IWDG_TypeDef	drivers\include\stm8s.h	1610;"	typedef	typeref:struct:IWDG_struct
+IWDG_struct	drivers\include\stm8s.h	1604;"	struct
+KR	drivers\include\stm8s.h	1606;"	member	struct:IWDG_struct
+LSI_VALUE	drivers\include\stm8s.h	118;"	macro
+LTRH	drivers\include\stm8s.h	326;"	member	struct:ADC1_struct
+LTRL	drivers\include\stm8s.h	327;"	member	struct:ADC1_struct
+MCR	drivers\include\stm8s.h	2171;"	member	struct:__anon22
+MCSR	drivers\include\stm8s.h	2184;"	member	struct:__anon22::__anon23::__anon24
+MDAR1	drivers\include\stm8s.h	2190;"	member	struct:__anon22::__anon23::__anon24
+MDAR1	drivers\include\stm8s.h	2311;"	member	struct:__anon22::__anon23::__anon30
+MDAR2	drivers\include\stm8s.h	2191;"	member	struct:__anon22::__anon23::__anon24
+MDAR2	drivers\include\stm8s.h	2312;"	member	struct:__anon22::__anon23::__anon30
+MDAR3	drivers\include\stm8s.h	2192;"	member	struct:__anon22::__anon23::__anon24
+MDAR3	drivers\include\stm8s.h	2313;"	member	struct:__anon22::__anon23::__anon30
+MDAR4	drivers\include\stm8s.h	2193;"	member	struct:__anon22::__anon23::__anon24
+MDAR4	drivers\include\stm8s.h	2314;"	member	struct:__anon22::__anon23::__anon30
+MDAR5	drivers\include\stm8s.h	2194;"	member	struct:__anon22::__anon23::__anon24
+MDAR5	drivers\include\stm8s.h	2315;"	member	struct:__anon22::__anon23::__anon30
+MDAR6	drivers\include\stm8s.h	2195;"	member	struct:__anon22::__anon23::__anon24
+MDAR6	drivers\include\stm8s.h	2316;"	member	struct:__anon22::__anon23::__anon30
+MDAR7	drivers\include\stm8s.h	2196;"	member	struct:__anon22::__anon23::__anon24
+MDAR7	drivers\include\stm8s.h	2317;"	member	struct:__anon22::__anon23::__anon30
+MDAR8	drivers\include\stm8s.h	2197;"	member	struct:__anon22::__anon23::__anon24
+MDAR8	drivers\include\stm8s.h	2318;"	member	struct:__anon22::__anon23::__anon30
+MDLCR	drivers\include\stm8s.h	2185;"	member	struct:__anon22::__anon23::__anon24
+MDLCR	drivers\include\stm8s.h	2306;"	member	struct:__anon22::__anon23::__anon30
+MEMCPY	drivers\include\stm8s.h	135;"	macro
+MEMCPY	drivers\include\stm8s.h	138;"	macro
+MFMI	drivers\include\stm8s.h	2305;"	member	struct:__anon22::__anon23::__anon30
+MIDR1	drivers\include\stm8s.h	2186;"	member	struct:__anon22::__anon23::__anon24
+MIDR1	drivers\include\stm8s.h	2307;"	member	struct:__anon22::__anon23::__anon30
+MIDR2	drivers\include\stm8s.h	2187;"	member	struct:__anon22::__anon23::__anon24
+MIDR2	drivers\include\stm8s.h	2308;"	member	struct:__anon22::__anon23::__anon30
+MIDR3	drivers\include\stm8s.h	2188;"	member	struct:__anon22::__anon23::__anon24
+MIDR3	drivers\include\stm8s.h	2309;"	member	struct:__anon22::__anon23::__anon30
+MIDR4	drivers\include\stm8s.h	2189;"	member	struct:__anon22::__anon23::__anon24
+MIDR4	drivers\include\stm8s.h	2310;"	member	struct:__anon22::__anon23::__anon30
+MSR	drivers\include\stm8s.h	2172;"	member	struct:__anon22
+MTSRH	drivers\include\stm8s.h	2199;"	member	struct:__anon22::__anon23::__anon24
+MTSRH	drivers\include\stm8s.h	2320;"	member	struct:__anon22::__anon23::__anon30
+MTSRL	drivers\include\stm8s.h	2198;"	member	struct:__anon22::__anon23::__anon24
+MTSRL	drivers\include\stm8s.h	2319;"	member	struct:__anon22::__anon23::__anon30
+MemoryAddressCast	drivers\include\stm8s.h	156;"	macro
+MemoryAddressCast	drivers\include\stm8s.h	160;"	macro
+MskBit	drivers\include\stm8s.h	2795;"	macro
+NCR2	drivers\include\stm8s.h	1513;"	member	struct:FLASH_struct
+NEAR	drivers\include\stm8s.h	122;"	macro
+NEAR	drivers\include\stm8s.h	128;"	macro
+NEAR	drivers\include\stm8s.h	142;"	macro
+NFPR	drivers\include\stm8s.h	1515;"	member	struct:FLASH_struct
+NOPT1	drivers\include\stm8s.h	1583;"	member	struct:OPT_struct
+NOPT2	drivers\include\stm8s.h	1585;"	member	struct:OPT_struct
+NOPT3	drivers\include\stm8s.h	1587;"	member	struct:OPT_struct
+NOPT4	drivers\include\stm8s.h	1589;"	member	struct:OPT_struct
+NOPT5	drivers\include\stm8s.h	1591;"	member	struct:OPT_struct
+NOPT7	drivers\include\stm8s.h	1595;"	member	struct:OPT_struct
+NUMBER_OF_TASK	krnl\configuration\ei_krnl_cfg.h	94;"	enumerator	enum:__anon31
+NonHandledInterrupt	stm8s_it.h	41;"	prototype	signature:(void)
+OARH	drivers\include\stm8s.h	1329;"	member	struct:I2C_struct
+OARL	drivers\include\stm8s.h	1328;"	member	struct:I2C_struct
+ODR	drivers\include\stm8s.h	266;"	member	struct:GPIO_struct
+OISR	drivers\include\stm8s.h	640;"	member	struct:TIM1_struct
+OPT	drivers\include\stm8s.h	2624;"	macro
+OPT0	drivers\include\stm8s.h	1581;"	member	struct:OPT_struct
+OPT1	drivers\include\stm8s.h	1582;"	member	struct:OPT_struct
+OPT2	drivers\include\stm8s.h	1584;"	member	struct:OPT_struct
+OPT3	drivers\include\stm8s.h	1586;"	member	struct:OPT_struct
+OPT4	drivers\include\stm8s.h	1588;"	member	struct:OPT_struct
+OPT5	drivers\include\stm8s.h	1590;"	member	struct:OPT_struct
+OPT7	drivers\include\stm8s.h	1594;"	member	struct:OPT_struct
+OPT_BaseAddress	drivers\include\stm8s.h	2555;"	macro
+OPT_TypeDef	drivers\include\stm8s.h	1597;"	typedef	typeref:struct:OPT_struct
+OPT_struct	drivers\include\stm8s.h	1579;"	struct
+PCKENR1	drivers\include\stm8s.h	512;"	member	struct:CLK_struct
+PCKENR2	drivers\include\stm8s.h	515;"	member	struct:CLK_struct
+PR	drivers\include\stm8s.h	1607;"	member	struct:IWDG_struct
+PSCR	drivers\include\stm8s.h	1064;"	member	struct:TIM4_struct
+PSCR	drivers\include\stm8s.h	1132;"	member	struct:TIM5_struct
+PSCR	drivers\include\stm8s.h	1264;"	member	struct:TIM6_struct
+PSCR	drivers\include\stm8s.h	1774;"	member	struct:UART1_struct
+PSCR	drivers\include\stm8s.h	1873;"	member	struct:UART2_struct
+PSCR	drivers\include\stm8s.h	2072;"	member	struct:UART4_struct
+PSCR	drivers\include\stm8s.h	837;"	member	struct:TIM2_struct
+PSCR	drivers\include\stm8s.h	959;"	member	struct:TIM3_struct
+PSCRH	drivers\include\stm8s.h	625;"	member	struct:TIM1_struct
+PSCRL	drivers\include\stm8s.h	626;"	member	struct:TIM1_struct
+PSR	drivers\include\stm8s.h	2178;"	member	struct:__anon22
+PUKR	drivers\include\stm8s.h	1519;"	member	struct:FLASH_struct
+Page	drivers\include\stm8s.h	2322;"	member	struct:__anon22	typeref:union:__anon22::__anon23
+PointerAttr	drivers\include\stm8s.h	155;"	macro
+PointerAttr	drivers\include\stm8s.h	159;"	macro
+RCR	drivers\include\stm8s.h	629;"	member	struct:TIM1_struct
+RECR	drivers\include\stm8s.h	2291;"	member	struct:__anon22::__anon23::__anon29
+RESERVED	drivers\include\stm8s.h	1977;"	member	struct:UART3_struct
+RESERVED	drivers\include\stm8s.h	315;"	member	struct:ADC1_struct
+RESERVED	drivers\include\stm8s.h	390;"	member	struct:ADC2_struct
+RESERVED	drivers\include\stm8s.h	507;"	member	struct:CLK_struct
+RESERVED1	drivers\include\stm8s.h	1057;"	member	struct:TIM4_struct
+RESERVED1	drivers\include\stm8s.h	1330;"	member	struct:I2C_struct
+RESERVED1	drivers\include\stm8s.h	1517;"	member	struct:FLASH_struct
+RESERVED1	drivers\include\stm8s.h	1592;"	member	struct:OPT_struct
+RESERVED1	drivers\include\stm8s.h	516;"	member	struct:CLK_struct
+RESERVED1	drivers\include\stm8s.h	823;"	member	struct:TIM2_struct
+RESERVED2	drivers\include\stm8s.h	1058;"	member	struct:TIM4_struct
+RESERVED2	drivers\include\stm8s.h	1339;"	member	struct:I2C_struct
+RESERVED2	drivers\include\stm8s.h	1518;"	member	struct:FLASH_struct
+RESERVED2	drivers\include\stm8s.h	1593;"	member	struct:OPT_struct
+RESERVED2	drivers\include\stm8s.h	824;"	member	struct:TIM2_struct
+RESERVED3	drivers\include\stm8s.h	1520;"	member	struct:FLASH_struct
+RESET	drivers\include\stm8s.h	232;"	enumerator	enum:__anon19
+RFR	drivers\include\stm8s.h	2175;"	member	struct:__anon22
+RLR	drivers\include\stm8s.h	1608;"	member	struct:IWDG_struct
+RST	drivers\include\stm8s.h	2649;"	macro
+RST_BaseAddress	drivers\include\stm8s.h	2567;"	macro
+RST_SR_EMCF	drivers\include\stm8s.h	1676;"	macro
+RST_SR_ILLOPF	drivers\include\stm8s.h	1678;"	macro
+RST_SR_IWDGF	drivers\include\stm8s.h	1679;"	macro
+RST_SR_SWIMF	drivers\include\stm8s.h	1677;"	macro
+RST_SR_WWDGF	drivers\include\stm8s.h	1680;"	macro
+RST_TypeDef	drivers\include\stm8s.h	1670;"	typedef	typeref:struct:RST_struct
+RST_struct	drivers\include\stm8s.h	1666;"	struct
+RXCRCR	drivers\include\stm8s.h	1699;"	member	struct:SPI_struct
+Reserved1	drivers\include\stm8s.h	2294;"	member	struct:__anon22::__anon23::__anon29
+Reserved2	drivers\include\stm8s.h	2300;"	member	struct:__anon22::__anon23::__anon29
+RxFIFO	drivers\include\stm8s.h	2321;"	member	union:__anon22::__anon23	typeref:struct:__anon22::__anon23::__anon30
+S16_MAX	drivers\include\stm8s.h	243;"	macro
+S16_MIN	drivers\include\stm8s.h	244;"	macro
+S32_MAX	drivers\include\stm8s.h	246;"	macro
+S32_MIN	drivers\include\stm8s.h	247;"	macro
+S8_MAX	drivers\include\stm8s.h	240;"	macro
+S8_MIN	drivers\include\stm8s.h	241;"	macro
+SET	drivers\include\stm8s.h	232;"	enumerator	enum:__anon19
+SMCR	drivers\include\stm8s.h	1120;"	member	struct:TIM5_struct
+SMCR	drivers\include\stm8s.h	1259;"	member	struct:TIM6_struct
+SMCR	drivers\include\stm8s.h	611;"	member	struct:TIM1_struct
+SPI	drivers\include\stm8s.h	2654;"	macro
+SPI_BaseAddress	drivers\include\stm8s.h	2573;"	macro
+SPI_CR1_BR	drivers\include\stm8s.h	1727;"	macro
+SPI_CR1_CPHA	drivers\include\stm8s.h	1730;"	macro
+SPI_CR1_CPOL	drivers\include\stm8s.h	1729;"	macro
+SPI_CR1_LSBFIRST	drivers\include\stm8s.h	1725;"	macro
+SPI_CR1_MSTR	drivers\include\stm8s.h	1728;"	macro
+SPI_CR1_RESET_VALUE	drivers\include\stm8s.h	1708;"	macro
+SPI_CR1_SPE	drivers\include\stm8s.h	1726;"	macro
+SPI_CR2_BDM	drivers\include\stm8s.h	1732;"	macro
+SPI_CR2_BDOE	drivers\include\stm8s.h	1733;"	macro
+SPI_CR2_CRCEN	drivers\include\stm8s.h	1734;"	macro
+SPI_CR2_CRCNEXT	drivers\include\stm8s.h	1735;"	macro
+SPI_CR2_RESET_VALUE	drivers\include\stm8s.h	1709;"	macro
+SPI_CR2_RXONLY	drivers\include\stm8s.h	1736;"	macro
+SPI_CR2_SSI	drivers\include\stm8s.h	1738;"	macro
+SPI_CR2_SSM	drivers\include\stm8s.h	1737;"	macro
+SPI_CRCPR_RESET_VALUE	drivers\include\stm8s.h	1713;"	macro
+SPI_DR_RESET_VALUE	drivers\include\stm8s.h	1712;"	macro
+SPI_ICR_ERRIE	drivers\include\stm8s.h	1742;"	macro
+SPI_ICR_RESET_VALUE	drivers\include\stm8s.h	1710;"	macro
+SPI_ICR_RXEI	drivers\include\stm8s.h	1741;"	macro
+SPI_ICR_TXEI	drivers\include\stm8s.h	1740;"	macro
+SPI_ICR_WKIE	drivers\include\stm8s.h	1743;"	macro
+SPI_IRQHandler	stm8s_it.h	64;"	prototype	signature:(void)
+SPI_RXCRCR_RESET_VALUE	drivers\include\stm8s.h	1714;"	macro
+SPI_SR_BSY	drivers\include\stm8s.h	1745;"	macro
+SPI_SR_CRCERR	drivers\include\stm8s.h	1748;"	macro
+SPI_SR_MODF	drivers\include\stm8s.h	1747;"	macro
+SPI_SR_OVR	drivers\include\stm8s.h	1746;"	macro
+SPI_SR_RESET_VALUE	drivers\include\stm8s.h	1711;"	macro
+SPI_SR_RXNE	drivers\include\stm8s.h	1751;"	macro
+SPI_SR_TXE	drivers\include\stm8s.h	1750;"	macro
+SPI_SR_WKUP	drivers\include\stm8s.h	1749;"	macro
+SPI_TXCRCR_RESET_VALUE	drivers\include\stm8s.h	1715;"	macro
+SPI_TypeDef	drivers\include\stm8s.h	1702;"	typedef	typeref:struct:SPI_struct
+SPI_struct	drivers\include\stm8s.h	1691;"	struct
+SR	drivers\include\stm8s.h	1668;"	member	struct:RST_struct
+SR	drivers\include\stm8s.h	1696;"	member	struct:SPI_struct
+SR	drivers\include\stm8s.h	1764;"	member	struct:UART1_struct
+SR	drivers\include\stm8s.h	1862;"	member	struct:UART2_struct
+SR	drivers\include\stm8s.h	1969;"	member	struct:UART3_struct
+SR	drivers\include\stm8s.h	2061;"	member	struct:UART4_struct
+SR1	drivers\include\stm8s.h	1061;"	member	struct:TIM4_struct
+SR1	drivers\include\stm8s.h	1122;"	member	struct:TIM5_struct
+SR1	drivers\include\stm8s.h	1261;"	member	struct:TIM6_struct
+SR1	drivers\include\stm8s.h	1332;"	member	struct:I2C_struct
+SR1	drivers\include\stm8s.h	614;"	member	struct:TIM1_struct
+SR1	drivers\include\stm8s.h	827;"	member	struct:TIM2_struct
+SR1	drivers\include\stm8s.h	951;"	member	struct:TIM3_struct
+SR2	drivers\include\stm8s.h	1123;"	member	struct:TIM5_struct
+SR2	drivers\include\stm8s.h	1333;"	member	struct:I2C_struct
+SR2	drivers\include\stm8s.h	615;"	member	struct:TIM1_struct
+SR2	drivers\include\stm8s.h	828;"	member	struct:TIM2_struct
+SR2	drivers\include\stm8s.h	952;"	member	struct:TIM3_struct
+SR3	drivers\include\stm8s.h	1334;"	member	struct:I2C_struct
+STM8S103	drivers\include\stm8s.h	48;"	macro
+STRINGVECTOR	drivers\include\stm8s.h	2757;"	macro
+STRS_STACK_SIZE	stsd\configuration\ei_stsd_cfg.h	21;"	macro
+STSD_H	stsd\include\ei_stsd.h	12;"	macro
+SUCCESS	drivers\include\stm8s.h	237;"	enumerator	enum:__anon21
+SWCR	drivers\include\stm8s.h	510;"	member	struct:CLK_struct
+SWIMCCR	drivers\include\stm8s.h	518;"	member	struct:CLK_struct
+SWR	drivers\include\stm8s.h	509;"	member	struct:CLK_struct
+SetBit	drivers\include\stm8s.h	2788;"	macro
+StatusType	krnl\include\ei_krnl.h	31;"	typedef
+Strs_StackStartAddress	stsd\configuration\ei_stsd_cfg.h	23;"	macro
+TASK	common\source\ei_sampletask.c	26;"	function
+TASK	common\source\ei_sampletask.c	38;"	function
+TASK	krnl\configuration\ei_krnl_cfg.c	26;"	prototype	file:
+TASK	krnl\configuration\ei_krnl_cfg.c	27;"	prototype	file:
+TASK	krnl\include\ei_krnl.h	85;"	macro
+TBR	drivers\include\stm8s.h	439;"	member	struct:AWU_struct
+TDRH	drivers\include\stm8s.h	322;"	member	struct:ADC1_struct
+TDRH	drivers\include\stm8s.h	393;"	member	struct:ADC2_struct
+TDRL	drivers\include\stm8s.h	323;"	member	struct:ADC1_struct
+TDRL	drivers\include\stm8s.h	394;"	member	struct:ADC2_struct
+TECR	drivers\include\stm8s.h	2290;"	member	struct:__anon22::__anon23::__anon29
+TI1_Config	drivers\source\stm8s_tim2.c	1181;"	function	file:	signature:(uint8_t TIM2_ICPolarity, uint8_t TIM2_ICSelection, uint8_t TIM2_ICFilter)
+TI1_Config	drivers\source\stm8s_tim2.c	39;"	prototype	file:	signature:(uint8_t TIM2_ICPolarity, uint8_t TIM2_ICSelection, uint8_t TIM2_ICFilter)
+TI2_Config	drivers\source\stm8s_tim2.c	1221;"	function	file:	signature:(uint8_t TIM2_ICPolarity, uint8_t TIM2_ICSelection, uint8_t TIM2_ICFilter)
+TI2_Config	drivers\source\stm8s_tim2.c	40;"	prototype	file:	signature:(uint8_t TIM2_ICPolarity, uint8_t TIM2_ICSelection, uint8_t TIM2_ICFilter)
+TI3_Config	drivers\source\stm8s_tim2.c	1261;"	function	file:	signature:(uint8_t TIM2_ICPolarity, uint8_t TIM2_ICSelection, uint8_t TIM2_ICFilter)
+TI3_Config	drivers\source\stm8s_tim2.c	41;"	prototype	file:	signature:(uint8_t TIM2_ICPolarity, uint8_t TIM2_ICSelection, uint8_t TIM2_ICFilter)
+TIM1	drivers\include\stm8s.h	2675;"	macro
+TIM1_ARRH_ARR	drivers\include\stm8s.h	776;"	macro
+TIM1_ARRH_RESET_VALUE	drivers\include\stm8s.h	666;"	macro
+TIM1_ARRL_ARR	drivers\include\stm8s.h	777;"	macro
+TIM1_ARRL_RESET_VALUE	drivers\include\stm8s.h	667;"	macro
+TIM1_BKR_AOE	drivers\include\stm8s.h	794;"	macro
+TIM1_BKR_BKE	drivers\include\stm8s.h	796;"	macro
+TIM1_BKR_BKP	drivers\include\stm8s.h	795;"	macro
+TIM1_BKR_LOCK	drivers\include\stm8s.h	799;"	macro
+TIM1_BKR_MOE	drivers\include\stm8s.h	793;"	macro
+TIM1_BKR_OSSI	drivers\include\stm8s.h	798;"	macro
+TIM1_BKR_OSSR	drivers\include\stm8s.h	797;"	macro
+TIM1_BKR_RESET_VALUE	drivers\include\stm8s.h	677;"	macro
+TIM1_BaseAddress	drivers\include\stm8s.h	2579;"	macro
+TIM1_CAP_COM_IRQHandler	stm8s_it.h	65;"	prototype	signature:(void)
+TIM1_CCER1_CC1E	drivers\include\stm8s.h	759;"	macro
+TIM1_CCER1_CC1NE	drivers\include\stm8s.h	757;"	macro
+TIM1_CCER1_CC1NP	drivers\include\stm8s.h	756;"	macro
+TIM1_CCER1_CC1P	drivers\include\stm8s.h	758;"	macro
+TIM1_CCER1_CC2E	drivers\include\stm8s.h	755;"	macro
+TIM1_CCER1_CC2NE	drivers\include\stm8s.h	753;"	macro
+TIM1_CCER1_CC2NP	drivers\include\stm8s.h	752;"	macro
+TIM1_CCER1_CC2P	drivers\include\stm8s.h	754;"	macro
+TIM1_CCER1_RESET_VALUE	drivers\include\stm8s.h	660;"	macro
+TIM1_CCER2_CC3E	drivers\include\stm8s.h	766;"	macro
+TIM1_CCER2_CC3NE	drivers\include\stm8s.h	764;"	macro
+TIM1_CCER2_CC3NP	drivers\include\stm8s.h	763;"	macro
+TIM1_CCER2_CC3P	drivers\include\stm8s.h	765;"	macro
+TIM1_CCER2_CC4E	drivers\include\stm8s.h	762;"	macro
+TIM1_CCER2_CC4P	drivers\include\stm8s.h	761;"	macro
+TIM1_CCER2_RESET_VALUE	drivers\include\stm8s.h	661;"	macro
+TIM1_CCMR1_RESET_VALUE	drivers\include\stm8s.h	656;"	macro
+TIM1_CCMR2_RESET_VALUE	drivers\include\stm8s.h	657;"	macro
+TIM1_CCMR3_RESET_VALUE	drivers\include\stm8s.h	658;"	macro
+TIM1_CCMR4_RESET_VALUE	drivers\include\stm8s.h	659;"	macro
+TIM1_CCMR_CCxS	drivers\include\stm8s.h	748;"	macro
+TIM1_CCMR_ICxF	drivers\include\stm8s.h	744;"	macro
+TIM1_CCMR_ICxPSC	drivers\include\stm8s.h	743;"	macro
+TIM1_CCMR_OCM	drivers\include\stm8s.h	745;"	macro
+TIM1_CCMR_OCxFE	drivers\include\stm8s.h	747;"	macro
+TIM1_CCMR_OCxPE	drivers\include\stm8s.h	746;"	macro
+TIM1_CCR1H_CCR1	drivers\include\stm8s.h	781;"	macro
+TIM1_CCR1H_RESET_VALUE	drivers\include\stm8s.h	669;"	macro
+TIM1_CCR1L_CCR1	drivers\include\stm8s.h	782;"	macro
+TIM1_CCR1L_RESET_VALUE	drivers\include\stm8s.h	670;"	macro
+TIM1_CCR2H_CCR2	drivers\include\stm8s.h	784;"	macro
+TIM1_CCR2H_RESET_VALUE	drivers\include\stm8s.h	671;"	macro
+TIM1_CCR2L_CCR2	drivers\include\stm8s.h	785;"	macro
+TIM1_CCR2L_RESET_VALUE	drivers\include\stm8s.h	672;"	macro
+TIM1_CCR3H_CCR3	drivers\include\stm8s.h	787;"	macro
+TIM1_CCR3H_RESET_VALUE	drivers\include\stm8s.h	673;"	macro
+TIM1_CCR3L_CCR3	drivers\include\stm8s.h	788;"	macro
+TIM1_CCR3L_RESET_VALUE	drivers\include\stm8s.h	674;"	macro
+TIM1_CCR4H_CCR4	drivers\include\stm8s.h	790;"	macro
+TIM1_CCR4H_RESET_VALUE	drivers\include\stm8s.h	675;"	macro
+TIM1_CCR4L_CCR4	drivers\include\stm8s.h	791;"	macro
+TIM1_CCR4L_RESET_VALUE	drivers\include\stm8s.h	676;"	macro
+TIM1_CNTRH_CNT	drivers\include\stm8s.h	768;"	macro
+TIM1_CNTRH_RESET_VALUE	drivers\include\stm8s.h	662;"	macro
+TIM1_CNTRL_CNT	drivers\include\stm8s.h	770;"	macro
+TIM1_CNTRL_RESET_VALUE	drivers\include\stm8s.h	663;"	macro
+TIM1_CR1_ARPE	drivers\include\stm8s.h	689;"	macro
+TIM1_CR1_CEN	drivers\include\stm8s.h	695;"	macro
+TIM1_CR1_CMS	drivers\include\stm8s.h	690;"	macro
+TIM1_CR1_DIR	drivers\include\stm8s.h	691;"	macro
+TIM1_CR1_OPM	drivers\include\stm8s.h	692;"	macro
+TIM1_CR1_RESET_VALUE	drivers\include\stm8s.h	648;"	macro
+TIM1_CR1_UDIS	drivers\include\stm8s.h	694;"	macro
+TIM1_CR1_URS	drivers\include\stm8s.h	693;"	macro
+TIM1_CR2_CCPC	drivers\include\stm8s.h	700;"	macro
+TIM1_CR2_COMS	drivers\include\stm8s.h	699;"	macro
+TIM1_CR2_MMS	drivers\include\stm8s.h	698;"	macro
+TIM1_CR2_RESET_VALUE	drivers\include\stm8s.h	649;"	macro
+TIM1_CR2_TI1S	drivers\include\stm8s.h	697;"	macro
+TIM1_DTR_DTG	drivers\include\stm8s.h	801;"	macro
+TIM1_DTR_RESET_VALUE	drivers\include\stm8s.h	678;"	macro
+TIM1_EGR_BG	drivers\include\stm8s.h	734;"	macro
+TIM1_EGR_CC1G	drivers\include\stm8s.h	740;"	macro
+TIM1_EGR_CC2G	drivers\include\stm8s.h	739;"	macro
+TIM1_EGR_CC3G	drivers\include\stm8s.h	738;"	macro
+TIM1_EGR_CC4G	drivers\include\stm8s.h	737;"	macro
+TIM1_EGR_COMG	drivers\include\stm8s.h	736;"	macro
+TIM1_EGR_RESET_VALUE	drivers\include\stm8s.h	655;"	macro
+TIM1_EGR_TG	drivers\include\stm8s.h	735;"	macro
+TIM1_EGR_UG	drivers\include\stm8s.h	741;"	macro
+TIM1_ETR_ECE	drivers\include\stm8s.h	707;"	macro
+TIM1_ETR_ETF	drivers\include\stm8s.h	709;"	macro
+TIM1_ETR_ETP	drivers\include\stm8s.h	706;"	macro
+TIM1_ETR_ETPS	drivers\include\stm8s.h	708;"	macro
+TIM1_ETR_RESET_VALUE	drivers\include\stm8s.h	651;"	macro
+TIM1_IER_BIE	drivers\include\stm8s.h	711;"	macro
+TIM1_IER_CC1IE	drivers\include\stm8s.h	717;"	macro
+TIM1_IER_CC2IE	drivers\include\stm8s.h	716;"	macro
+TIM1_IER_CC3IE	drivers\include\stm8s.h	715;"	macro
+TIM1_IER_CC4IE	drivers\include\stm8s.h	714;"	macro
+TIM1_IER_COMIE	drivers\include\stm8s.h	713;"	macro
+TIM1_IER_RESET_VALUE	drivers\include\stm8s.h	652;"	macro
+TIM1_IER_TIE	drivers\include\stm8s.h	712;"	macro
+TIM1_IER_UIE	drivers\include\stm8s.h	718;"	macro
+TIM1_OISR_OIS1	drivers\include\stm8s.h	809;"	macro
+TIM1_OISR_OIS1N	drivers\include\stm8s.h	808;"	macro
+TIM1_OISR_OIS2	drivers\include\stm8s.h	807;"	macro
+TIM1_OISR_OIS2N	drivers\include\stm8s.h	806;"	macro
+TIM1_OISR_OIS3	drivers\include\stm8s.h	805;"	macro
+TIM1_OISR_OIS3N	drivers\include\stm8s.h	804;"	macro
+TIM1_OISR_OIS4	drivers\include\stm8s.h	803;"	macro
+TIM1_OISR_RESET_VALUE	drivers\include\stm8s.h	679;"	macro
+TIM1_PSCH_PSC	drivers\include\stm8s.h	772;"	macro
+TIM1_PSCL_PSC	drivers\include\stm8s.h	774;"	macro
+TIM1_PSCRH_RESET_VALUE	drivers\include\stm8s.h	664;"	macro
+TIM1_PSCRL_RESET_VALUE	drivers\include\stm8s.h	665;"	macro
+TIM1_RCR_REP	drivers\include\stm8s.h	779;"	macro
+TIM1_RCR_RESET_VALUE	drivers\include\stm8s.h	668;"	macro
+TIM1_SMCR_MSM	drivers\include\stm8s.h	702;"	macro
+TIM1_SMCR_RESET_VALUE	drivers\include\stm8s.h	650;"	macro
+TIM1_SMCR_SMS	drivers\include\stm8s.h	704;"	macro
+TIM1_SMCR_TS	drivers\include\stm8s.h	703;"	macro
+TIM1_SR1_BIF	drivers\include\stm8s.h	720;"	macro
+TIM1_SR1_CC1IF	drivers\include\stm8s.h	726;"	macro
+TIM1_SR1_CC2IF	drivers\include\stm8s.h	725;"	macro
+TIM1_SR1_CC3IF	drivers\include\stm8s.h	724;"	macro
+TIM1_SR1_CC4IF	drivers\include\stm8s.h	723;"	macro
+TIM1_SR1_COMIF	drivers\include\stm8s.h	722;"	macro
+TIM1_SR1_RESET_VALUE	drivers\include\stm8s.h	653;"	macro
+TIM1_SR1_TIF	drivers\include\stm8s.h	721;"	macro
+TIM1_SR1_UIF	drivers\include\stm8s.h	727;"	macro
+TIM1_SR2_CC1OF	drivers\include\stm8s.h	732;"	macro
+TIM1_SR2_CC2OF	drivers\include\stm8s.h	731;"	macro
+TIM1_SR2_CC3OF	drivers\include\stm8s.h	730;"	macro
+TIM1_SR2_CC4OF	drivers\include\stm8s.h	729;"	macro
+TIM1_SR2_RESET_VALUE	drivers\include\stm8s.h	654;"	macro
+TIM1_TypeDef	drivers\include\stm8s.h	642;"	typedef	typeref:struct:TIM1_struct
+TIM1_UPD_OVF_TRG_BRK_IRQHandler	stm8s_it.h	66;"	prototype	signature:(void)
+TIM1_struct	drivers\include\stm8s.h	607;"	struct
+TIM2	drivers\include\stm8s.h	2680;"	macro
+TIM2_ARRH_ARR	drivers\include\stm8s.h	927;"	macro
+TIM2_ARRH_RESET_VALUE	drivers\include\stm8s.h	866;"	macro
+TIM2_ARRL_ARR	drivers\include\stm8s.h	928;"	macro
+TIM2_ARRL_RESET_VALUE	drivers\include\stm8s.h	867;"	macro
+TIM2_ARRPreloadConfig	drivers\include\stm8s_tim2.h	302;"	prototype	signature:(FunctionalState NewState)
+TIM2_ARRPreloadConfig	drivers\source\stm8s_tim2.c	561;"	function	signature:(FunctionalState NewState)
+TIM2_BaseAddress	drivers\include\stm8s.h	2580;"	macro
+TIM2_CAP_COM_IRQHandler	stm8s_it.h	73;"	prototype	signature:(void)
+TIM2_CCER1_CC1E	drivers\include\stm8s.h	917;"	macro
+TIM2_CCER1_CC1P	drivers\include\stm8s.h	916;"	macro
+TIM2_CCER1_CC2E	drivers\include\stm8s.h	915;"	macro
+TIM2_CCER1_CC2P	drivers\include\stm8s.h	914;"	macro
+TIM2_CCER1_RESET_VALUE	drivers\include\stm8s.h	861;"	macro
+TIM2_CCER2_CC3E	drivers\include\stm8s.h	920;"	macro
+TIM2_CCER2_CC3P	drivers\include\stm8s.h	919;"	macro
+TIM2_CCER2_RESET_VALUE	drivers\include\stm8s.h	862;"	macro
+TIM2_CCMR1_RESET_VALUE	drivers\include\stm8s.h	858;"	macro
+TIM2_CCMR2_RESET_VALUE	drivers\include\stm8s.h	859;"	macro
+TIM2_CCMR3_RESET_VALUE	drivers\include\stm8s.h	860;"	macro
+TIM2_CCMR_CCxS	drivers\include\stm8s.h	912;"	macro
+TIM2_CCMR_ICxF	drivers\include\stm8s.h	909;"	macro
+TIM2_CCMR_ICxPSC	drivers\include\stm8s.h	908;"	macro
+TIM2_CCMR_OCM	drivers\include\stm8s.h	910;"	macro
+TIM2_CCMR_OCxPE	drivers\include\stm8s.h	911;"	macro
+TIM2_CCPreloadControl	drivers\include\stm8s_tim2.h	303;"	prototype	signature:(FunctionalState NewState)
+TIM2_CCR1H_CCR1	drivers\include\stm8s.h	930;"	macro
+TIM2_CCR1H_RESET_VALUE	drivers\include\stm8s.h	868;"	macro
+TIM2_CCR1L_CCR1	drivers\include\stm8s.h	931;"	macro
+TIM2_CCR1L_RESET_VALUE	drivers\include\stm8s.h	869;"	macro
+TIM2_CCR2H_CCR2	drivers\include\stm8s.h	933;"	macro
+TIM2_CCR2H_RESET_VALUE	drivers\include\stm8s.h	870;"	macro
+TIM2_CCR2L_CCR2	drivers\include\stm8s.h	934;"	macro
+TIM2_CCR2L_RESET_VALUE	drivers\include\stm8s.h	871;"	macro
+TIM2_CCR3H_CCR3	drivers\include\stm8s.h	936;"	macro
+TIM2_CCR3H_RESET_VALUE	drivers\include\stm8s.h	872;"	macro
+TIM2_CCR3L_CCR3	drivers\include\stm8s.h	937;"	macro
+TIM2_CCR3L_RESET_VALUE	drivers\include\stm8s.h	873;"	macro
+TIM2_CCxCmd	drivers\include\stm8s_tim2.h	311;"	prototype	signature:(TIM2_Channel_TypeDef TIM2_Channel, FunctionalState NewState)
+TIM2_CCxCmd	drivers\source\stm8s_tim2.c	745;"	function	signature:(TIM2_Channel_TypeDef TIM2_Channel, FunctionalState NewState)
+TIM2_CHANNEL_1	drivers\include\stm8s_tim2.h	130;"	enumerator	enum:__anon5
+TIM2_CHANNEL_2	drivers\include\stm8s_tim2.h	131;"	enumerator	enum:__anon5
+TIM2_CHANNEL_3	drivers\include\stm8s_tim2.h	132;"	enumerator	enum:__anon5
+TIM2_CNTRH_CNT	drivers\include\stm8s.h	922;"	macro
+TIM2_CNTRH_RESET_VALUE	drivers\include\stm8s.h	863;"	macro
+TIM2_CNTRL_CNT	drivers\include\stm8s.h	923;"	macro
+TIM2_CNTRL_RESET_VALUE	drivers\include\stm8s.h	864;"	macro
+TIM2_CR1_ARPE	drivers\include\stm8s.h	883;"	macro
+TIM2_CR1_CEN	drivers\include\stm8s.h	887;"	macro
+TIM2_CR1_OPM	drivers\include\stm8s.h	884;"	macro
+TIM2_CR1_RESET_VALUE	drivers\include\stm8s.h	853;"	macro
+TIM2_CR1_UDIS	drivers\include\stm8s.h	886;"	macro
+TIM2_CR1_URS	drivers\include\stm8s.h	885;"	macro
+TIM2_Channel_TypeDef	drivers\include\stm8s_tim2.h	133;"	typedef	typeref:enum:__anon5
+TIM2_ClearFlag	drivers\include\stm8s_tim2.h	327;"	prototype	signature:(TIM2_FLAG_TypeDef TIM2_FLAG)
+TIM2_ClearFlag	drivers\source\stm8s_tim2.c	1103;"	function	signature:(TIM2_FLAG_TypeDef TIM2_FLAG)
+TIM2_ClearITPendingBit	drivers\include\stm8s_tim2.h	329;"	prototype	signature:(TIM2_IT_TypeDef TIM2_IT)
+TIM2_ClearITPendingBit	drivers\source\stm8s_tim2.c	1156;"	function	signature:(TIM2_IT_TypeDef TIM2_IT)
+TIM2_Cmd	drivers\include\stm8s_tim2.h	292;"	prototype	signature:(FunctionalState NewState)
+TIM2_Cmd	drivers\source\stm8s_tim2.c	339;"	function	signature:(FunctionalState NewState)
+TIM2_DeInit	drivers\include\stm8s_tim2.h	285;"	prototype	signature:(void)
+TIM2_DeInit	drivers\source\stm8s_tim2.c	52;"	function	signature:(void)
+TIM2_EGR_CC1G	drivers\include\stm8s.h	905;"	macro
+TIM2_EGR_CC2G	drivers\include\stm8s.h	904;"	macro
+TIM2_EGR_CC3G	drivers\include\stm8s.h	903;"	macro
+TIM2_EGR_RESET_VALUE	drivers\include\stm8s.h	857;"	macro
+TIM2_EGR_UG	drivers\include\stm8s.h	906;"	macro
+TIM2_EVENTSOURCE_CC1	drivers\include\stm8s_tim2.h	234;"	enumerator	enum:__anon13
+TIM2_EVENTSOURCE_CC2	drivers\include\stm8s_tim2.h	235;"	enumerator	enum:__anon13
+TIM2_EVENTSOURCE_CC3	drivers\include\stm8s_tim2.h	236;"	enumerator	enum:__anon13
+TIM2_EVENTSOURCE_UPDATE	drivers\include\stm8s_tim2.h	233;"	enumerator	enum:__anon13
+TIM2_EventSource_TypeDef	drivers\include\stm8s_tim2.h	237;"	typedef	typeref:enum:__anon13
+TIM2_FLAG_CC1	drivers\include\stm8s_tim2.h	255;"	enumerator	enum:__anon15
+TIM2_FLAG_CC1OF	drivers\include\stm8s_tim2.h	258;"	enumerator	enum:__anon15
+TIM2_FLAG_CC2	drivers\include\stm8s_tim2.h	256;"	enumerator	enum:__anon15
+TIM2_FLAG_CC2OF	drivers\include\stm8s_tim2.h	259;"	enumerator	enum:__anon15
+TIM2_FLAG_CC3	drivers\include\stm8s_tim2.h	257;"	enumerator	enum:__anon15
+TIM2_FLAG_CC3OF	drivers\include\stm8s_tim2.h	260;"	enumerator	enum:__anon15
+TIM2_FLAG_TypeDef	drivers\include\stm8s_tim2.h	261;"	typedef	typeref:enum:__anon15
+TIM2_FLAG_UPDATE	drivers\include\stm8s_tim2.h	254;"	enumerator	enum:__anon15
+TIM2_FORCEDACTION_ACTIVE	drivers\include\stm8s_tim2.h	45;"	enumerator	enum:__anon1
+TIM2_FORCEDACTION_INACTIVE	drivers\include\stm8s_tim2.h	46;"	enumerator	enum:__anon1
+TIM2_ForcedAction_TypeDef	drivers\include\stm8s_tim2.h	47;"	typedef	typeref:enum:__anon1
+TIM2_ForcedOC1Config	drivers\include\stm8s_tim2.h	299;"	prototype	signature:(TIM2_ForcedAction_TypeDef TIM2_ForcedAction)
+TIM2_ForcedOC1Config	drivers\source\stm8s_tim2.c	507;"	function	signature:(TIM2_ForcedAction_TypeDef TIM2_ForcedAction)
+TIM2_ForcedOC2Config	drivers\include\stm8s_tim2.h	300;"	prototype	signature:(TIM2_ForcedAction_TypeDef TIM2_ForcedAction)
+TIM2_ForcedOC2Config	drivers\source\stm8s_tim2.c	526;"	function	signature:(TIM2_ForcedAction_TypeDef TIM2_ForcedAction)
+TIM2_ForcedOC3Config	drivers\include\stm8s_tim2.h	301;"	prototype	signature:(TIM2_ForcedAction_TypeDef TIM2_ForcedAction)
+TIM2_ForcedOC3Config	drivers\source\stm8s_tim2.c	545;"	function	signature:(TIM2_ForcedAction_TypeDef TIM2_ForcedAction)
+TIM2_GenerateEvent	drivers\include\stm8s_tim2.h	307;"	prototype	signature:(TIM2_EventSource_TypeDef TIM2_EventSource)
+TIM2_GenerateEvent	drivers\source\stm8s_tim2.c	653;"	function	signature:(TIM2_EventSource_TypeDef TIM2_EventSource)
+TIM2_GetCapture1	drivers\include\stm8s_tim2.h	321;"	prototype	signature:(void)
+TIM2_GetCapture1	drivers\source\stm8s_tim2.c	975;"	function	signature:(void)
+TIM2_GetCapture2	drivers\include\stm8s_tim2.h	322;"	prototype	signature:(void)
+TIM2_GetCapture2	drivers\source\stm8s_tim2.c	995;"	function	signature:(void)
+TIM2_GetCapture3	drivers\include\stm8s_tim2.h	323;"	prototype	signature:(void)
+TIM2_GetCapture3	drivers\source\stm8s_tim2.c	1015;"	function	signature:(void)
+TIM2_GetCounter	drivers\include\stm8s_tim2.h	324;"	prototype	signature:(void)
+TIM2_GetCounter	drivers\source\stm8s_tim2.c	1035;"	function	signature:(void)
+TIM2_GetFlagStatus	drivers\include\stm8s_tim2.h	326;"	prototype	signature:(TIM2_FLAG_TypeDef TIM2_FLAG)
+TIM2_GetFlagStatus	drivers\source\stm8s_tim2.c	1068;"	function	signature:(TIM2_FLAG_TypeDef TIM2_FLAG)
+TIM2_GetITStatus	drivers\include\stm8s_tim2.h	328;"	prototype	signature:(TIM2_IT_TypeDef TIM2_IT)
+TIM2_GetITStatus	drivers\source\stm8s_tim2.c	1123;"	function	signature:(TIM2_IT_TypeDef TIM2_IT)
+TIM2_GetPrescaler	drivers\include\stm8s_tim2.h	325;"	prototype	signature:(void)
+TIM2_GetPrescaler	drivers\source\stm8s_tim2.c	1049;"	function	signature:(void)
+TIM2_ICInit	drivers\include\stm8s_tim2.h	290;"	prototype	signature:(TIM2_Channel_TypeDef TIM2_Channel, TIM2_ICPolarity_TypeDef TIM2_ICPolarity, TIM2_ICSelection_TypeDef TIM2_ICSelection, TIM2_ICPSC_TypeDef TIM2_ICPrescaler, uint8_t TIM2_ICFilter)
+TIM2_ICInit	drivers\source\stm8s_tim2.c	212;"	function	signature:(TIM2_Channel_TypeDef TIM2_Channel, TIM2_ICPolarity_TypeDef TIM2_ICPolarity, TIM2_ICSelection_TypeDef TIM2_ICSelection, TIM2_ICPSC_TypeDef TIM2_ICPrescaler, uint8_t TIM2_ICFilter)
+TIM2_ICPOLARITY_FALLING	drivers\include\stm8s_tim2.h	166;"	enumerator	enum:__anon8
+TIM2_ICPOLARITY_RISING	drivers\include\stm8s_tim2.h	165;"	enumerator	enum:__anon8
+TIM2_ICPSC_DIV1	drivers\include\stm8s_tim2.h	190;"	enumerator	enum:__anon10
+TIM2_ICPSC_DIV2	drivers\include\stm8s_tim2.h	191;"	enumerator	enum:__anon10
+TIM2_ICPSC_DIV4	drivers\include\stm8s_tim2.h	192;"	enumerator	enum:__anon10
+TIM2_ICPSC_DIV8	drivers\include\stm8s_tim2.h	193;"	enumerator	enum:__anon10
+TIM2_ICPSC_TypeDef	drivers\include\stm8s_tim2.h	194;"	typedef	typeref:enum:__anon10
+TIM2_ICPolarity_TypeDef	drivers\include\stm8s_tim2.h	167;"	typedef	typeref:enum:__anon8
+TIM2_ICSELECTION_DIRECTTI	drivers\include\stm8s_tim2.h	175;"	enumerator	enum:__anon9
+TIM2_ICSELECTION_INDIRECTTI	drivers\include\stm8s_tim2.h	176;"	enumerator	enum:__anon9
+TIM2_ICSELECTION_TRGI	drivers\include\stm8s_tim2.h	177;"	enumerator	enum:__anon9
+TIM2_ICSelection_TypeDef	drivers\include\stm8s_tim2.h	178;"	typedef	typeref:enum:__anon9
+TIM2_IER_CC1IE	drivers\include\stm8s.h	891;"	macro
+TIM2_IER_CC2IE	drivers\include\stm8s.h	890;"	macro
+TIM2_IER_CC3IE	drivers\include\stm8s.h	889;"	macro
+TIM2_IER_RESET_VALUE	drivers\include\stm8s.h	854;"	macro
+TIM2_IER_UIE	drivers\include\stm8s.h	892;"	macro
+TIM2_ITConfig	drivers\include\stm8s_tim2.h	293;"	prototype	signature:(TIM2_IT_TypeDef TIM2_IT, FunctionalState NewState)
+TIM2_ITConfig	drivers\source\stm8s_tim2.c	368;"	function	signature:(TIM2_IT_TypeDef TIM2_IT, FunctionalState NewState)
+TIM2_IT_CC1	drivers\include\stm8s_tim2.h	208;"	enumerator	enum:__anon11
+TIM2_IT_CC2	drivers\include\stm8s_tim2.h	209;"	enumerator	enum:__anon11
+TIM2_IT_CC3	drivers\include\stm8s_tim2.h	210;"	enumerator	enum:__anon11
+TIM2_IT_TypeDef	drivers\include\stm8s_tim2.h	211;"	typedef	typeref:enum:__anon11
+TIM2_IT_UPDATE	drivers\include\stm8s_tim2.h	207;"	enumerator	enum:__anon11
+TIM2_InternalClockConfig	drivers\include\stm8s_tim2.h	294;"	prototype	signature:(void)
+TIM2_OC1Init	drivers\include\stm8s_tim2.h	287;"	prototype	signature:(TIM2_OCMode_TypeDef TIM2_OCMode, TIM2_OutputState_TypeDef TIM2_OutputState, uint16_t TIM2_Pulse, TIM2_OCPolarity_TypeDef TIM2_OCPolarity)
+TIM2_OC1Init	drivers\source\stm8s_tim2.c	108;"	function	signature:(TIM2_OCMode_TypeDef TIM2_OCMode, TIM2_OutputState_TypeDef TIM2_OutputState, uint16_t TIM2_Pulse, TIM2_OCPolarity_TypeDef TIM2_OCPolarity)
+TIM2_OC1PolarityConfig	drivers\include\stm8s_tim2.h	308;"	prototype	signature:(TIM2_OCPolarity_TypeDef TIM2_OCPolarity)
+TIM2_OC1PolarityConfig	drivers\source\stm8s_tim2.c	670;"	function	signature:(TIM2_OCPolarity_TypeDef TIM2_OCPolarity)
+TIM2_OC1PreloadConfig	drivers\include\stm8s_tim2.h	304;"	prototype	signature:(FunctionalState NewState)
+TIM2_OC1PreloadConfig	drivers\source\stm8s_tim2.c	583;"	function	signature:(FunctionalState NewState)
+TIM2_OC2Init	drivers\include\stm8s_tim2.h	288;"	prototype	signature:(TIM2_OCMode_TypeDef TIM2_OCMode, TIM2_OutputState_TypeDef TIM2_OutputState, uint16_t TIM2_Pulse, TIM2_OCPolarity_TypeDef TIM2_OCPolarity)
+TIM2_OC2Init	drivers\source\stm8s_tim2.c	142;"	function	signature:(TIM2_OCMode_TypeDef TIM2_OCMode, TIM2_OutputState_TypeDef TIM2_OutputState, uint16_t TIM2_Pulse, TIM2_OCPolarity_TypeDef TIM2_OCPolarity)
+TIM2_OC2PolarityConfig	drivers\include\stm8s_tim2.h	309;"	prototype	signature:(TIM2_OCPolarity_TypeDef TIM2_OCPolarity)
+TIM2_OC2PolarityConfig	drivers\source\stm8s_tim2.c	694;"	function	signature:(TIM2_OCPolarity_TypeDef TIM2_OCPolarity)
+TIM2_OC2PreloadConfig	drivers\include\stm8s_tim2.h	305;"	prototype	signature:(FunctionalState NewState)
+TIM2_OC2PreloadConfig	drivers\source\stm8s_tim2.c	605;"	function	signature:(FunctionalState NewState)
+TIM2_OC3Init	drivers\include\stm8s_tim2.h	289;"	prototype	signature:(TIM2_OCMode_TypeDef TIM2_OCMode, TIM2_OutputState_TypeDef TIM2_OutputState, uint16_t TIM2_Pulse, TIM2_OCPolarity_TypeDef TIM2_OCPolarity)
+TIM2_OC3Init	drivers\source\stm8s_tim2.c	179;"	function	signature:(TIM2_OCMode_TypeDef TIM2_OCMode, TIM2_OutputState_TypeDef TIM2_OutputState, uint16_t TIM2_Pulse, TIM2_OCPolarity_TypeDef TIM2_OCPolarity)
+TIM2_OC3PolarityConfig	drivers\include\stm8s_tim2.h	310;"	prototype	signature:(TIM2_OCPolarity_TypeDef TIM2_OCPolarity)
+TIM2_OC3PolarityConfig	drivers\source\stm8s_tim2.c	718;"	function	signature:(TIM2_OCPolarity_TypeDef TIM2_OCPolarity)
+TIM2_OC3PreloadConfig	drivers\include\stm8s_tim2.h	306;"	prototype	signature:(FunctionalState NewState)
+TIM2_OC3PreloadConfig	drivers\source\stm8s_tim2.c	627;"	function	signature:(FunctionalState NewState)
+TIM2_OCMODE_ACTIVE	drivers\include\stm8s_tim2.h	94;"	enumerator	enum:__anon3
+TIM2_OCMODE_INACTIVE	drivers\include\stm8s_tim2.h	95;"	enumerator	enum:__anon3
+TIM2_OCMODE_PWM1	drivers\include\stm8s_tim2.h	97;"	enumerator	enum:__anon3
+TIM2_OCMODE_PWM2	drivers\include\stm8s_tim2.h	98;"	enumerator	enum:__anon3
+TIM2_OCMODE_TIMING	drivers\include\stm8s_tim2.h	93;"	enumerator	enum:__anon3
+TIM2_OCMODE_TOGGLE	drivers\include\stm8s_tim2.h	96;"	enumerator	enum:__anon3
+TIM2_OCMode_TypeDef	drivers\include\stm8s_tim2.h	99;"	typedef	typeref:enum:__anon3
+TIM2_OCPOLARITY_HIGH	drivers\include\stm8s_tim2.h	145;"	enumerator	enum:__anon6
+TIM2_OCPOLARITY_LOW	drivers\include\stm8s_tim2.h	146;"	enumerator	enum:__anon6
+TIM2_OCPolarity_TypeDef	drivers\include\stm8s_tim2.h	147;"	typedef	typeref:enum:__anon6
+TIM2_OPMODE_REPETITIVE	drivers\include\stm8s_tim2.h	121;"	enumerator	enum:__anon4
+TIM2_OPMODE_SINGLE	drivers\include\stm8s_tim2.h	120;"	enumerator	enum:__anon4
+TIM2_OPMode_TypeDef	drivers\include\stm8s_tim2.h	122;"	typedef	typeref:enum:__anon4
+TIM2_OUTPUTSTATE_DISABLE	drivers\include\stm8s_tim2.h	155;"	enumerator	enum:__anon7
+TIM2_OUTPUTSTATE_ENABLE	drivers\include\stm8s_tim2.h	156;"	enumerator	enum:__anon7
+TIM2_OutputState_TypeDef	drivers\include\stm8s_tim2.h	157;"	typedef	typeref:enum:__anon7
+TIM2_PRESCALER_1	drivers\include\stm8s_tim2.h	55;"	enumerator	enum:__anon2
+TIM2_PRESCALER_1024	drivers\include\stm8s_tim2.h	65;"	enumerator	enum:__anon2
+TIM2_PRESCALER_128	drivers\include\stm8s_tim2.h	62;"	enumerator	enum:__anon2
+TIM2_PRESCALER_16	drivers\include\stm8s_tim2.h	59;"	enumerator	enum:__anon2
+TIM2_PRESCALER_16384	drivers\include\stm8s_tim2.h	69;"	enumerator	enum:__anon2
+TIM2_PRESCALER_2	drivers\include\stm8s_tim2.h	56;"	enumerator	enum:__anon2
+TIM2_PRESCALER_2048	drivers\include\stm8s_tim2.h	66;"	enumerator	enum:__anon2
+TIM2_PRESCALER_256	drivers\include\stm8s_tim2.h	63;"	enumerator	enum:__anon2
+TIM2_PRESCALER_32	drivers\include\stm8s_tim2.h	60;"	enumerator	enum:__anon2
+TIM2_PRESCALER_32768	drivers\include\stm8s_tim2.h	70;"	enumerator	enum:__anon2
+TIM2_PRESCALER_4	drivers\include\stm8s_tim2.h	57;"	enumerator	enum:__anon2
+TIM2_PRESCALER_4096	drivers\include\stm8s_tim2.h	67;"	enumerator	enum:__anon2
+TIM2_PRESCALER_512	drivers\include\stm8s_tim2.h	64;"	enumerator	enum:__anon2
+TIM2_PRESCALER_64	drivers\include\stm8s_tim2.h	61;"	enumerator	enum:__anon2
+TIM2_PRESCALER_8	drivers\include\stm8s_tim2.h	58;"	enumerator	enum:__anon2
+TIM2_PRESCALER_8192	drivers\include\stm8s_tim2.h	68;"	enumerator	enum:__anon2
+TIM2_PSCRELOADMODE_IMMEDIATE	drivers\include\stm8s_tim2.h	224;"	enumerator	enum:__anon12
+TIM2_PSCRELOADMODE_UPDATE	drivers\include\stm8s_tim2.h	223;"	enumerator	enum:__anon12
+TIM2_PSCR_PSC	drivers\include\stm8s.h	925;"	macro
+TIM2_PSCR_RESET_VALUE	drivers\include\stm8s.h	865;"	macro
+TIM2_PSCReloadMode_TypeDef	drivers\include\stm8s_tim2.h	225;"	typedef	typeref:enum:__anon12
+TIM2_PWMIConfig	drivers\include\stm8s_tim2.h	291;"	prototype	signature:(TIM2_Channel_TypeDef TIM2_Channel, TIM2_ICPolarity_TypeDef TIM2_ICPolarity, TIM2_ICSelection_TypeDef TIM2_ICSelection, TIM2_ICPSC_TypeDef TIM2_ICPrescaler, uint8_t TIM2_ICFilter)
+TIM2_PWMIConfig	drivers\source\stm8s_tim2.c	266;"	function	signature:(TIM2_Channel_TypeDef TIM2_Channel, TIM2_ICPolarity_TypeDef TIM2_ICPolarity, TIM2_ICSelection_TypeDef TIM2_ICSelection, TIM2_ICPSC_TypeDef TIM2_ICPrescaler, uint8_t TIM2_ICFilter)
+TIM2_PrescalerConfig	drivers\include\stm8s_tim2.h	298;"	prototype	signature:(TIM2_Prescaler_TypeDef Prescaler, TIM2_PSCReloadMode_TypeDef TIM2_PSCReloadMode)
+TIM2_PrescalerConfig	drivers\source\stm8s_tim2.c	484;"	function	signature:(TIM2_Prescaler_TypeDef Prescaler, TIM2_PSCReloadMode_TypeDef TIM2_PSCReloadMode)
+TIM2_Prescaler_TypeDef	drivers\include\stm8s_tim2.h	71;"	typedef	typeref:enum:__anon2
+TIM2_SR1_CC1IF	drivers\include\stm8s.h	896;"	macro
+TIM2_SR1_CC2IF	drivers\include\stm8s.h	895;"	macro
+TIM2_SR1_CC3IF	drivers\include\stm8s.h	894;"	macro
+TIM2_SR1_RESET_VALUE	drivers\include\stm8s.h	855;"	macro
+TIM2_SR1_UIF	drivers\include\stm8s.h	897;"	macro
+TIM2_SR2_CC1OF	drivers\include\stm8s.h	901;"	macro
+TIM2_SR2_CC2OF	drivers\include\stm8s.h	900;"	macro
+TIM2_SR2_CC3OF	drivers\include\stm8s.h	899;"	macro
+TIM2_SR2_RESET_VALUE	drivers\include\stm8s.h	856;"	macro
+TIM2_SelectOCxM	drivers\include\stm8s_tim2.h	312;"	prototype	signature:(TIM2_Channel_TypeDef TIM2_Channel, TIM2_OCMode_TypeDef TIM2_OCMode)
+TIM2_SelectOCxM	drivers\source\stm8s_tim2.c	810;"	function	signature:(TIM2_Channel_TypeDef TIM2_Channel, TIM2_OCMode_TypeDef TIM2_OCMode)
+TIM2_SelectOnePulseMode	drivers\include\stm8s_tim2.h	297;"	prototype	signature:(TIM2_OPMode_TypeDef TIM2_OPMode)
+TIM2_SelectOnePulseMode	drivers\source\stm8s_tim2.c	440;"	function	signature:(TIM2_OPMode_TypeDef TIM2_OPMode)
+TIM2_SetAutoreload	drivers\include\stm8s_tim2.h	314;"	prototype	signature:(uint16_t Autoreload)
+TIM2_SetAutoreload	drivers\source\stm8s_tim2.c	864;"	function	signature:(uint16_t Autoreload)
+TIM2_SetCompare1	drivers\include\stm8s_tim2.h	315;"	prototype	signature:(uint16_t Compare1)
+TIM2_SetCompare1	drivers\source\stm8s_tim2.c	877;"	function	signature:(uint16_t Compare1)
+TIM2_SetCompare2	drivers\include\stm8s_tim2.h	316;"	prototype	signature:(uint16_t Compare2)
+TIM2_SetCompare2	drivers\source\stm8s_tim2.c	890;"	function	signature:(uint16_t Compare2)
+TIM2_SetCompare3	drivers\include\stm8s_tim2.h	317;"	prototype	signature:(uint16_t Compare3)
+TIM2_SetCompare3	drivers\source\stm8s_tim2.c	903;"	function	signature:(uint16_t Compare3)
+TIM2_SetCounter	drivers\include\stm8s_tim2.h	313;"	prototype	signature:(uint16_t Counter)
+TIM2_SetCounter	drivers\source\stm8s_tim2.c	851;"	function	signature:(uint16_t Counter)
+TIM2_SetIC1Prescaler	drivers\include\stm8s_tim2.h	318;"	prototype	signature:(TIM2_ICPSC_TypeDef TIM2_IC1Prescaler)
+TIM2_SetIC1Prescaler	drivers\source\stm8s_tim2.c	920;"	function	signature:(TIM2_ICPSC_TypeDef TIM2_IC1Prescaler)
+TIM2_SetIC2Prescaler	drivers\include\stm8s_tim2.h	319;"	prototype	signature:(TIM2_ICPSC_TypeDef TIM2_IC2Prescaler)
+TIM2_SetIC2Prescaler	drivers\source\stm8s_tim2.c	940;"	function	signature:(TIM2_ICPSC_TypeDef TIM2_IC2Prescaler)
+TIM2_SetIC3Prescaler	drivers\include\stm8s_tim2.h	320;"	prototype	signature:(TIM2_ICPSC_TypeDef TIM2_IC3Prescaler)
+TIM2_SetIC3Prescaler	drivers\source\stm8s_tim2.c	960;"	function	signature:(TIM2_ICPSC_TypeDef TIM2_IC3Prescaler)
+TIM2_TimeBaseInit	drivers\include\stm8s_tim2.h	286;"	prototype	signature:(TIM2_Prescaler_TypeDef TIM2_Prescaler, uint16_t TIM2_Period)
+TIM2_TimeBaseInit	drivers\source\stm8s_tim2.c	89;"	function	signature:( TIM2_Prescaler_TypeDef TIM2_Prescaler, uint16_t TIM2_Period)
+TIM2_TypeDef	drivers\include\stm8s.h	847;"	typedef	typeref:struct:TIM2_struct
+TIM2_UPDATESOURCE_GLOBAL	drivers\include\stm8s_tim2.h	244;"	enumerator	enum:__anon14
+TIM2_UPDATESOURCE_REGULAR	drivers\include\stm8s_tim2.h	245;"	enumerator	enum:__anon14
+TIM2_UPD_OVF_BRK_IRQHandler	stm8s_it.h	72;"	prototype	signature:(void)
+TIM2_UpdateDisableConfig	drivers\include\stm8s_tim2.h	295;"	prototype	signature:(FunctionalState NewState)
+TIM2_UpdateDisableConfig	drivers\source\stm8s_tim2.c	392;"	function	signature:(FunctionalState NewState)
+TIM2_UpdateRequestConfig	drivers\include\stm8s_tim2.h	296;"	prototype	signature:(TIM2_UpdateSource_TypeDef TIM2_UpdateSource)
+TIM2_UpdateRequestConfig	drivers\source\stm8s_tim2.c	416;"	function	signature:(TIM2_UpdateSource_TypeDef TIM2_UpdateSource)
+TIM2_UpdateSource_TypeDef	drivers\include\stm8s_tim2.h	246;"	typedef	typeref:enum:__anon14
+TIM2_struct	drivers\include\stm8s.h	819;"	struct
+TIM3	drivers\include\stm8s.h	2685;"	macro
+TIM3_ARRH_ARR	drivers\include\stm8s.h	1036;"	macro
+TIM3_ARRH_RESET_VALUE	drivers\include\stm8s.h	984;"	macro
+TIM3_ARRL_ARR	drivers\include\stm8s.h	1037;"	macro
+TIM3_ARRL_RESET_VALUE	drivers\include\stm8s.h	985;"	macro
+TIM3_BaseAddress	drivers\include\stm8s.h	2581;"	macro
+TIM3_CAP_COM_IRQHandler	stm8s_it.h	79;"	prototype	signature:(void)
+TIM3_CCER1_CC1E	drivers\include\stm8s.h	1029;"	macro
+TIM3_CCER1_CC1P	drivers\include\stm8s.h	1028;"	macro
+TIM3_CCER1_CC2E	drivers\include\stm8s.h	1027;"	macro
+TIM3_CCER1_CC2P	drivers\include\stm8s.h	1026;"	macro
+TIM3_CCER1_RESET_VALUE	drivers\include\stm8s.h	980;"	macro
+TIM3_CCMR1_RESET_VALUE	drivers\include\stm8s.h	978;"	macro
+TIM3_CCMR2_RESET_VALUE	drivers\include\stm8s.h	979;"	macro
+TIM3_CCMR_CCxS	drivers\include\stm8s.h	1024;"	macro
+TIM3_CCMR_ICxF	drivers\include\stm8s.h	1021;"	macro
+TIM3_CCMR_ICxPSC	drivers\include\stm8s.h	1020;"	macro
+TIM3_CCMR_OCM	drivers\include\stm8s.h	1022;"	macro
+TIM3_CCMR_OCxPE	drivers\include\stm8s.h	1023;"	macro
+TIM3_CCR1H_CCR1	drivers\include\stm8s.h	1039;"	macro
+TIM3_CCR1H_RESET_VALUE	drivers\include\stm8s.h	986;"	macro
+TIM3_CCR1L_CCR1	drivers\include\stm8s.h	1040;"	macro
+TIM3_CCR1L_RESET_VALUE	drivers\include\stm8s.h	987;"	macro
+TIM3_CCR2H_CCR2	drivers\include\stm8s.h	1042;"	macro
+TIM3_CCR2H_RESET_VALUE	drivers\include\stm8s.h	988;"	macro
+TIM3_CCR2L_CCR2	drivers\include\stm8s.h	1043;"	macro
+TIM3_CCR2L_RESET_VALUE	drivers\include\stm8s.h	989;"	macro
+TIM3_CNTRH_CNT	drivers\include\stm8s.h	1031;"	macro
+TIM3_CNTRH_RESET_VALUE	drivers\include\stm8s.h	981;"	macro
+TIM3_CNTRL_CNT	drivers\include\stm8s.h	1032;"	macro
+TIM3_CNTRL_RESET_VALUE	drivers\include\stm8s.h	982;"	macro
+TIM3_CR1_ARPE	drivers\include\stm8s.h	999;"	macro
+TIM3_CR1_CEN	drivers\include\stm8s.h	1003;"	macro
+TIM3_CR1_OPM	drivers\include\stm8s.h	1000;"	macro
+TIM3_CR1_RESET_VALUE	drivers\include\stm8s.h	973;"	macro
+TIM3_CR1_UDIS	drivers\include\stm8s.h	1002;"	macro
+TIM3_CR1_URS	drivers\include\stm8s.h	1001;"	macro
+TIM3_EGR_CC1G	drivers\include\stm8s.h	1017;"	macro
+TIM3_EGR_CC2G	drivers\include\stm8s.h	1016;"	macro
+TIM3_EGR_RESET_VALUE	drivers\include\stm8s.h	977;"	macro
+TIM3_EGR_UG	drivers\include\stm8s.h	1018;"	macro
+TIM3_IER_CC1IE	drivers\include\stm8s.h	1006;"	macro
+TIM3_IER_CC2IE	drivers\include\stm8s.h	1005;"	macro
+TIM3_IER_RESET_VALUE	drivers\include\stm8s.h	974;"	macro
+TIM3_IER_UIE	drivers\include\stm8s.h	1007;"	macro
+TIM3_PSCR_PSC	drivers\include\stm8s.h	1034;"	macro
+TIM3_PSCR_RESET_VALUE	drivers\include\stm8s.h	983;"	macro
+TIM3_SR1_CC1IF	drivers\include\stm8s.h	1010;"	macro
+TIM3_SR1_CC2IF	drivers\include\stm8s.h	1009;"	macro
+TIM3_SR1_RESET_VALUE	drivers\include\stm8s.h	975;"	macro
+TIM3_SR1_UIF	drivers\include\stm8s.h	1011;"	macro
+TIM3_SR2_CC1OF	drivers\include\stm8s.h	1014;"	macro
+TIM3_SR2_CC2OF	drivers\include\stm8s.h	1013;"	macro
+TIM3_SR2_RESET_VALUE	drivers\include\stm8s.h	976;"	macro
+TIM3_TypeDef	drivers\include\stm8s.h	967;"	typedef	typeref:struct:TIM3_struct
+TIM3_UPD_OVF_BRK_IRQHandler	stm8s_it.h	78;"	prototype	signature:(void)
+TIM3_struct	drivers\include\stm8s.h	947;"	struct
+TIM4	drivers\include\stm8s.h	2691;"	macro
+TIM4_ARR_ARR	drivers\include\stm8s.h	1105;"	macro
+TIM4_ARR_RESET_VALUE	drivers\include\stm8s.h	1079;"	macro
+TIM4_BaseAddress	drivers\include\stm8s.h	2582;"	macro
+TIM4_CNTR_CNT	drivers\include\stm8s.h	1101;"	macro
+TIM4_CNTR_RESET_VALUE	drivers\include\stm8s.h	1077;"	macro
+TIM4_CR1_ARPE	drivers\include\stm8s.h	1089;"	macro
+TIM4_CR1_CEN	drivers\include\stm8s.h	1093;"	macro
+TIM4_CR1_OPM	drivers\include\stm8s.h	1090;"	macro
+TIM4_CR1_RESET_VALUE	drivers\include\stm8s.h	1073;"	macro
+TIM4_CR1_UDIS	drivers\include\stm8s.h	1092;"	macro
+TIM4_CR1_URS	drivers\include\stm8s.h	1091;"	macro
+TIM4_EGR_RESET_VALUE	drivers\include\stm8s.h	1076;"	macro
+TIM4_EGR_UG	drivers\include\stm8s.h	1099;"	macro
+TIM4_IER_RESET_VALUE	drivers\include\stm8s.h	1074;"	macro
+TIM4_IER_UIE	drivers\include\stm8s.h	1095;"	macro
+TIM4_PSCR_PSC	drivers\include\stm8s.h	1103;"	macro
+TIM4_PSCR_RESET_VALUE	drivers\include\stm8s.h	1078;"	macro
+TIM4_SR1_RESET_VALUE	drivers\include\stm8s.h	1075;"	macro
+TIM4_SR1_UIF	drivers\include\stm8s.h	1097;"	macro
+TIM4_TypeDef	drivers\include\stm8s.h	1067;"	typedef	typeref:struct:TIM4_struct
+TIM4_UPD_OVF_IRQHandler	stm8s_it.h	114;"	prototype	signature:(void)
+TIM4_struct	drivers\include\stm8s.h	1053;"	struct
+TIM5	drivers\include\stm8s.h	2695;"	macro
+TIM5_ARRH_ARR	drivers\include\stm8s.h	1233;"	macro
+TIM5_ARRH_RESET_VALUE	drivers\include\stm8s.h	1162;"	macro
+TIM5_ARRL_ARR	drivers\include\stm8s.h	1234;"	macro
+TIM5_ARRL_RESET_VALUE	drivers\include\stm8s.h	1163;"	macro
+TIM5_BaseAddress	drivers\include\stm8s.h	2583;"	macro
+TIM5_CAP_COM_IRQHandler	stm8s_it.h	70;"	prototype	signature:(void)
+TIM5_CCER1_CC1E	drivers\include\stm8s.h	1223;"	macro
+TIM5_CCER1_CC1P	drivers\include\stm8s.h	1222;"	macro
+TIM5_CCER1_CC2E	drivers\include\stm8s.h	1221;"	macro
+TIM5_CCER1_CC2P	drivers\include\stm8s.h	1220;"	macro
+TIM5_CCER1_RESET_VALUE	drivers\include\stm8s.h	1157;"	macro
+TIM5_CCER2_CC3E	drivers\include\stm8s.h	1226;"	macro
+TIM5_CCER2_CC3P	drivers\include\stm8s.h	1225;"	macro
+TIM5_CCER2_RESET_VALUE	drivers\include\stm8s.h	1158;"	macro
+TIM5_CCMR1_RESET_VALUE	drivers\include\stm8s.h	1154;"	macro
+TIM5_CCMR2_RESET_VALUE	drivers\include\stm8s.h	1155;"	macro
+TIM5_CCMR3_RESET_VALUE	drivers\include\stm8s.h	1156;"	macro
+TIM5_CCMR_CCxS	drivers\include\stm8s.h	1218;"	macro
+TIM5_CCMR_ICxF	drivers\include\stm8s.h	1215;"	macro
+TIM5_CCMR_ICxPSC	drivers\include\stm8s.h	1214;"	macro
+TIM5_CCMR_OCM	drivers\include\stm8s.h	1216;"	macro
+TIM5_CCMR_OCxPE	drivers\include\stm8s.h	1217;"	macro
+TIM5_CCMR_TIxDirect_Set	drivers\include\stm8s.h	1245;"	macro
+TIM5_CCR1H_CCR1	drivers\include\stm8s.h	1236;"	macro
+TIM5_CCR1H_RESET_VALUE	drivers\include\stm8s.h	1164;"	macro
+TIM5_CCR1L_CCR1	drivers\include\stm8s.h	1237;"	macro
+TIM5_CCR1L_RESET_VALUE	drivers\include\stm8s.h	1165;"	macro
+TIM5_CCR2H_CCR2	drivers\include\stm8s.h	1239;"	macro
+TIM5_CCR2H_RESET_VALUE	drivers\include\stm8s.h	1166;"	macro
+TIM5_CCR2L_CCR2	drivers\include\stm8s.h	1240;"	macro
+TIM5_CCR2L_RESET_VALUE	drivers\include\stm8s.h	1167;"	macro
+TIM5_CCR3H_CCR3	drivers\include\stm8s.h	1242;"	macro
+TIM5_CCR3H_RESET_VALUE	drivers\include\stm8s.h	1168;"	macro
+TIM5_CCR3L_CCR3	drivers\include\stm8s.h	1243;"	macro
+TIM5_CCR3L_RESET_VALUE	drivers\include\stm8s.h	1169;"	macro
+TIM5_CNTRH_CNT	drivers\include\stm8s.h	1228;"	macro
+TIM5_CNTRH_RESET_VALUE	drivers\include\stm8s.h	1159;"	macro
+TIM5_CNTRL_CNT	drivers\include\stm8s.h	1229;"	macro
+TIM5_CNTRL_RESET_VALUE	drivers\include\stm8s.h	1160;"	macro
+TIM5_CR1_ARPE	drivers\include\stm8s.h	1179;"	macro
+TIM5_CR1_CEN	drivers\include\stm8s.h	1183;"	macro
+TIM5_CR1_OPM	drivers\include\stm8s.h	1180;"	macro
+TIM5_CR1_RESET_VALUE	drivers\include\stm8s.h	1147;"	macro
+TIM5_CR1_UDIS	drivers\include\stm8s.h	1182;"	macro
+TIM5_CR1_URS	drivers\include\stm8s.h	1181;"	macro
+TIM5_CR2_MMS	drivers\include\stm8s.h	1186;"	macro
+TIM5_CR2_RESET_VALUE	drivers\include\stm8s.h	1148;"	macro
+TIM5_CR2_TI1S	drivers\include\stm8s.h	1185;"	macro
+TIM5_EGR_CC1G	drivers\include\stm8s.h	1211;"	macro
+TIM5_EGR_CC2G	drivers\include\stm8s.h	1210;"	macro
+TIM5_EGR_CC3G	drivers\include\stm8s.h	1209;"	macro
+TIM5_EGR_RESET_VALUE	drivers\include\stm8s.h	1153;"	macro
+TIM5_EGR_TG	drivers\include\stm8s.h	1208;"	macro
+TIM5_EGR_UG	drivers\include\stm8s.h	1212;"	macro
+TIM5_IER_CC1IE	drivers\include\stm8s.h	1195;"	macro
+TIM5_IER_CC2IE	drivers\include\stm8s.h	1194;"	macro
+TIM5_IER_CC3IE	drivers\include\stm8s.h	1193;"	macro
+TIM5_IER_RESET_VALUE	drivers\include\stm8s.h	1150;"	macro
+TIM5_IER_TIE	drivers\include\stm8s.h	1192;"	macro
+TIM5_IER_UIE	drivers\include\stm8s.h	1196;"	macro
+TIM5_PSCR_PSC	drivers\include\stm8s.h	1231;"	macro
+TIM5_PSCR_RESET_VALUE	drivers\include\stm8s.h	1161;"	macro
+TIM5_SMCR_MSM	drivers\include\stm8s.h	1188;"	macro
+TIM5_SMCR_RESET_VALUE	drivers\include\stm8s.h	1149;"	macro
+TIM5_SMCR_SMS	drivers\include\stm8s.h	1190;"	macro
+TIM5_SMCR_TS	drivers\include\stm8s.h	1189;"	macro
+TIM5_SR1_CC1IF	drivers\include\stm8s.h	1201;"	macro
+TIM5_SR1_CC2IF	drivers\include\stm8s.h	1200;"	macro
+TIM5_SR1_CC3IF	drivers\include\stm8s.h	1199;"	macro
+TIM5_SR1_RESET_VALUE	drivers\include\stm8s.h	1151;"	macro
+TIM5_SR1_TIF	drivers\include\stm8s.h	1198;"	macro
+TIM5_SR1_UIF	drivers\include\stm8s.h	1202;"	macro
+TIM5_SR2_CC1OF	drivers\include\stm8s.h	1206;"	macro
+TIM5_SR2_CC2OF	drivers\include\stm8s.h	1205;"	macro
+TIM5_SR2_CC3OF	drivers\include\stm8s.h	1204;"	macro
+TIM5_SR2_RESET_VALUE	drivers\include\stm8s.h	1152;"	macro
+TIM5_TypeDef	drivers\include\stm8s.h	1141;"	typedef	typeref:struct:TIM5_struct
+TIM5_UPD_OVF_BRK_TRG_IRQHandler	stm8s_it.h	69;"	prototype	signature:(void)
+TIM5_struct	drivers\include\stm8s.h	1116;"	struct
+TIM6	drivers\include\stm8s.h	2696;"	macro
+TIM6_ARR_ARR	drivers\include\stm8s.h	1314;"	macro
+TIM6_ARR_RESET_VALUE	drivers\include\stm8s.h	1279;"	macro
+TIM6_BaseAddress	drivers\include\stm8s.h	2584;"	macro
+TIM6_CNTR_CNT	drivers\include\stm8s.h	1310;"	macro
+TIM6_CNTR_RESET_VALUE	drivers\include\stm8s.h	1277;"	macro
+TIM6_CR1_ARPE	drivers\include\stm8s.h	1289;"	macro
+TIM6_CR1_CEN	drivers\include\stm8s.h	1293;"	macro
+TIM6_CR1_OPM	drivers\include\stm8s.h	1290;"	macro
+TIM6_CR1_RESET_VALUE	drivers\include\stm8s.h	1271;"	macro
+TIM6_CR1_UDIS	drivers\include\stm8s.h	1292;"	macro
+TIM6_CR1_URS	drivers\include\stm8s.h	1291;"	macro
+TIM6_CR2_MMS	drivers\include\stm8s.h	1295;"	macro
+TIM6_CR2_RESET_VALUE	drivers\include\stm8s.h	1272;"	macro
+TIM6_EGR_RESET_VALUE	drivers\include\stm8s.h	1276;"	macro
+TIM6_EGR_TG	drivers\include\stm8s.h	1307;"	macro
+TIM6_EGR_UG	drivers\include\stm8s.h	1308;"	macro
+TIM6_IER_RESET_VALUE	drivers\include\stm8s.h	1274;"	macro
+TIM6_IER_TIE	drivers\include\stm8s.h	1301;"	macro
+TIM6_IER_UIE	drivers\include\stm8s.h	1302;"	macro
+TIM6_PSCR_PSC	drivers\include\stm8s.h	1312;"	macro
+TIM6_PSCR_RESET_VALUE	drivers\include\stm8s.h	1278;"	macro
+TIM6_SMCR_MSM	drivers\include\stm8s.h	1297;"	macro
+TIM6_SMCR_RESET_VALUE	drivers\include\stm8s.h	1273;"	macro
+TIM6_SMCR_SMS	drivers\include\stm8s.h	1299;"	macro
+TIM6_SMCR_TS	drivers\include\stm8s.h	1298;"	macro
+TIM6_SR1_RESET_VALUE	drivers\include\stm8s.h	1275;"	macro
+TIM6_SR1_TIF	drivers\include\stm8s.h	1304;"	macro
+TIM6_SR1_UIF	drivers\include\stm8s.h	1305;"	macro
+TIM6_TypeDef	drivers\include\stm8s.h	1267;"	typedef	typeref:struct:TIM6_struct
+TIM6_UPD_OVF_TRG_IRQHandler	stm8s_it.h	112;"	prototype	signature:(void)
+TIM6_struct	drivers\include\stm8s.h	1255;"	struct
+TINY	drivers\include\stm8s.h	123;"	macro
+TINY	drivers\include\stm8s.h	129;"	macro
+TINY	drivers\include\stm8s.h	143;"	macro
+TLI_IRQHandler	stm8s_it.h	46;"	prototype	signature:(void)
+TPR	drivers\include\stm8s.h	2174;"	member	struct:__anon22
+TRAP_IRQHandler	stm8s_it.h	45;"	prototype	signature:(void)
+TRISER	drivers\include\stm8s.h	1338;"	member	struct:I2C_struct
+TRUE	drivers\include\stm8s.h	230;"	enumerator	enum:__anon18
+TSR	drivers\include\stm8s.h	2173;"	member	struct:__anon22
+TXCRCR	drivers\include\stm8s.h	1700;"	member	struct:SPI_struct
+TerminateTask	krnl\include\ei_krnl.h	95;"	macro
+TxMailbox	drivers\include\stm8s.h	2200;"	member	union:__anon22::__anon23	typeref:struct:__anon22::__anon23::__anon24
+U16_MAX	drivers\include\stm8s.h	242;"	macro
+U32_MAX	drivers\include\stm8s.h	245;"	macro
+U8_MAX	drivers\include\stm8s.h	239;"	macro
+UART1	drivers\include\stm8s.h	2659;"	macro
+UART1_BRR1_DIVM	drivers\include\stm8s.h	1810;"	macro
+UART1_BRR1_RESET_VALUE	drivers\include\stm8s.h	1783;"	macro
+UART1_BRR2_DIVF	drivers\include\stm8s.h	1813;"	macro
+UART1_BRR2_DIVM	drivers\include\stm8s.h	1812;"	macro
+UART1_BRR2_RESET_VALUE	drivers\include\stm8s.h	1784;"	macro
+UART1_BaseAddress	drivers\include\stm8s.h	2575;"	macro
+UART1_CR1_M	drivers\include\stm8s.h	1818;"	macro
+UART1_CR1_PCEN	drivers\include\stm8s.h	1820;"	macro
+UART1_CR1_PIEN	drivers\include\stm8s.h	1822;"	macro
+UART1_CR1_PS	drivers\include\stm8s.h	1821;"	macro
+UART1_CR1_R8	drivers\include\stm8s.h	1815;"	macro
+UART1_CR1_RESET_VALUE	drivers\include\stm8s.h	1785;"	macro
+UART1_CR1_T8	drivers\include\stm8s.h	1816;"	macro
+UART1_CR1_UARTD	drivers\include\stm8s.h	1817;"	macro
+UART1_CR1_WAKE	drivers\include\stm8s.h	1819;"	macro
+UART1_CR2_ILIEN	drivers\include\stm8s.h	1827;"	macro
+UART1_CR2_REN	drivers\include\stm8s.h	1829;"	macro
+UART1_CR2_RESET_VALUE	drivers\include\stm8s.h	1786;"	macro
+UART1_CR2_RIEN	drivers\include\stm8s.h	1826;"	macro
+UART1_CR2_RWU	drivers\include\stm8s.h	1830;"	macro
+UART1_CR2_SBK	drivers\include\stm8s.h	1831;"	macro
+UART1_CR2_TCIEN	drivers\include\stm8s.h	1825;"	macro
+UART1_CR2_TEN	drivers\include\stm8s.h	1828;"	macro
+UART1_CR2_TIEN	drivers\include\stm8s.h	1824;"	macro
+UART1_CR3_CKEN	drivers\include\stm8s.h	1835;"	macro
+UART1_CR3_CPHA	drivers\include\stm8s.h	1837;"	macro
+UART1_CR3_CPOL	drivers\include\stm8s.h	1836;"	macro
+UART1_CR3_LBCL	drivers\include\stm8s.h	1838;"	macro
+UART1_CR3_LINEN	drivers\include\stm8s.h	1833;"	macro
+UART1_CR3_RESET_VALUE	drivers\include\stm8s.h	1787;"	macro
+UART1_CR3_STOP	drivers\include\stm8s.h	1834;"	macro
+UART1_CR4_ADD	drivers\include\stm8s.h	1843;"	macro
+UART1_CR4_LBDF	drivers\include\stm8s.h	1842;"	macro
+UART1_CR4_LBDIEN	drivers\include\stm8s.h	1840;"	macro
+UART1_CR4_LBDL	drivers\include\stm8s.h	1841;"	macro
+UART1_CR4_RESET_VALUE	drivers\include\stm8s.h	1788;"	macro
+UART1_CR5_HDSEL	drivers\include\stm8s.h	1847;"	macro
+UART1_CR5_IREN	drivers\include\stm8s.h	1849;"	macro
+UART1_CR5_IRLP	drivers\include\stm8s.h	1848;"	macro
+UART1_CR5_NACK	drivers\include\stm8s.h	1846;"	macro
+UART1_CR5_RESET_VALUE	drivers\include\stm8s.h	1789;"	macro
+UART1_CR5_SCEN	drivers\include\stm8s.h	1845;"	macro
+UART1_GTR_RESET_VALUE	drivers\include\stm8s.h	1790;"	macro
+UART1_PSCR_RESET_VALUE	drivers\include\stm8s.h	1791;"	macro
+UART1_RX_IRQHandler	stm8s_it.h	85;"	prototype	signature:(void)
+UART1_SR_FE	drivers\include\stm8s.h	1807;"	macro
+UART1_SR_IDLE	drivers\include\stm8s.h	1804;"	macro
+UART1_SR_NF	drivers\include\stm8s.h	1806;"	macro
+UART1_SR_OR	drivers\include\stm8s.h	1805;"	macro
+UART1_SR_PE	drivers\include\stm8s.h	1808;"	macro
+UART1_SR_RESET_VALUE	drivers\include\stm8s.h	1782;"	macro
+UART1_SR_RXNE	drivers\include\stm8s.h	1803;"	macro
+UART1_SR_TC	drivers\include\stm8s.h	1802;"	macro
+UART1_SR_TXE	drivers\include\stm8s.h	1801;"	macro
+UART1_TX_IRQHandler	stm8s_it.h	84;"	prototype	signature:(void)
+UART1_TypeDef	drivers\include\stm8s.h	1776;"	typedef	typeref:struct:UART1_struct
+UART1_struct	drivers\include\stm8s.h	1762;"	struct
+UART2	drivers\include\stm8s.h	2663;"	macro
+UART2_BRR1_DIVM	drivers\include\stm8s.h	1910;"	macro
+UART2_BRR1_RESET_VALUE	drivers\include\stm8s.h	1882;"	macro
+UART2_BRR2_DIVF	drivers\include\stm8s.h	1913;"	macro
+UART2_BRR2_DIVM	drivers\include\stm8s.h	1912;"	macro
+UART2_BRR2_RESET_VALUE	drivers\include\stm8s.h	1883;"	macro
+UART2_BaseAddress	drivers\include\stm8s.h	2576;"	macro
+UART2_CR1_M	drivers\include\stm8s.h	1918;"	macro
+UART2_CR1_PCEN	drivers\include\stm8s.h	1920;"	macro
+UART2_CR1_PIEN	drivers\include\stm8s.h	1922;"	macro
+UART2_CR1_PS	drivers\include\stm8s.h	1921;"	macro
+UART2_CR1_R8	drivers\include\stm8s.h	1915;"	macro
+UART2_CR1_RESET_VALUE	drivers\include\stm8s.h	1884;"	macro
+UART2_CR1_T8	drivers\include\stm8s.h	1916;"	macro
+UART2_CR1_UARTD	drivers\include\stm8s.h	1917;"	macro
+UART2_CR1_WAKE	drivers\include\stm8s.h	1919;"	macro
+UART2_CR2_ILIEN	drivers\include\stm8s.h	1927;"	macro
+UART2_CR2_REN	drivers\include\stm8s.h	1929;"	macro
+UART2_CR2_RESET_VALUE	drivers\include\stm8s.h	1885;"	macro
+UART2_CR2_RIEN	drivers\include\stm8s.h	1926;"	macro
+UART2_CR2_RWU	drivers\include\stm8s.h	1930;"	macro
+UART2_CR2_SBK	drivers\include\stm8s.h	1931;"	macro
+UART2_CR2_TCIEN	drivers\include\stm8s.h	1925;"	macro
+UART2_CR2_TEN	drivers\include\stm8s.h	1928;"	macro
+UART2_CR2_TIEN	drivers\include\stm8s.h	1924;"	macro
+UART2_CR3_CKEN	drivers\include\stm8s.h	1935;"	macro
+UART2_CR3_CPHA	drivers\include\stm8s.h	1937;"	macro
+UART2_CR3_CPOL	drivers\include\stm8s.h	1936;"	macro
+UART2_CR3_LBCL	drivers\include\stm8s.h	1938;"	macro
+UART2_CR3_LINEN	drivers\include\stm8s.h	1933;"	macro
+UART2_CR3_RESET_VALUE	drivers\include\stm8s.h	1886;"	macro
+UART2_CR3_STOP	drivers\include\stm8s.h	1934;"	macro
+UART2_CR4_ADD	drivers\include\stm8s.h	1943;"	macro
+UART2_CR4_LBDF	drivers\include\stm8s.h	1942;"	macro
+UART2_CR4_LBDIEN	drivers\include\stm8s.h	1940;"	macro
+UART2_CR4_LBDL	drivers\include\stm8s.h	1941;"	macro
+UART2_CR4_RESET_VALUE	drivers\include\stm8s.h	1887;"	macro
+UART2_CR5_IREN	drivers\include\stm8s.h	1948;"	macro
+UART2_CR5_IRLP	drivers\include\stm8s.h	1947;"	macro
+UART2_CR5_NACK	drivers\include\stm8s.h	1946;"	macro
+UART2_CR5_RESET_VALUE	drivers\include\stm8s.h	1888;"	macro
+UART2_CR5_SCEN	drivers\include\stm8s.h	1945;"	macro
+UART2_CR6_LASE	drivers\include\stm8s.h	1952;"	macro
+UART2_CR6_LDUM	drivers\include\stm8s.h	1950;"	macro
+UART2_CR6_LHDF	drivers\include\stm8s.h	1954;"	macro
+UART2_CR6_LHDIEN	drivers\include\stm8s.h	1953;"	macro
+UART2_CR6_LSF	drivers\include\stm8s.h	1955;"	macro
+UART2_CR6_LSLV	drivers\include\stm8s.h	1951;"	macro
+UART2_CR6_RESET_VALUE	drivers\include\stm8s.h	1889;"	macro
+UART2_GTR_RESET_VALUE	drivers\include\stm8s.h	1890;"	macro
+UART2_PSCR_RESET_VALUE	drivers\include\stm8s.h	1891;"	macro
+UART2_RX_IRQHandler	stm8s_it.h	96;"	prototype	signature:(void)
+UART2_SR_FE	drivers\include\stm8s.h	1907;"	macro
+UART2_SR_IDLE	drivers\include\stm8s.h	1904;"	macro
+UART2_SR_NF	drivers\include\stm8s.h	1906;"	macro
+UART2_SR_OR	drivers\include\stm8s.h	1905;"	macro
+UART2_SR_PE	drivers\include\stm8s.h	1908;"	macro
+UART2_SR_RESET_VALUE	drivers\include\stm8s.h	1881;"	macro
+UART2_SR_RXNE	drivers\include\stm8s.h	1903;"	macro
+UART2_SR_TC	drivers\include\stm8s.h	1902;"	macro
+UART2_SR_TXE	drivers\include\stm8s.h	1901;"	macro
+UART2_TX_IRQHandler	stm8s_it.h	97;"	prototype	signature:(void)
+UART2_TypeDef	drivers\include\stm8s.h	1875;"	typedef	typeref:struct:UART2_struct
+UART2_struct	drivers\include\stm8s.h	1860;"	struct
+UART3	drivers\include\stm8s.h	2668;"	macro
+UART3_BRR1_DIVM	drivers\include\stm8s.h	2012;"	macro
+UART3_BRR1_RESET_VALUE	drivers\include\stm8s.h	1987;"	macro
+UART3_BRR2_DIVF	drivers\include\stm8s.h	2015;"	macro
+UART3_BRR2_DIVM	drivers\include\stm8s.h	2014;"	macro
+UART3_BRR2_RESET_VALUE	drivers\include\stm8s.h	1988;"	macro
+UART3_BaseAddress	drivers\include\stm8s.h	2577;"	macro
+UART3_CR1_M	drivers\include\stm8s.h	2020;"	macro
+UART3_CR1_PCEN	drivers\include\stm8s.h	2022;"	macro
+UART3_CR1_PIEN	drivers\include\stm8s.h	2024;"	macro
+UART3_CR1_PS	drivers\include\stm8s.h	2023;"	macro
+UART3_CR1_R8	drivers\include\stm8s.h	2017;"	macro
+UART3_CR1_RESET_VALUE	drivers\include\stm8s.h	1989;"	macro
+UART3_CR1_T8	drivers\include\stm8s.h	2018;"	macro
+UART3_CR1_UARTD	drivers\include\stm8s.h	2019;"	macro
+UART3_CR1_WAKE	drivers\include\stm8s.h	2021;"	macro
+UART3_CR2_ILIEN	drivers\include\stm8s.h	2029;"	macro
+UART3_CR2_REN	drivers\include\stm8s.h	2031;"	macro
+UART3_CR2_RESET_VALUE	drivers\include\stm8s.h	1990;"	macro
+UART3_CR2_RIEN	drivers\include\stm8s.h	2028;"	macro
+UART3_CR2_RWU	drivers\include\stm8s.h	2032;"	macro
+UART3_CR2_SBK	drivers\include\stm8s.h	2033;"	macro
+UART3_CR2_TCIEN	drivers\include\stm8s.h	2027;"	macro
+UART3_CR2_TEN	drivers\include\stm8s.h	2030;"	macro
+UART3_CR2_TIEN	drivers\include\stm8s.h	2026;"	macro
+UART3_CR3_LINEN	drivers\include\stm8s.h	2035;"	macro
+UART3_CR3_RESET_VALUE	drivers\include\stm8s.h	1991;"	macro
+UART3_CR3_STOP	drivers\include\stm8s.h	2036;"	macro
+UART3_CR4_ADD	drivers\include\stm8s.h	2041;"	macro
+UART3_CR4_LBDF	drivers\include\stm8s.h	2040;"	macro
+UART3_CR4_LBDIEN	drivers\include\stm8s.h	2038;"	macro
+UART3_CR4_LBDL	drivers\include\stm8s.h	2039;"	macro
+UART3_CR4_RESET_VALUE	drivers\include\stm8s.h	1992;"	macro
+UART3_CR6_LASE	drivers\include\stm8s.h	2045;"	macro
+UART3_CR6_LDUM	drivers\include\stm8s.h	2043;"	macro
+UART3_CR6_LHDF	drivers\include\stm8s.h	2047;"	macro
+UART3_CR6_LHDIEN	drivers\include\stm8s.h	2046;"	macro
+UART3_CR6_LSF	drivers\include\stm8s.h	2048;"	macro
+UART3_CR6_LSLV	drivers\include\stm8s.h	2044;"	macro
+UART3_CR6_RESET_VALUE	drivers\include\stm8s.h	1993;"	macro
+UART3_RX_IRQHandler	stm8s_it.h	101;"	prototype	signature:(void)
+UART3_SR_FE	drivers\include\stm8s.h	2009;"	macro
+UART3_SR_IDLE	drivers\include\stm8s.h	2006;"	macro
+UART3_SR_NF	drivers\include\stm8s.h	2008;"	macro
+UART3_SR_OR	drivers\include\stm8s.h	2007;"	macro
+UART3_SR_PE	drivers\include\stm8s.h	2010;"	macro
+UART3_SR_RESET_VALUE	drivers\include\stm8s.h	1986;"	macro
+UART3_SR_RXNE	drivers\include\stm8s.h	2005;"	macro
+UART3_SR_TC	drivers\include\stm8s.h	2004;"	macro
+UART3_SR_TXE	drivers\include\stm8s.h	2003;"	macro
+UART3_TX_IRQHandler	stm8s_it.h	102;"	prototype	signature:(void)
+UART3_TypeDef	drivers\include\stm8s.h	1980;"	typedef	typeref:struct:UART3_struct
+UART3_struct	drivers\include\stm8s.h	1967;"	struct
+UART4	drivers\include\stm8s.h	2672;"	macro
+UART4_BRR1_DIVM	drivers\include\stm8s.h	2109;"	macro
+UART4_BRR1_RESET_VALUE	drivers\include\stm8s.h	2081;"	macro
+UART4_BRR2_DIVF	drivers\include\stm8s.h	2112;"	macro
+UART4_BRR2_DIVM	drivers\include\stm8s.h	2111;"	macro
+UART4_BRR2_RESET_VALUE	drivers\include\stm8s.h	2082;"	macro
+UART4_BaseAddress	drivers\include\stm8s.h	2578;"	macro
+UART4_CR1_M	drivers\include\stm8s.h	2117;"	macro
+UART4_CR1_PCEN	drivers\include\stm8s.h	2119;"	macro
+UART4_CR1_PIEN	drivers\include\stm8s.h	2121;"	macro
+UART4_CR1_PS	drivers\include\stm8s.h	2120;"	macro
+UART4_CR1_R8	drivers\include\stm8s.h	2114;"	macro
+UART4_CR1_RESET_VALUE	drivers\include\stm8s.h	2083;"	macro
+UART4_CR1_T8	drivers\include\stm8s.h	2115;"	macro
+UART4_CR1_UARTD	drivers\include\stm8s.h	2116;"	macro
+UART4_CR1_WAKE	drivers\include\stm8s.h	2118;"	macro
+UART4_CR2_ILIEN	drivers\include\stm8s.h	2126;"	macro
+UART4_CR2_REN	drivers\include\stm8s.h	2128;"	macro
+UART4_CR2_RESET_VALUE	drivers\include\stm8s.h	2084;"	macro
+UART4_CR2_RIEN	drivers\include\stm8s.h	2125;"	macro
+UART4_CR2_RWU	drivers\include\stm8s.h	2129;"	macro
+UART4_CR2_SBK	drivers\include\stm8s.h	2130;"	macro
+UART4_CR2_TCIEN	drivers\include\stm8s.h	2124;"	macro
+UART4_CR2_TEN	drivers\include\stm8s.h	2127;"	macro
+UART4_CR2_TIEN	drivers\include\stm8s.h	2123;"	macro
+UART4_CR3_CKEN	drivers\include\stm8s.h	2134;"	macro
+UART4_CR3_CPHA	drivers\include\stm8s.h	2136;"	macro
+UART4_CR3_CPOL	drivers\include\stm8s.h	2135;"	macro
+UART4_CR3_LBCL	drivers\include\stm8s.h	2137;"	macro
+UART4_CR3_LINEN	drivers\include\stm8s.h	2132;"	macro
+UART4_CR3_RESET_VALUE	drivers\include\stm8s.h	2085;"	macro
+UART4_CR3_STOP	drivers\include\stm8s.h	2133;"	macro
+UART4_CR4_ADD	drivers\include\stm8s.h	2142;"	macro
+UART4_CR4_LBDF	drivers\include\stm8s.h	2141;"	macro
+UART4_CR4_LBDIEN	drivers\include\stm8s.h	2139;"	macro
+UART4_CR4_LBDL	drivers\include\stm8s.h	2140;"	macro
+UART4_CR4_RESET_VALUE	drivers\include\stm8s.h	2086;"	macro
+UART4_CR5_HDSEL	drivers\include\stm8s.h	2146;"	macro
+UART4_CR5_IREN	drivers\include\stm8s.h	2148;"	macro
+UART4_CR5_IRLP	drivers\include\stm8s.h	2147;"	macro
+UART4_CR5_NACK	drivers\include\stm8s.h	2145;"	macro
+UART4_CR5_RESET_VALUE	drivers\include\stm8s.h	2087;"	macro
+UART4_CR5_SCEN	drivers\include\stm8s.h	2144;"	macro
+UART4_CR6_LASE	drivers\include\stm8s.h	2152;"	macro
+UART4_CR6_LDUM	drivers\include\stm8s.h	2150;"	macro
+UART4_CR6_LHDF	drivers\include\stm8s.h	2154;"	macro
+UART4_CR6_LHDIEN	drivers\include\stm8s.h	2153;"	macro
+UART4_CR6_LSF	drivers\include\stm8s.h	2155;"	macro
+UART4_CR6_LSLV	drivers\include\stm8s.h	2151;"	macro
+UART4_CR6_RESET_VALUE	drivers\include\stm8s.h	2088;"	macro
+UART4_GTR_RESET_VALUE	drivers\include\stm8s.h	2089;"	macro
+UART4_PSCR_RESET_VALUE	drivers\include\stm8s.h	2090;"	macro
+UART4_RX_IRQHandler	stm8s_it.h	90;"	prototype	signature:(void)
+UART4_SR_FE	drivers\include\stm8s.h	2106;"	macro
+UART4_SR_IDLE	drivers\include\stm8s.h	2103;"	macro
+UART4_SR_NF	drivers\include\stm8s.h	2105;"	macro
+UART4_SR_OR	drivers\include\stm8s.h	2104;"	macro
+UART4_SR_PE	drivers\include\stm8s.h	2107;"	macro
+UART4_SR_RESET_VALUE	drivers\include\stm8s.h	2080;"	macro
+UART4_SR_RXNE	drivers\include\stm8s.h	2102;"	macro
+UART4_SR_TC	drivers\include\stm8s.h	2101;"	macro
+UART4_SR_TXE	drivers\include\stm8s.h	2100;"	macro
+UART4_TX_IRQHandler	stm8s_it.h	89;"	prototype	signature:(void)
+UART4_TypeDef	drivers\include\stm8s.h	2074;"	typedef	typeref:struct:UART4_struct
+UART4_struct	drivers\include\stm8s.h	2059;"	struct
+USE_STDPERIPH_DRIVER	drivers\include\stm8s.h	95;"	macro
+VECTOR_ID	drivers\include\stm8s.h	2758;"	macro
+VERSION_H_	common\include\ei_version.h	12;"	macro
+ValBit	drivers\include\stm8s.h	2797;"	macro
+WR	drivers\include\stm8s.h	1631;"	member	struct:WWDG_struct
+WWDG	drivers\include\stm8s.h	2651;"	macro
+WWDG_BaseAddress	drivers\include\stm8s.h	2569;"	macro
+WWDG_CR_RESET_VALUE	drivers\include\stm8s.h	1639;"	macro
+WWDG_CR_T	drivers\include\stm8s.h	1652;"	macro
+WWDG_CR_T6	drivers\include\stm8s.h	1651;"	macro
+WWDG_CR_WDGA	drivers\include\stm8s.h	1650;"	macro
+WWDG_TypeDef	drivers\include\stm8s.h	1633;"	typedef	typeref:struct:WWDG_struct
+WWDG_WR_MSB	drivers\include\stm8s.h	1654;"	macro
+WWDG_WR_RESET_VALUE	drivers\include\stm8s.h	1640;"	macro
+WWDG_WR_W	drivers\include\stm8s.h	1655;"	macro
+WWDG_struct	drivers\include\stm8s.h	1628;"	struct
+_COSMIC_	drivers\include\stm8s.h	82;"	macro
+_IAR_	drivers\include\stm8s.h	86;"	macro
+_RAISONANCE_	drivers\include\stm8s.h	84;"	macro
+__I	drivers\include\stm8s.h	205;"	macro
+__IO	drivers\include\stm8s.h	207;"	macro
+__MODS0__	..\..\..\..\..\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\mods0.h	11;"	macro
+__O	drivers\include\stm8s.h	206;"	macro
+__SAMPLETASK_	common\include\ei_sampletask.h	12;"	macro
+__STM8S_CONF_H	stm8s_conf.h	30;"	macro
+__STM8S_GPIO_H	drivers\include\stm8s_gpio.h	30;"	macro
+__STM8S_H	drivers\include\stm8s.h	30;"	macro
+__STM8S_IT_H	stm8s_it.h	30;"	macro
+__STM8S_STDPERIPH_VERSION	drivers\include\stm8s.h	185;"	macro
+__STM8S_STDPERIPH_VERSION_MAIN	drivers\include\stm8s.h	181;"	macro
+__STM8S_STDPERIPH_VERSION_RC	drivers\include\stm8s.h	184;"	macro
+__STM8S_STDPERIPH_VERSION_SUB1	drivers\include\stm8s.h	182;"	macro
+__STM8S_STDPERIPH_VERSION_SUB2	drivers\include\stm8s.h	183;"	macro
+__STM8S_TIM2_H	drivers\include\stm8s_tim2.h	30;"	macro
+_stext	stm8s_it.h	40;"	prototype	signature:(void)
+_vectab	stm8_interrupt_vector.c	15;"	variable
+assert_failed	stm8s_conf.h	108;"	prototype	signature:(uint8_t* file, uint32_t line)
+assert_param	stm8s_conf.h	106;"	macro
+assert_param	stm8s_conf.h	110;"	macro
+bool	drivers\include\stm8s.h	230;"	typedef	typeref:enum:__anon18
+disableInterrupts	drivers\include\stm8s.h	2716;"	macro
+disableInterrupts	drivers\include\stm8s.h	2725;"	macro
+disableInterrupts	drivers\include\stm8s.h	2735;"	macro
+ei_krnl_Alarm_t	krnl\configuration\ei_krnl_cfg.h	95;"	typedef	typeref:enum:__anon31
+ei_krnl_Task_t	krnl\include\ei_krnl_queue.h	30;"	typedef
+enableInterrupts	drivers\include\stm8s.h	2715;"	macro
+enableInterrupts	drivers\include\stm8s.h	2724;"	macro
+enableInterrupts	drivers\include\stm8s.h	2734;"	macro
+halt	drivers\include\stm8s.h	2722;"	macro
+halt	drivers\include\stm8s.h	2731;"	macro
+halt	drivers\include\stm8s.h	2741;"	macro
+i	common\source\ei_sampletask.c	22;"	variable	file:
+int16_t	drivers\include\stm8s.h	211;"	typedef
+int32_t	drivers\include\stm8s.h	212;"	typedef
+int8_t	drivers\include\stm8s.h	210;"	typedef
+interrupt_handler	stm8_interrupt_vector.c	12;"	member	struct:interrupt_vector	file:
+interrupt_handler_t	stm8_interrupt_vector.c	8;"	typedef	file:
+interrupt_instruction	stm8_interrupt_vector.c	11;"	member	struct:interrupt_vector	file:
+interrupt_vector	stm8_interrupt_vector.c	10;"	struct	file:
+j	common\source\ei_sampletask.c	23;"	variable	file:
+nop	drivers\include\stm8s.h	2719;"	macro
+nop	drivers\include\stm8s.h	2728;"	macro
+nop	drivers\include\stm8s.h	2738;"	macro
+p	common\source\ei_sampletask.c	24;"	variable	file:
+rim	drivers\include\stm8s.h	2717;"	macro
+rim	drivers\include\stm8s.h	2726;"	macro
+rim	drivers\include\stm8s.h	2736;"	macro
+s16	drivers\include\stm8s.h	222;"	typedef
+s32	drivers\include\stm8s.h	221;"	typedef
+s8	drivers\include\stm8s.h	223;"	typedef
+sim	drivers\include\stm8s.h	2718;"	macro
+sim	drivers\include\stm8s.h	2727;"	macro
+sim	drivers\include\stm8s.h	2737;"	macro
+trap	drivers\include\stm8s.h	2720;"	macro
+trap	drivers\include\stm8s.h	2729;"	macro
+trap	drivers\include\stm8s.h	2739;"	macro
+u16	drivers\include\stm8s.h	226;"	typedef
+u32	drivers\include\stm8s.h	225;"	typedef
+u8	drivers\include\stm8s.h	227;"	typedef
+u8_ei_krnl_FifoQ1In	krnl\sources\ei_krnl.c	44;"	variable	file:
+u8_ei_krnl_FifoQ1Out	krnl\sources\ei_krnl.c	45;"	variable	file:
+u8_ei_krnl_FifoQ2In	krnl\sources\ei_krnl.c	49;"	variable	file:
+u8_ei_krnl_FifoQ2Out	krnl\sources\ei_krnl.c	50;"	variable	file:
+u8_ei_krnl_FifoQ3In	krnl\sources\ei_krnl.c	39;"	variable	file:
+u8_ei_krnl_FifoQ3Out	krnl\sources\ei_krnl.c	40;"	variable	file:
+u8_ei_krnl_OldQueueNumber	krnl\sources\ei_krnl.c	62;"	variable	file:
+u8_ei_krnl_Q1Buffer	krnl\sources\ei_krnl.c	76;"	variable	file:
+u8_ei_krnl_Q2Buffer	krnl\sources\ei_krnl.c	79;"	variable	file:
+u8_ei_krnl_Q3Buffer	krnl\sources\ei_krnl.c	73;"	variable	file:
+u8_ei_krnl_QueueNumber	krnl\sources\ei_krnl.c	58;"	variable	file:
+u8_ei_krnl_QueueNumberTable	krnl\configuration\ei_krnl_cfg.c	47;"	variable
+u8_ei_krnl_TaskPeriod	krnl\sources\ei_krnl.c	69;"	variable	file:
+u8_ei_krnl_TaskPeriodCounter	krnl\sources\ei_krnl.c	70;"	variable	file:
+u8_ei_krnl_TasksAddressTable	krnl\configuration\ei_krnl_cfg.c	30;"	variable
+u8_ei_krnl_TickCounter	krnl\sources\ei_krnl.c	54;"	variable	file:
+uint16_t	drivers\include\stm8s.h	216;"	typedef
+uint32_t	drivers\include\stm8s.h	217;"	typedef
+uint8_t	drivers\include\stm8s.h	215;"	typedef
+wfi	drivers\include\stm8s.h	2721;"	macro
+wfi	drivers\include\stm8s.h	2730;"	macro
+wfi	drivers\include\stm8s.h	2740;"	macro

@@ -1,0 +1,795 @@
+;	STMicroelectronics Project file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Project]
+Name=eios
+Toolset=STM8 Cosmic
+
+[Config]
+0=Config.0
+1=Config.1
+
+[Config.0]
+ConfigName=Debug
+Target=$(ProjectSFile).elf
+OutputFolder=Debug
+Debug=$(TargetFName)
+
+[Config.1]
+ConfigName=Release
+Target=eios.elf
+OutputFolder=Release
+Debug=$(TargetFName)
+
+[Root]
+ElemType=Project
+PathName=eios
+Child=Root.Common
+Config.0=Root.Config.0
+Config.1=Root.Config.1
+
+[Root.Config.0]
+Settings.0.0=Root.Config.0.Settings.0
+Settings.0.1=Root.Config.0.Settings.1
+Settings.0.2=Root.Config.0.Settings.2
+Settings.0.3=Root.Config.0.Settings.3
+Settings.0.4=Root.Config.0.Settings.4
+Settings.0.5=Root.Config.0.Settings.5
+Settings.0.6=Root.Config.0.Settings.6
+Settings.0.7=Root.Config.0.Settings.7
+Settings.0.8=Root.Config.0.Settings.8
+
+[Root.Config.1]
+Settings.1.0=Root.Config.1.Settings.0
+Settings.1.1=Root.Config.1.Settings.1
+Settings.1.2=Root.Config.1.Settings.2
+Settings.1.3=Root.Config.1.Settings.3
+Settings.1.4=Root.Config.1.Settings.4
+Settings.1.5=Root.Config.1.Settings.5
+Settings.1.6=Root.Config.1.Settings.6
+Settings.1.7=Root.Config.1.Settings.7
+Settings.1.8=Root.Config.1.Settings.8
+
+[Root.Config.0.Settings.0]
+String.6.0=2018,8,15,18,48,50
+String.100.0=ST Assembler Linker
+String.100.1=ST7 Cosmic
+String.100.2=STM8 Cosmic
+String.100.3=ST7 Metrowerks V1.1
+String.100.4=Raisonance
+String.101.0=STM8 Cosmic
+String.102.0=C:\Program Files (x86)\COSMIC\FSE_Compilers
+String.103.0=
+String.104.0=Hstm8
+String.105.0=Lib
+String.106.0=Debug
+String.107.0=$(ProjectSFile).elf
+Int.108=0
+
+[Root.Config.0.Settings.1]
+String.6.0=2018,8,15,18,42,41
+String.100.0=$(TargetFName)
+String.101.0=
+String.102.0=
+String.103.0=.\;common\include;common\source;drivers\include;drivers\source;kernel\hsic\configuration;kernel\hsic\include;kernel\hsic\sources;kernel\oo\configuration;kernel\oo\include;kernel\oo\sources;kernel\stsd\configuration;kernel\stsd\include;kernel\stsd\sources;hsic\configuration;hsic\include;hsic\sources;stsd\configuration;stsd\include;stsd\sources;krnl\configuration;krnl\include;krnl\sources;
+
+[Root.Config.0.Settings.2]
+String.2.0=
+String.6.0=2018,8,15,18,42,41
+String.100.0=STM8S103F3P
+
+[Root.Config.0.Settings.3]
+String.2.0=Compiling $(InputFile)...
+String.3.0=cxstm8 -ikrnl\include  -ikrnl\configuration  -istsd\include  -istsd\configuration  -ihsic\include  -ihsic\configuration  -ikernel\stsd\include  -ikernel\stsd\configuration  -ikernel\oo\sources  -ikernel\oo\include  -ikernel\oo\configuration  -ikernel\hsic\include  -ikernel\hsic\configuration  -idrivers\include  -icommon\include  +mods0 -customDebCompat -customOpt-no -customC-pp -customLst -l $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,48,50
+
+[Root.Config.0.Settings.4]
+String.2.0=Assembling $(InputFile)...
+String.3.0=castm8 -xx -l $(ToolsetIncOpts) -o$(IntermPath)$(InputName).$(ObjectExt) $(InputFile)
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,42,41
+
+[Root.Config.0.Settings.5]
+String.2.0=Running Pre-Link step
+String.6.0=2018,8,15,18,42,41
+String.8.0=
+
+[Root.Config.0.Settings.6]
+String.2.0=Running Linker
+String.3.0=clnk $(ToolsetLibOpts) -o $(OutputPath)$(TargetSName).sm8 -fakeInteger -fakeOutFile$(ProjectSFile).elf -fakeRunConv -fakeStartup -fakeSemiAutoGen -fakeVectFilestm8_interrupt_vector.c -fakeVectAddr0x8000 -customMapFile -customMapFile-m$(OutputPath)$(TargetSName).map -customMapAddress -customCfgFile$(OutputPath)$(TargetSName).lkf 
+String.3.1=cvdwarf $(OutputPath)$(TargetSName).sm8
+String.4.0=$(OutputPath)$(TargetFName)
+String.5.0=$(OutputPath)$(ProjectSFile).elf $(OutputPath)$(TargetSName).map
+String.6.0=2018,8,15,18,48,50
+String.100.0=
+String.101.0=crtsi.st7
+String.102.0=+seg .const -b 0x8080 -m 0x1f80 -n .const -it
+String.102.1=+seg .text -a .const -n .text
+String.102.2=+seg .eeprom -b 0x4000 -m 0x280 -n .eeprom
+String.102.3=+seg .bsct -b 0x0 -m 0x100 -n .bsct
+String.102.4=+seg .ubsct -a .bsct -n .ubsct
+String.102.5=+seg .bit -a .ubsct -n .bit -c
+String.102.6=+seg .share -a .bit -n .share -is
+String.102.7=+seg .data -b 0x100 -m 0x100 -n .data
+String.102.8=+seg .bss -a .data -n .bss
+String.103.0=Code,Constants[0x8080-0x9fff]=.const,.text
+String.103.1=Eeprom[0x4000-0x427f]=.eeprom
+String.103.2=Zero Page[0x0-0xff]=.bsct,.ubsct,.bit,.share
+String.103.3=Ram[0x100-0x1ff]=.data,.bss
+String.104.0=0x3ff
+String.105.0=libis0.sm8;libm0.sm8
+Int.0=0
+Int.1=0
+
+[Root.Config.0.Settings.7]
+String.2.0=Running Post-Build step
+String.3.0=chex -o $(OutputPath)$(TargetSName).s19 $(OutputPath)$(TargetSName).sm8
+String.6.0=2018,8,15,18,42,41
+
+[Root.Config.0.Settings.8]
+String.2.0=Performing Custom Build on $(InputFile)
+String.6.0=2018,8,15,18,42,41
+
+[Root.Config.1.Settings.0]
+String.6.0=2018,8,15,18,42,41
+String.100.0=ST Assembler Linker
+String.100.1=ST7 Cosmic
+String.100.2=STM8 Cosmic
+String.100.3=ST7 Metrowerks V1.1
+String.100.4=Raisonance
+String.101.0=STM8 Cosmic
+String.102.0=C:\Program Files (x86)\COSMIC\FSE_Compilers
+String.103.0=
+String.104.0=Hstm8
+String.105.0=Lib
+String.106.0=Release
+String.107.0=eios.elf
+Int.108=0
+
+[Root.Config.1.Settings.1]
+String.6.0=2018,8,15,18,42,41
+String.100.0=$(TargetFName)
+String.101.0=
+String.103.0=.\;common\include;common\source;drivers\include;drivers\source;kernel\hsic\configuration;kernel\hsic\include;kernel\hsic\sources;kernel\oo\configuration;kernel\oo\include;kernel\oo\sources;kernel\stsd\configuration;kernel\stsd\include;kernel\stsd\sources;hsic\configuration;hsic\include;hsic\sources;stsd\configuration;stsd\include;stsd\sources;krnl\configuration;krnl\include;krnl\sources;
+
+[Root.Config.1.Settings.2]
+String.2.0=
+String.6.0=2018,8,15,18,42,41
+String.100.0=STM8S103F3P
+
+[Root.Config.1.Settings.3]
+String.2.0=Compiling $(InputFile)...
+String.3.0=cxstm8 -ikrnl\include  -ikrnl\configuration  -istsd\include  -istsd\configuration  -ihsic\include  -ihsic\configuration  -ikernel\stsd\include  -ikernel\stsd\configuration  -ikernel\oo\sources  -ikernel\oo\include  -ikernel\oo\configuration  -ikernel\hsic\include  -ikernel\hsic\configuration  -idrivers\include  -icommon\include  +mods0 -customC-pp $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile) 
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,42,41
+
+[Root.Config.1.Settings.4]
+String.2.0=Assembling $(InputFile)...
+String.3.0=castm8 $(ToolsetIncOpts) -o$(IntermPath)$(InputName).$(ObjectExt) $(InputFile)
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,42,41
+
+[Root.Config.1.Settings.5]
+String.2.0=Running Pre-Link step
+String.6.0=2018,8,15,18,42,41
+
+[Root.Config.1.Settings.6]
+String.2.0=Running Linker
+String.3.0=clnk -fakeRunConv -fakeInteger -fakeSemiAutoGen $(ToolsetLibOpts) -o $(OutputPath)$(TargetSName).sm8 -fakeOutFile$(ProjectSFile).elf -customCfgFile $(OutputPath)$(TargetSName).lkf -fakeVectFilestm8_interrupt_vector.c -fakeStartupcrtsi0.sm8 
+String.3.1=cvdwarf $(OutputPath)$(TargetSName).sm8 -fakeVectAddr0x8000
+String.4.0=$(OutputPath)$(TargetFName)
+String.5.0=$(OutputPath)$(TargetSName).map $(OutputPath)$(TargetSName).st7 $(OutputPath)$(TargetSName).s19
+String.6.0=2018,8,15,18,42,41
+String.101.0=crtsi.st7
+String.102.0=+seg .const -b 0x8080 -m 0x1f80  -n .const -it 
+String.102.1=+seg .text -a .const  -n .text 
+String.102.2=+seg .eeprom -b 0x4000 -m 0x280  -n .eeprom 
+String.102.3=+seg .bsct -b 0x0 -m 0x100  -n .bsct 
+String.102.4=+seg .ubsct -a .bsct  -n .ubsct 
+String.102.5=+seg .bit -a .ubsct  -n .bit -id 
+String.102.6=+seg .share -a .bit  -n .share -is 
+String.102.7=+seg .data -b 0x100 -m 0x100  -n .data 
+String.102.8=+seg .bss -a .data  -n .bss 
+String.103.0=Code,Constants[0x8080-0x9fff]=.const,.text
+String.103.1=Eeprom[0x4000-0x427f]=.eeprom
+String.103.2=Zero Page[0x0-0xff]=.bsct,.ubsct,.bit,.share
+String.103.3=Ram[0x100-0x1ff]=.data,.bss
+String.104.0=0x3ff
+Int.0=0
+Int.1=0
+
+[Root.Config.1.Settings.7]
+String.2.0=Running Post-Build step
+String.3.0=chex -o $(OutputPath)$(TargetSName).s19 $(OutputPath)$(TargetSName).sm8
+String.6.0=2018,8,15,18,42,41
+
+[Root.Config.1.Settings.8]
+String.2.0=Performing Custom Build on $(InputFile)
+String.6.0=2018,8,15,18,42,41
+
+[Root.Common]
+ElemType=Folder
+PathName=Common
+Child=Root.Common.Common\cfg
+Next=Root.Drivers
+Config.0=Root.Common.Config.0
+Config.1=Root.Common.Config.1
+
+[Root.Common.Config.0]
+Settings.0.0=Root.Common.Config.0.Settings.0
+Settings.0.1=Root.Common.Config.0.Settings.1
+Settings.0.2=Root.Common.Config.0.Settings.2
+Settings.0.3=Root.Common.Config.0.Settings.3
+
+[Root.Common.Config.1]
+Settings.1.0=Root.Common.Config.1.Settings.0
+Settings.1.1=Root.Common.Config.1.Settings.1
+Settings.1.2=Root.Common.Config.1.Settings.2
+Settings.1.3=Root.Common.Config.1.Settings.3
+
+[Root.Common.Config.0.Settings.0]
+String.6.0=2018,8,15,18,56,0
+String.8.0=Debug
+Int.0=0
+Int.1=0
+
+[Root.Common.Config.0.Settings.1]
+String.2.0=Compiling $(InputFile)...
+String.3.0=cxstm8 -ikrnl\include  -ikrnl\configuration  -istsd\include  -istsd\configuration  -ihsic\include  -ihsic\configuration  -ikernel\stsd\include  -ikernel\stsd\configuration  -ikernel\oo\sources  -ikernel\oo\include  -ikernel\oo\configuration  -ikernel\hsic\include  -ikernel\hsic\configuration  -idrivers\include  -icommon\include  +mods0 -customDebCompat -customOpt-no -customC-pp -customLst -l $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,48,50
+
+[Root.Common.Config.0.Settings.2]
+String.2.0=Assembling $(InputFile)...
+String.3.0=castm8 -xx -l $(ToolsetIncOpts) -o$(IntermPath)$(InputName).$(ObjectExt) $(InputFile)
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,42,41
+
+[Root.Common.Config.0.Settings.3]
+String.2.0=Performing Custom Build on $(InputFile)
+String.3.0=
+String.4.0=
+String.5.0=
+String.6.0=2018,8,15,18,42,41
+
+[Root.Common.Config.1.Settings.0]
+String.6.0=2018,8,15,18,56,0
+String.8.0=Release
+Int.0=0
+Int.1=0
+
+[Root.Common.Config.1.Settings.1]
+String.2.0=Compiling $(InputFile)...
+String.3.0=cxstm8 -ikrnl\include  -ikrnl\configuration  -istsd\include  -istsd\configuration  -ihsic\include  -ihsic\configuration  -ikernel\stsd\include  -ikernel\stsd\configuration  -ikernel\oo\sources  -ikernel\oo\include  -ikernel\oo\configuration  -ikernel\hsic\include  -ikernel\hsic\configuration  -idrivers\include  -icommon\include  +mods0 -customC-pp $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile) 
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,42,41
+
+[Root.Common.Config.1.Settings.2]
+String.2.0=Assembling $(InputFile)...
+String.3.0=castm8 $(ToolsetIncOpts) -o$(IntermPath)$(InputName).$(ObjectExt) $(InputFile)
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,42,41
+
+[Root.Common.Config.1.Settings.3]
+String.2.0=Performing Custom Build on $(InputFile)
+String.3.0=
+String.4.0=
+String.5.0=
+String.6.0=2018,8,15,18,42,41
+
+[Root.Common.Common\cfg]
+ElemType=Folder
+PathName=Common\cfg
+Next=Root.Common.Common\inc
+
+[Root.Common.Common\inc]
+ElemType=Folder
+PathName=Common\inc
+Child=Root.Common.Common\inc.common\include\ei_version.h
+Next=Root.Common.Common\src
+
+[Root.Common.Common\inc.common\include\ei_version.h]
+ElemType=File
+PathName=common\include\ei_version.h
+Next=Root.Common.Common\inc.common\include\ei_sampletask.h
+
+[Root.Common.Common\inc.common\include\ei_sampletask.h]
+ElemType=File
+PathName=common\include\ei_sampletask.h
+Next=Root.Common.Common\inc.common\include\ei_common.h
+
+[Root.Common.Common\inc.common\include\ei_common.h]
+ElemType=File
+PathName=common\include\ei_common.h
+
+[Root.Common.Common\src]
+ElemType=Folder
+PathName=Common\src
+Child=Root.Common.Common\src.common\source\ei_sampletask.c
+
+[Root.Common.Common\src.common\source\ei_sampletask.c]
+ElemType=File
+PathName=common\source\ei_sampletask.c
+
+[Root.Drivers]
+ElemType=Folder
+PathName=Drivers
+Child=Root.Drivers.Drivers\cfg
+Next=Root.Kernel
+Config.0=Root.Drivers.Config.0
+Config.1=Root.Drivers.Config.1
+
+[Root.Drivers.Config.0]
+Settings.0.0=Root.Drivers.Config.0.Settings.0
+Settings.0.1=Root.Drivers.Config.0.Settings.1
+Settings.0.2=Root.Drivers.Config.0.Settings.2
+Settings.0.3=Root.Drivers.Config.0.Settings.3
+
+[Root.Drivers.Config.1]
+Settings.1.0=Root.Drivers.Config.1.Settings.0
+Settings.1.1=Root.Drivers.Config.1.Settings.1
+Settings.1.2=Root.Drivers.Config.1.Settings.2
+Settings.1.3=Root.Drivers.Config.1.Settings.3
+
+[Root.Drivers.Config.0.Settings.0]
+String.6.0=2018,8,15,18,55,48
+String.8.0=Debug
+Int.0=0
+Int.1=0
+
+[Root.Drivers.Config.0.Settings.1]
+String.2.0=Compiling $(InputFile)...
+String.3.0=cxstm8 -ikrnl\include  -ikrnl\configuration  -istsd\include  -istsd\configuration  -ihsic\include  -ihsic\configuration  -ikernel\stsd\include  -ikernel\stsd\configuration  -ikernel\oo\sources  -ikernel\oo\include  -ikernel\oo\configuration  -ikernel\hsic\include  -ikernel\hsic\configuration  -idrivers\include  -icommon\include  +mods0 -customDebCompat -customOpt-no -customC-pp -customLst -l $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,48,50
+
+[Root.Drivers.Config.0.Settings.2]
+String.2.0=Assembling $(InputFile)...
+String.3.0=castm8 -xx -l $(ToolsetIncOpts) -o$(IntermPath)$(InputName).$(ObjectExt) $(InputFile)
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,42,41
+
+[Root.Drivers.Config.0.Settings.3]
+String.2.0=Performing Custom Build on $(InputFile)
+String.3.0=
+String.4.0=
+String.5.0=
+String.6.0=2018,8,15,18,42,41
+
+[Root.Drivers.Config.1.Settings.0]
+String.6.0=2018,8,15,18,55,48
+String.8.0=Release
+Int.0=0
+Int.1=0
+
+[Root.Drivers.Config.1.Settings.1]
+String.2.0=Compiling $(InputFile)...
+String.3.0=cxstm8 -ikrnl\include  -ikrnl\configuration  -istsd\include  -istsd\configuration  -ihsic\include  -ihsic\configuration  -ikernel\stsd\include  -ikernel\stsd\configuration  -ikernel\oo\sources  -ikernel\oo\include  -ikernel\oo\configuration  -ikernel\hsic\include  -ikernel\hsic\configuration  -idrivers\include  -icommon\include  +mods0 -customC-pp $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile) 
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,42,41
+
+[Root.Drivers.Config.1.Settings.2]
+String.2.0=Assembling $(InputFile)...
+String.3.0=castm8 $(ToolsetIncOpts) -o$(IntermPath)$(InputName).$(ObjectExt) $(InputFile)
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,42,41
+
+[Root.Drivers.Config.1.Settings.3]
+String.2.0=Performing Custom Build on $(InputFile)
+String.3.0=
+String.4.0=
+String.5.0=
+String.6.0=2018,8,15,18,42,41
+
+[Root.Drivers.Drivers\cfg]
+ElemType=Folder
+PathName=Drivers\cfg
+Next=Root.Drivers.Drivers\inc
+
+[Root.Drivers.Drivers\inc]
+ElemType=Folder
+PathName=Drivers\inc
+Child=Root.Drivers.Drivers\inc.drivers\include\stm8s_tim2.h
+Next=Root.Drivers.Drivers\src
+
+[Root.Drivers.Drivers\inc.drivers\include\stm8s_tim2.h]
+ElemType=File
+PathName=drivers\include\stm8s_tim2.h
+Next=Root.Drivers.Drivers\inc.drivers\include\stm8s_iwdg.h
+
+[Root.Drivers.Drivers\inc.drivers\include\stm8s_iwdg.h]
+ElemType=File
+PathName=drivers\include\stm8s_iwdg.h
+Next=Root.Drivers.Drivers\inc.drivers\include\stm8s_gpio.h
+
+[Root.Drivers.Drivers\inc.drivers\include\stm8s_gpio.h]
+ElemType=File
+PathName=drivers\include\stm8s_gpio.h
+Next=Root.Drivers.Drivers\inc.drivers\include\stm8s_clk.h
+
+[Root.Drivers.Drivers\inc.drivers\include\stm8s_clk.h]
+ElemType=File
+PathName=drivers\include\stm8s_clk.h
+Next=Root.Drivers.Drivers\inc.drivers\include\stm8s.h
+
+[Root.Drivers.Drivers\inc.drivers\include\stm8s.h]
+ElemType=File
+PathName=drivers\include\stm8s.h
+
+[Root.Drivers.Drivers\src]
+ElemType=Folder
+PathName=Drivers\src
+Child=Root.Drivers.Drivers\src.drivers\source\stm8s_tim2.c
+
+[Root.Drivers.Drivers\src.drivers\source\stm8s_tim2.c]
+ElemType=File
+PathName=drivers\source\stm8s_tim2.c
+Next=Root.Drivers.Drivers\src.drivers\source\stm8s_iwdg.c
+
+[Root.Drivers.Drivers\src.drivers\source\stm8s_iwdg.c]
+ElemType=File
+PathName=drivers\source\stm8s_iwdg.c
+Next=Root.Drivers.Drivers\src.drivers\source\stm8s_gpio.c
+
+[Root.Drivers.Drivers\src.drivers\source\stm8s_gpio.c]
+ElemType=File
+PathName=drivers\source\stm8s_gpio.c
+Next=Root.Drivers.Drivers\src.drivers\source\stm8s_clk.c
+
+[Root.Drivers.Drivers\src.drivers\source\stm8s_clk.c]
+ElemType=File
+PathName=drivers\source\stm8s_clk.c
+
+[Root.Kernel]
+ElemType=Folder
+PathName=Kernel
+Child=Root.Kernel.Kernel\cfg
+Next=Root.STSD
+Config.0=Root.Kernel.Config.0
+Config.1=Root.Kernel.Config.1
+
+[Root.Kernel.Config.0]
+Settings.0.0=Root.Kernel.Config.0.Settings.0
+Settings.0.1=Root.Kernel.Config.0.Settings.1
+Settings.0.2=Root.Kernel.Config.0.Settings.2
+Settings.0.3=Root.Kernel.Config.0.Settings.3
+
+[Root.Kernel.Config.1]
+Settings.1.0=Root.Kernel.Config.1.Settings.0
+Settings.1.1=Root.Kernel.Config.1.Settings.1
+Settings.1.2=Root.Kernel.Config.1.Settings.2
+Settings.1.3=Root.Kernel.Config.1.Settings.3
+
+[Root.Kernel.Config.0.Settings.0]
+String.6.0=2018,8,15,18,58,4
+String.8.0=Debug
+Int.0=0
+Int.1=0
+
+[Root.Kernel.Config.0.Settings.1]
+String.2.0=Compiling $(InputFile)...
+String.3.0=cxstm8 -ikrnl\include  -ikrnl\configuration  -istsd\include  -istsd\configuration  -ihsic\include  -ihsic\configuration  -ikernel\stsd\include  -ikernel\stsd\configuration  -ikernel\oo\sources  -ikernel\oo\include  -ikernel\oo\configuration  -ikernel\hsic\include  -ikernel\hsic\configuration  -idrivers\include  -icommon\include  +mods0 -customDebCompat -customOpt-no -customC-pp -customLst -l $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,48,50
+
+[Root.Kernel.Config.0.Settings.2]
+String.2.0=Assembling $(InputFile)...
+String.3.0=castm8 -xx -l $(ToolsetIncOpts) -o$(IntermPath)$(InputName).$(ObjectExt) $(InputFile)
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,42,41
+
+[Root.Kernel.Config.0.Settings.3]
+String.2.0=Performing Custom Build on $(InputFile)
+String.3.0=
+String.4.0=
+String.5.0=
+String.6.0=2018,8,15,18,42,41
+
+[Root.Kernel.Config.1.Settings.0]
+String.6.0=2018,8,15,18,58,4
+String.8.0=Release
+Int.0=0
+Int.1=0
+
+[Root.Kernel.Config.1.Settings.1]
+String.2.0=Compiling $(InputFile)...
+String.3.0=cxstm8 -ikrnl\include  -ikrnl\configuration  -istsd\include  -istsd\configuration  -ihsic\include  -ihsic\configuration  -ikernel\stsd\include  -ikernel\stsd\configuration  -ikernel\oo\sources  -ikernel\oo\include  -ikernel\oo\configuration  -ikernel\hsic\include  -ikernel\hsic\configuration  -idrivers\include  -icommon\include  +mods0 -customC-pp $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile) 
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,42,41
+
+[Root.Kernel.Config.1.Settings.2]
+String.2.0=Assembling $(InputFile)...
+String.3.0=castm8 $(ToolsetIncOpts) -o$(IntermPath)$(InputName).$(ObjectExt) $(InputFile)
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,42,41
+
+[Root.Kernel.Config.1.Settings.3]
+String.2.0=Performing Custom Build on $(InputFile)
+String.3.0=
+String.4.0=
+String.5.0=
+String.6.0=2018,8,15,18,42,41
+
+[Root.Kernel.Kernel\cfg]
+ElemType=Folder
+PathName=Kernel\cfg
+Child=Root.Kernel.Kernel\cfg.krnl\configuration\ei_krnl_cfg.h
+Next=Root.Kernel.Kernel\inc
+
+[Root.Kernel.Kernel\cfg.krnl\configuration\ei_krnl_cfg.h]
+ElemType=File
+PathName=krnl\configuration\ei_krnl_cfg.h
+Next=Root.Kernel.Kernel\cfg.krnl\configuration\ei_krnl_cfg.c
+
+[Root.Kernel.Kernel\cfg.krnl\configuration\ei_krnl_cfg.c]
+ElemType=File
+PathName=krnl\configuration\ei_krnl_cfg.c
+
+[Root.Kernel.Kernel\inc]
+ElemType=Folder
+PathName=Kernel\inc
+Child=Root.Kernel.Kernel\inc.krnl\include\ei_krnl_ticktimer.h
+Next=Root.Kernel.Kernel\src
+
+[Root.Kernel.Kernel\inc.krnl\include\ei_krnl_ticktimer.h]
+ElemType=File
+PathName=krnl\include\ei_krnl_ticktimer.h
+Next=Root.Kernel.Kernel\inc.krnl\include\ei_krnl_queue.h
+
+[Root.Kernel.Kernel\inc.krnl\include\ei_krnl_queue.h]
+ElemType=File
+PathName=krnl\include\ei_krnl_queue.h
+Next=Root.Kernel.Kernel\inc.krnl\include\ei_krnl.h
+
+[Root.Kernel.Kernel\inc.krnl\include\ei_krnl.h]
+ElemType=File
+PathName=krnl\include\ei_krnl.h
+
+[Root.Kernel.Kernel\src]
+ElemType=Folder
+PathName=Kernel\src
+Child=Root.Kernel.Kernel\src.krnl\sources\ei_krnl_ticktimer.c
+
+[Root.Kernel.Kernel\src.krnl\sources\ei_krnl_ticktimer.c]
+ElemType=File
+PathName=krnl\sources\ei_krnl_ticktimer.c
+Next=Root.Kernel.Kernel\src.krnl\sources\ei_krnl_startos.c
+
+[Root.Kernel.Kernel\src.krnl\sources\ei_krnl_startos.c]
+ElemType=File
+PathName=krnl\sources\ei_krnl_startos.c
+Next=Root.Kernel.Kernel\src.krnl\sources\ei_krnl_shutdownos.c
+
+[Root.Kernel.Kernel\src.krnl\sources\ei_krnl_shutdownos.c]
+ElemType=File
+PathName=krnl\sources\ei_krnl_shutdownos.c
+Next=Root.Kernel.Kernel\src.krnl\sources\ei_krnl.c
+
+[Root.Kernel.Kernel\src.krnl\sources\ei_krnl.c]
+ElemType=File
+PathName=krnl\sources\ei_krnl.c
+
+[Root.STSD]
+ElemType=Folder
+PathName=STSD
+Child=Root.STSD.STSD\cfg
+Next=Root.Source Files
+Config.0=Root.STSD.Config.0
+Config.1=Root.STSD.Config.1
+
+[Root.STSD.Config.0]
+Settings.0.0=Root.STSD.Config.0.Settings.0
+Settings.0.1=Root.STSD.Config.0.Settings.1
+Settings.0.2=Root.STSD.Config.0.Settings.2
+Settings.0.3=Root.STSD.Config.0.Settings.3
+
+[Root.STSD.Config.1]
+Settings.1.0=Root.STSD.Config.1.Settings.0
+Settings.1.1=Root.STSD.Config.1.Settings.1
+Settings.1.2=Root.STSD.Config.1.Settings.2
+Settings.1.3=Root.STSD.Config.1.Settings.3
+
+[Root.STSD.Config.0.Settings.0]
+String.6.0=2018,9,8,12,25,21
+String.8.0=Debug
+Int.0=0
+Int.1=0
+
+[Root.STSD.Config.0.Settings.1]
+String.2.0=Compiling $(InputFile)...
+String.3.0=cxstm8 -ikrnl\include  -ikrnl\configuration  -istsd\include  -istsd\configuration  -ihsic\include  -ihsic\configuration  -ikernel\stsd\include  -ikernel\stsd\configuration  -ikernel\oo\sources  -ikernel\oo\include  -ikernel\oo\configuration  -ikernel\hsic\include  -ikernel\hsic\configuration  -idrivers\include  -icommon\include  +mods0 -customDebCompat -customOpt-no -customC-pp -customLst -l $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,48,50
+
+[Root.STSD.Config.0.Settings.2]
+String.2.0=Assembling $(InputFile)...
+String.3.0=castm8 -xx -l $(ToolsetIncOpts) -o$(IntermPath)$(InputName).$(ObjectExt) $(InputFile)
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,42,41
+
+[Root.STSD.Config.0.Settings.3]
+String.2.0=Performing Custom Build on $(InputFile)
+String.3.0=
+String.4.0=
+String.5.0=
+String.6.0=2018,8,15,18,42,41
+
+[Root.STSD.Config.1.Settings.0]
+String.6.0=2018,9,8,12,25,21
+String.8.0=Release
+Int.0=0
+Int.1=0
+
+[Root.STSD.Config.1.Settings.1]
+String.2.0=Compiling $(InputFile)...
+String.3.0=cxstm8 -ikrnl\include  -ikrnl\configuration  -istsd\include  -istsd\configuration  -ihsic\include  -ihsic\configuration  -ikernel\stsd\include  -ikernel\stsd\configuration  -ikernel\oo\sources  -ikernel\oo\include  -ikernel\oo\configuration  -ikernel\hsic\include  -ikernel\hsic\configuration  -idrivers\include  -icommon\include  +mods0 -customC-pp $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile) 
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,42,41
+
+[Root.STSD.Config.1.Settings.2]
+String.2.0=Assembling $(InputFile)...
+String.3.0=castm8 $(ToolsetIncOpts) -o$(IntermPath)$(InputName).$(ObjectExt) $(InputFile)
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,42,41
+
+[Root.STSD.Config.1.Settings.3]
+String.2.0=Performing Custom Build on $(InputFile)
+String.3.0=
+String.4.0=
+String.5.0=
+String.6.0=2018,8,15,18,42,41
+
+[Root.STSD.STSD\cfg]
+ElemType=Folder
+PathName=STSD\cfg
+Child=Root.STSD.STSD\cfg.stsd\configuration\ei_stsd_cfg.h
+Next=Root.STSD.STSD\inc
+
+[Root.STSD.STSD\cfg.stsd\configuration\ei_stsd_cfg.h]
+ElemType=File
+PathName=stsd\configuration\ei_stsd_cfg.h
+Next=Root.STSD.STSD\cfg.stsd\configuration\ei_stsd_cfg.c
+
+[Root.STSD.STSD\cfg.stsd\configuration\ei_stsd_cfg.c]
+ElemType=File
+PathName=stsd\configuration\ei_stsd_cfg.c
+
+[Root.STSD.STSD\inc]
+ElemType=Folder
+PathName=STSD\inc
+Child=Root.STSD.STSD\inc.stsd\include\ei_stsd.h
+Next=Root.STSD.STSD\src
+
+[Root.STSD.STSD\inc.stsd\include\ei_stsd.h]
+ElemType=File
+PathName=stsd\include\ei_stsd.h
+
+[Root.STSD.STSD\src]
+ElemType=Folder
+PathName=STSD\src
+Child=Root.STSD.STSD\src.stsd\sources\ei_stsd.c
+
+[Root.STSD.STSD\src.stsd\sources\ei_stsd.c]
+ElemType=File
+PathName=stsd\sources\ei_stsd.c
+
+[Root.Source Files]
+ElemType=Folder
+PathName=Source Files
+Child=Root.Source Files.stm8s_it.h
+Config.0=Root.Source Files.Config.0
+Config.1=Root.Source Files.Config.1
+
+[Root.Source Files.Config.0]
+Settings.0.0=Root.Source Files.Config.0.Settings.0
+Settings.0.1=Root.Source Files.Config.0.Settings.1
+Settings.0.2=Root.Source Files.Config.0.Settings.2
+Settings.0.3=Root.Source Files.Config.0.Settings.3
+
+[Root.Source Files.Config.1]
+Settings.1.0=Root.Source Files.Config.1.Settings.0
+Settings.1.1=Root.Source Files.Config.1.Settings.1
+Settings.1.2=Root.Source Files.Config.1.Settings.2
+Settings.1.3=Root.Source Files.Config.1.Settings.3
+
+[Root.Source Files.Config.0.Settings.0]
+String.6.0=2018,8,15,18,50,17
+String.8.0=Debug
+Int.0=0
+Int.1=0
+
+[Root.Source Files.Config.0.Settings.1]
+String.2.0=Compiling $(InputFile)...
+String.3.0=cxstm8 -ikrnl\include  -ikrnl\configuration  -istsd\include  -istsd\configuration  -ihsic\include  -ihsic\configuration  -ikernel\stsd\include  -ikernel\stsd\configuration  -ikernel\oo\sources  -ikernel\oo\include  -ikernel\oo\configuration  -ikernel\hsic\include  -ikernel\hsic\configuration  -idrivers\include  -icommon\include  +mods0 -customDebCompat -customOpt-no -customC-pp -customLst -l $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile)
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,48,50
+
+[Root.Source Files.Config.0.Settings.2]
+String.2.0=Assembling $(InputFile)...
+String.3.0=castm8 -xx -l $(ToolsetIncOpts) -o$(IntermPath)$(InputName).$(ObjectExt) $(InputFile)
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,42,41
+
+[Root.Source Files.Config.0.Settings.3]
+String.2.0=Performing Custom Build on $(InputFile)
+String.3.0=
+String.4.0=
+String.5.0=
+String.6.0=2018,8,15,18,42,41
+
+[Root.Source Files.Config.1.Settings.0]
+String.6.0=2018,8,15,18,50,17
+String.8.0=Release
+Int.0=0
+Int.1=0
+
+[Root.Source Files.Config.1.Settings.1]
+String.2.0=Compiling $(InputFile)...
+String.3.0=cxstm8 -ikrnl\include  -ikrnl\configuration  -istsd\include  -istsd\configuration  -ihsic\include  -ihsic\configuration  -ikernel\stsd\include  -ikernel\stsd\configuration  -ikernel\oo\sources  -ikernel\oo\include  -ikernel\oo\configuration  -ikernel\hsic\include  -ikernel\hsic\configuration  -idrivers\include  -icommon\include  +mods0 -customC-pp $(ToolsetIncOpts) -cl$(IntermPath) -co$(IntermPath) $(InputFile) 
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,42,41
+
+[Root.Source Files.Config.1.Settings.2]
+String.2.0=Assembling $(InputFile)...
+String.3.0=castm8 $(ToolsetIncOpts) -o$(IntermPath)$(InputName).$(ObjectExt) $(InputFile)
+String.4.0=$(IntermPath)$(InputName).$(ObjectExt)
+String.5.0=$(IntermPath)$(InputName).ls
+String.6.0=2018,8,15,18,42,41
+
+[Root.Source Files.Config.1.Settings.3]
+String.2.0=Performing Custom Build on $(InputFile)
+String.3.0=
+String.4.0=
+String.5.0=
+String.6.0=2018,8,15,18,42,41
+
+[Root.Source Files.stm8s_it.h]
+ElemType=File
+PathName=stm8s_it.h
+Next=Root.Source Files.stm8s_conf.h
+
+[Root.Source Files.stm8s_conf.h]
+ElemType=File
+PathName=stm8s_conf.h
+Next=Root.Source Files.stm8s_it.c
+
+[Root.Source Files.stm8s_it.c]
+ElemType=File
+PathName=stm8s_it.c
+Next=Root.Source Files.startup.s
+
+[Root.Source Files.startup.s]
+ElemType=File
+PathName=startup.s
+Next=Root.Source Files.stm8_interrupt_vector.c
+
+[Root.Source Files.stm8_interrupt_vector.c]
+ElemType=File
+PathName=stm8_interrupt_vector.c

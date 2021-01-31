@@ -1,0 +1,44 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.Common.Common\src.common\source\ei_sampletask.c.Config.0]
+ExternDep= common\source\ei_sampletask.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  krnl\include\../../KRNL/Configuration/ei_krnl_cfg.h  common\include\ei_common.h drivers\include\stm8s.h stm8s_conf.h  drivers\include\stm8s_clk.h drivers\include\stm8s_gpio.h  krnl\include\ei_krnl.h krnl\configuration\ei_krnl_cfg.h
+
+[Root.Drivers.Drivers\src.drivers\source\stm8s_iwdg.c.Config.0]
+ExternDep= drivers\source\stm8s_iwdg.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"
+
+[Root.Drivers.Drivers\src.drivers\source\stm8s_gpio.c.Config.0]
+ExternDep= drivers\source\stm8s_gpio.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  drivers\include\stm8s_gpio.h drivers\include\stm8s.h stm8s_conf.h  drivers\include\stm8s_clk.h drivers\include\stm8s_tim2.h
+
+[Root.Drivers.Drivers\src.drivers\source\stm8s_clk.c.Config.0]
+ExternDep= drivers\source\stm8s_clk.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  drivers\include\stm8s_clk.h drivers\include\stm8s.h stm8s_conf.h  drivers\include\stm8s_gpio.h drivers\include\stm8s_tim2.h
+
+[Root.Kernel.Kernel\cfg.krnl\configuration\ei_krnl_cfg.c.Config.0]
+ExternDep= krnl\configuration\ei_krnl_cfg.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  common\include\ei_common.h drivers\include\stm8s.h stm8s_conf.h  drivers\include\stm8s_clk.h drivers\include\stm8s_gpio.h  drivers\include\stm8s_tim2.h krnl\include\ei_krnl_queue.h  krnl\include\ei_krnl.h krnl\configuration\ei_krnl_cfg.h
+
+[Root.Kernel.Kernel\src.krnl\sources\ei_krnl_ticktimer.c.Config.0]
+ExternDep= krnl\sources\ei_krnl_ticktimer.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  hsic\include\ei_hsic.h hsic\configuration\ei_hsic_cfg.h  common\include\ei_common.h drivers\include\stm8s.h stm8s_conf.h  drivers\include\stm8s_clk.h drivers\include\stm8s_gpio.h  drivers\include\stm8s_tim2.h stsd\include\ei_stsd.h  stsd\include\../Configuration/ei_stsd_cfg.h krnl\include\ei_krnl.h  krnl\configuration\ei_krnl_cfg.h krnl\include\ei_krnl_queue.h  krnl\include\ei_krnl_ticktimer.h
+
+[Root.Kernel.Kernel\src.krnl\sources\ei_krnl_startos.c.Config.0]
+ExternDep= krnl\sources\ei_krnl_startos.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  hsic\include\ei_hsic.h hsic\configuration\ei_hsic_cfg.h  common\include\ei_common.h drivers\include\stm8s.h stm8s_conf.h  drivers\include\stm8s_clk.h drivers\include\stm8s_gpio.h  drivers\include\stm8s_tim2.h stsd\include\ei_stsd.h  stsd\include\../Configuration/ei_stsd_cfg.h krnl\include\ei_krnl.h  krnl\configuration\ei_krnl_cfg.h krnl\include\ei_krnl_queue.h  krnl\include\ei_krnl_ticktimer.h
+
+[Root.Kernel.Kernel\src.krnl\sources\ei_krnl_shutdownos.c.Config.0]
+ExternDep= krnl\sources\ei_krnl_shutdownos.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  hsic\include\ei_hsic.h hsic\configuration\ei_hsic_cfg.h  common\include\ei_common.h drivers\include\stm8s.h stm8s_conf.h  drivers\include\stm8s_clk.h drivers\include\stm8s_gpio.h  drivers\include\stm8s_tim2.h stsd\include\ei_stsd.h  stsd\include\../Configuration/ei_stsd_cfg.h krnl\include\ei_krnl.h  krnl\configuration\ei_krnl_cfg.h krnl\include\ei_krnl_queue.h  krnl\include\ei_krnl_ticktimer.h
+
+[Root.Kernel.Kernel\src.krnl\sources\ei_krnl.c.Config.0]
+ExternDep= krnl\sources\ei_krnl.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  hsic\include\ei_hsic.h hsic\configuration\ei_hsic_cfg.h  common\include\ei_common.h drivers\include\stm8s.h stm8s_conf.h  drivers\include\stm8s_clk.h drivers\include\stm8s_gpio.h  drivers\include\stm8s_tim2.h stsd\include\ei_stsd.h  stsd\include\../Configuration/ei_stsd_cfg.h krnl\include\ei_krnl.h  krnl\configuration\ei_krnl_cfg.h krnl\include\ei_krnl_queue.h  krnl\include\ei_krnl_ticktimer.h
+
+[Root.STSD.STSD\cfg.stsd\configuration\ei_stsd_cfg.c.Config.0]
+ExternDep= stsd\configuration\ei_stsd_cfg.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  common\include\ei_common.h drivers\include\stm8s.h stm8s_conf.h  drivers\include\stm8s_clk.h drivers\include\stm8s_gpio.h  drivers\include\stm8s_tim2.h hsic\include\ei_hsic.h  hsic\configuration\ei_hsic_cfg.h
+
+[Root.STSD.STSD\src.stsd\sources\ei_stsd.c.Config.0]
+ExternDep= stsd\sources\ei_stsd.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  hsic\include\ei_hsic.h hsic\configuration\ei_hsic_cfg.h  common\include\ei_common.h drivers\include\stm8s.h stm8s_conf.h  drivers\include\stm8s_clk.h drivers\include\stm8s_gpio.h  drivers\include\stm8s_tim2.h stsd\include\ei_stsd.h  stsd\include\../Configuration/ei_stsd_cfg.h krnl\include\ei_krnl.h  krnl\configuration\ei_krnl_cfg.h common\include\ei_sampleTask.h
+
+[Root.Source Files.stm8s_it.c.Config.0]
+ExternDep= stm8s_it.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h" stm8s_it.h  drivers\include\stm8s.h stm8s_conf.h drivers\include\stm8s_clk.h  drivers\include\stm8s_gpio.h drivers\include\stm8s_tim2.h
+
+[Root.Source Files.stm8_interrupt_vector.c.Config.0]
+ExternDep= stm8_interrupt_vector.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h" stm8s_it.h  drivers\include\stm8s.h stm8s_conf.h drivers\include\stm8s_clk.h  drivers\include\stm8s_gpio.h drivers\include\stm8s_tim2.h  krnl\include\ei_krnl.h krnl\configuration\ei_krnl_cfg.h  common\include\ei_common.h

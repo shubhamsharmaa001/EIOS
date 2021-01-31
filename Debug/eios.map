@@ -1,0 +1,537 @@
+
+Map of Debug\eios.sm8 from link file Debug\eios.lkf - Mon Sep 24 22:52:49 2018
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 00008086 length     6 segment .const
+start 00008094 end 00008465 length   977 segment .text
+start 00004000 end 00004000 length     0 segment .eeprom
+start 00000000 end 00000006 length     6 segment .bsct, initialized
+start 0000808e end 00008094 length     6 segment .bsct, from
+start 00000006 end 00000037 length    49 segment .ubsct
+start 00000037 end 00000037 length     0 segment .bit
+start 00000037 end 00000037 length     0 segment .share
+start 00000100 end 00000100 length     0 segment .data
+start 00000100 end 00000100 length     0 segment .bss
+start 00000000 end 000046d6 length 18134 segment .debug
+start 00000000 end 00000712 length  1810 segment .info.
+start 00008000 end 00008080 length   128 segment .const
+start 00008086 end 0000808e length     8 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+Debug\ei_sampletask.o:
+start 00008094 end 000080e6 length    82 section .text
+start 00000000 end 00000006 length     6 section .bsct
+start 00000000 end 0000024e length   590 section .debug
+start 00000000 end 00000074 length   116 section .info.
+
+Debug\stm8s_tim2.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000024e end 00002562 length  8980 section .debug
+start 00000074 end 000000e5 length   113 section .info.
+
+Debug\stm8s_iwdg.o:
+start 000080e6 end 000080e8 length     2 section .text
+start 00002562 end 00002673 length   273 section .debug
+start 000000e5 end 00000156 length   113 section .info.
+
+Debug\stm8s_gpio.o:
+start 000080e8 end 0000819a length   178 section .text
+start 00002673 end 0000307d length  2570 section .debug
+start 00000156 end 000001c7 length   113 section .info.
+
+Debug\stm8s_clk.o:
+start 0000819a end 000081cc length    50 section .text
+start 0000307d end 000031ab length   302 section .debug
+start 000001c7 end 00000237 length   112 section .info.
+
+Debug\ei_krnl_cfg.o:
+start 000031ab end 000032a1 length   246 section .debug
+start 00000237 end 000002a9 length   114 section .info.
+start 00008080 end 00008086 length     6 section .const
+
+Debug\ei_krnl_ticktimer.o:
+start 000081cc end 00008221 length    85 section .text
+start 000032a1 end 00003415 length   372 section .debug
+start 000002a9 end 00000321 length   120 section .info.
+
+Debug\ei_krnl_startos.o:
+start 00008221 end 00008238 length    23 section .text
+start 00003415 end 0000351c length   263 section .debug
+start 00000321 end 00000397 length   118 section .info.
+
+Debug\ei_krnl_shutdownos.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000351c end 00003605 length   233 section .debug
+start 00000397 end 00000410 length   121 section .info.
+
+Debug\ei_krnl.o:
+start 00008238 end 000083ce length   406 section .text
+start 00000006 end 00000031 length    43 section .ubsct
+start 00003605 end 00003c11 length  1548 section .debug
+start 00000410 end 0000047e length   110 section .info.
+
+Debug\ei_stsd_cfg.o:
+start 00003c11 end 00003c55 length    68 section .debug
+start 0000047e end 000004f0 length   114 section .info.
+
+Debug\ei_stsd.o:
+start 000083ce end 000083fd length    47 section .text
+start 00003c55 end 00003e3b length   486 section .debug
+start 000004f0 end 0000055e length   110 section .info.
+
+Debug\stm8s_it.o:
+start 000083fd end 00008412 length    21 section .text
+start 00003e3b end 0000446b length  1584 section .debug
+start 0000055e end 000005cd length   111 section .info.
+
+Debug\startup.o:
+start 00008412 end 00008465 length    83 section .text
+start 00000100 end 00000100 length     0 section .bss
+start 00000031 end 00000031 length     0 section .ubsct
+start 0000446b end 000045b0 length   325 section .debug
+start 000005cd end 00000606 length    57 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xreg.o:
+start 00000031 end 00000034 length     3 section .ubsct
+start 00000606 end 00000635 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)yreg.o:
+start 00000034 end 00000037 length     3 section .ubsct
+start 00000635 end 00000664 length    47 section .info.
+
+Debug\stm8_interrupt_vector.o:
+start 000045b0 end 000046d6 length   294 section .debug
+start 00000664 end 000006e0 length   124 section .info.
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Debug\ei_krnl.o:
+_EI_krnl_IncTickCnt                     2   (2)
+_EI_krnl_InitOS                         3   (3)
+_EI_krnl_Queue1TaskExecuter            10   (3)
+_EI_krnl_Queue2TaskExecuter            10   (3)
+_EI_krnl_Queue3TaskExecuter            10   (3)
+_EI_krnl_SetRelAlarm                    5   (5)
+_EI_krnl_TaskPeriodMng                  5   (3)
+
+Debug\ei_krnl_startos.o:
+_EI_krnl_StartOS                       13   (3)
+
+Debug\ei_krnl_ticktimer.o:
+_EI_krnl_Tick_Run                  >    2   (2)
+_EI_krnl_Tick_Stop                 >    2   (2)
+f_EI_krnl_Tick_it                  >   23   (13)
+
+Debug\ei_sampletask.o:
+_EI_TASK1_Init                          8   (2)
+_EI_TASK1_Task_ts                  >    7   (2)
+_EI_TASK1_WakeUp                        7   (2)
+_EI_TASK2_Init                          2   (2)
+_EI_TASK2_Task_ts                  >    2   (2)
+_EI_TASK2_WakeUp                        7   (2)
+
+Debug\ei_stsd.o:
+_EI_stsd_BootMicro                 >    4   (2)
+_EI_stsd_Reset                          2   (2)
+_EI_stsd_ShutdownHook              >    2   (2)
+_EI_stsd_Start                     >   15   (2)
+_EI_stsd_StartupHook                   10   (2)
+
+Debug\stm8s_clk.o:
+_EI_clk_InitializeClock                 2   (2)
+_EI_clk_SelectClock                     3   (3)
+
+Debug\stm8s_gpio.o:
+_GPIO_DeInit                            2   (2)
+_GPIO_IMPORTalPullUpConfig         >    6   (6)
+_GPIO_Init                              6   (6)
+_GPIO_ReadInputData                >    2   (2)
+_GPIO_ReadInputPin                 >    5   (5)
+_GPIO_ReadOutputData               >    2   (2)
+_GPIO_Write                        >    5   (5)
+_GPIO_WriteHigh                    >    5   (5)
+_GPIO_WriteLow                     >    5   (5)
+_GPIO_WriteReverse                      5   (5)
+
+Debug\stm8s_it.o:
+f_ADC1_IRQHandler                  >    6   (6)
+f_AWU_IRQHandler                   >    6   (6)
+f_CLK_IRQHandler                   >    6   (6)
+f_EEPROM_EEC_IRQHandler            >    6   (6)
+f_EXTI_PORTA_IRQHandler            >    6   (6)
+f_EXTI_PORTB_IRQHandler            >    6   (6)
+f_EXTI_PORTC_IRQHandler            >    6   (6)
+f_EXTI_PORTD_IRQHandler            >    6   (6)
+f_EXTI_PORTE_IRQHandler            >    6   (6)
+f_I2C_IRQHandler                   >    6   (6)
+f_NonHandledInterrupt              >    6   (6)
+f_SPI_IRQHandler                   >    6   (6)
+f_TIM1_CAP_COM_IRQHandler          >    6   (6)
+f_TIM1_UPD_OVF_TRG_BRK_IRQHandler  >    6   (6)
+f_TIM2_CAP_COM_IRQHandler          >    6   (6)
+f_TIM2_UPD_OVF_BRK_IRQHandler      >    6   (6)
+f_TIM4_UPD_OVF_IRQHandler          >    6   (6)
+f_TLI_IRQHandler                   >    6   (6)
+f_TRAP_IRQHandler                  >    6   (6)
+f_UART1_RX_IRQHandler              >    6   (6)
+f_UART1_TX_IRQHandler              >    6   (6)
+
+Debug\stm8s_iwdg.o:
+_EI_iwdg_InternalWdogInit               2   (2)
+_EI_iwdg_WatchdogRefresh                2   (2)
+
+Stack size: 38
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > _EI_TASK1_Task_ts: (2)
+   2      + _GPIO_WriteReverse: (5)
+       
+   3 > _EI_TASK2_Task_ts: (2)
+
+   4 > _EI_krnl_Tick_Run: (2)
+
+   5 > _EI_krnl_Tick_Stop: (2)
+
+   6 > _EI_stsd_BootMicro: (2)
+   7      + _EI_clk_InitializeClock: (2)
+   8      + _EI_iwdg_InternalWdogInit: (2)
+       
+   9 > _EI_stsd_ShutdownHook: (2)
+
+  10 > _EI_stsd_Start: (2)
+  11      + _EI_clk_SelectClock: (3)
+  12      + _EI_iwdg_WatchdogRefresh: (2)
+  13      + _EI_krnl_StartOS: (3)
+  14      |    + _EI_krnl_InitOS: (3)
+  15      |    + _EI_krnl_Queue3TaskExecuter: (3)
+  16      |    |    + [_EI_TASK1_Task_ts] --> 1
+  17      |    |    + [_EI_TASK2_Task_ts] --> 3
+          |    | 
+  18      |    + _EI_stsd_StartupHook: (2)
+  19      |    |    + _EI_TASK1_Init: (2)
+  20      |    |    |    + _GPIO_DeInit: (2)
+  21      |    |    |    + _GPIO_Init: (6)
+          |    |    | 
+  22      |    |    + _EI_TASK1_WakeUp: (2)
+  23      |    |    |    + _EI_krnl_SetRelAlarm: (5)
+          |    |    | 
+  24      |    |    + _EI_TASK2_Init: (2)
+  25      |    |    + _EI_TASK2_WakeUp: (2)
+  26      |    |    |    + _EI_krnl_SetRelAlarm --> 23
+          |    |    | 
+  27      |    |    + _EI_iwdg_WatchdogRefresh --> 12
+          |    | 
+          | 
+       
+  28 > _GPIO_IMPORTalPullUpConfig: (6)
+
+  29 > _GPIO_ReadInputData: (2)
+
+  30 > _GPIO_ReadInputPin: (5)
+
+  31 > _GPIO_ReadOutputData: (2)
+
+  32 > _GPIO_Write: (5)
+
+  33 > _GPIO_WriteHigh: (5)
+
+  34 > _GPIO_WriteLow: (5)
+
+  35 > __stext: (0)
+
+  36 > f_ADC1_IRQHandler: (6)
+
+  37 > f_AWU_IRQHandler: (6)
+
+  38 > f_CLK_IRQHandler: (6)
+
+  39 > f_EEPROM_EEC_IRQHandler: (6)
+
+  40 > f_EI_krnl_Tick_it: (13)
+  41      + _EI_iwdg_WatchdogRefresh --> 12
+  42      + _EI_krnl_IncTickCnt: (2)
+  43      + _EI_krnl_Queue1TaskExecuter: (3)
+  44      |    + [_EI_TASK1_Task_ts] --> 1
+  45      |    + [_EI_TASK2_Task_ts] --> 3
+          | 
+  46      + _EI_krnl_Queue2TaskExecuter: (3)
+  47      |    + [_EI_TASK1_Task_ts] --> 1
+  48      |    + [_EI_TASK2_Task_ts] --> 3
+          | 
+  49      + _EI_krnl_TaskPeriodMng: (3)
+  50      |    + _EI_stsd_Reset: (2)
+          | 
+       
+  51 > f_EXTI_PORTA_IRQHandler: (6)
+
+  52 > f_EXTI_PORTB_IRQHandler: (6)
+
+  53 > f_EXTI_PORTC_IRQHandler: (6)
+
+  54 > f_EXTI_PORTD_IRQHandler: (6)
+
+  55 > f_EXTI_PORTE_IRQHandler: (6)
+
+  56 > f_I2C_IRQHandler: (6)
+
+  57 > f_NonHandledInterrupt: (6)
+
+  58 > f_SPI_IRQHandler: (6)
+
+  59 > f_TIM1_CAP_COM_IRQHandler: (6)
+
+  60 > f_TIM1_UPD_OVF_TRG_BRK_IRQHandler: (6)
+
+  61 > f_TIM2_CAP_COM_IRQHandler: (6)
+
+  62 > f_TIM2_UPD_OVF_BRK_IRQHandler: (6)
+
+  63 > f_TIM4_UPD_OVF_IRQHandler: (6)
+
+  64 > f_TLI_IRQHandler: (6)
+
+  65 > f_TRAP_IRQHandler: (6)
+
+  66 > f_UART1_RX_IRQHandler: (6)
+
+  67 > f_UART1_TX_IRQHandler: (6)
+
+  68   _EI_TASK1_Init --> 19
+
+  69   _EI_TASK1_WakeUp --> 22
+
+  70   _EI_TASK2_Init --> 24
+
+  71   _EI_TASK2_WakeUp --> 25
+
+  72   _EI_clk_InitializeClock --> 7
+
+  73   _EI_clk_SelectClock --> 11
+
+  74   _EI_iwdg_InternalWdogInit --> 8
+
+  75   _EI_iwdg_WatchdogRefresh --> 12
+
+  76   _EI_krnl_IncTickCnt --> 42
+
+  77   _EI_krnl_InitOS --> 14
+
+  78   _EI_krnl_Queue1TaskExecuter --> 43
+
+  79   _EI_krnl_Queue2TaskExecuter --> 46
+
+  80   _EI_krnl_Queue3TaskExecuter --> 15
+
+  81   _EI_krnl_SetRelAlarm --> 23
+
+  82   _EI_krnl_StartOS --> 13
+
+  83   _EI_krnl_TaskPeriodMng --> 49
+
+  84   _EI_stsd_Reset --> 50
+
+  85   _EI_stsd_StartupHook --> 18
+
+  86   _GPIO_DeInit --> 20
+
+  87   _GPIO_Init --> 21
+
+  88   _GPIO_WriteReverse --> 2
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_EI_TASK1_Init                      000080c9   defined in Debug\ei_sampletask.o section .text
+                                               used in Debug\ei_stsd.o
+_EI_TASK1_Task_ts                   00008094   defined in Debug\ei_sampletask.o section .text
+                                               used in Debug\ei_krnl_cfg.o
+_EI_TASK1_WakeUp                    000080bf   defined in Debug\ei_sampletask.o section .text
+                                               used in Debug\ei_stsd.o
+_EI_TASK2_Init                      000080e5   defined in Debug\ei_sampletask.o section .text
+                                               used in Debug\ei_stsd.o
+_EI_TASK2_Task_ts                   000080b7   defined in Debug\ei_sampletask.o section .text
+                                               used in Debug\ei_krnl_cfg.o
+_EI_TASK2_WakeUp                    000080db   defined in Debug\ei_sampletask.o section .text
+                                               used in Debug\ei_stsd.o
+_EI_clk_InitializeClock             0000819a   defined in Debug\stm8s_clk.o section .text
+                                               used in Debug\ei_stsd.o
+_EI_clk_SelectClock                 000081b7   defined in Debug\stm8s_clk.o section .text
+                                               used in Debug\ei_stsd.o
+_EI_iwdg_InternalWdogInit           000080e7   defined in Debug\stm8s_iwdg.o section .text
+                                               used in Debug\ei_stsd.o
+_EI_iwdg_WatchdogRefresh            000080e6   defined in Debug\stm8s_iwdg.o section .text
+                                               used in Debug\ei_krnl_ticktimer.o
+                                                       Debug\ei_stsd.o
+_EI_krnl_IncTickCnt                 00008253   defined in Debug\ei_krnl.o section .text
+                                               used in Debug\ei_krnl_ticktimer.o
+_EI_krnl_InitOS                     00008256   defined in Debug\ei_krnl.o section .text
+                                               used in Debug\ei_krnl_startos.o
+_EI_krnl_Queue1TaskExecuter         0000830f   defined in Debug\ei_krnl.o section .text
+                                               used in Debug\ei_krnl_ticktimer.o
+_EI_krnl_Queue2TaskExecuter         00008350   defined in Debug\ei_krnl.o section .text
+                                               used in Debug\ei_krnl_ticktimer.o
+_EI_krnl_Queue3TaskExecuter         00008393   defined in Debug\ei_krnl.o section .text
+                                               used in Debug\ei_krnl_startos.o
+_EI_krnl_SetRelAlarm                00008238   defined in Debug\ei_krnl.o section .text
+                                               used in Debug\ei_sampletask.o
+_EI_krnl_ShutdownOS                 ********   *** removed from Debug\ei_krnl_shutdownos.o ***
+_EI_krnl_StartOS                    00008221   defined in Debug\ei_krnl_startos.o section .text
+                                               used in Debug\ei_stsd.o
+_EI_krnl_TaskPeriodMng              00008290   defined in Debug\ei_krnl.o section .text
+                                               used in Debug\ei_krnl_ticktimer.o
+_EI_krnl_Tick_Run                   000081cc   defined in Debug\ei_krnl_ticktimer.o section .text
+_EI_krnl_Tick_Stop                  000081d5   defined in Debug\ei_krnl_ticktimer.o section .text
+_EI_stsd_BootMicro                  000083ce   defined in Debug\ei_stsd.o section .text
+                                               used in Debug\startup.o
+_EI_stsd_Reset                      000083fc   defined in Debug\ei_stsd.o section .text
+                                               used in Debug\ei_krnl.o
+_EI_stsd_ShutdownHook               000083ee   defined in Debug\ei_stsd.o section .text
+                                               used in Debug\ei_krnl_shutdownos.o
+_EI_stsd_Start                      000083ef   defined in Debug\ei_stsd.o section .text
+                                               used in Debug\startup.o
+_EI_stsd_StartupHook                000083d5   defined in Debug\ei_stsd.o section .text
+                                               used in Debug\ei_krnl_startos.o
+_GPIO_DeInit                        000080e8   defined in Debug\stm8s_gpio.o section .text
+                                               used in Debug\ei_sampletask.o
+_GPIO_IMPORTalPullUpConfig          00008182   defined in Debug\stm8s_gpio.o section .text
+_GPIO_Init                          000080f0   defined in Debug\stm8s_gpio.o section .text
+                                               used in Debug\ei_sampletask.o
+_GPIO_ReadInputData                 00008178   defined in Debug\stm8s_gpio.o section .text
+_GPIO_ReadInputPin                  0000817b   defined in Debug\stm8s_gpio.o section .text
+_GPIO_ReadOutputData                00008176   defined in Debug\stm8s_gpio.o section .text
+_GPIO_Write                         00008158   defined in Debug\stm8s_gpio.o section .text
+_GPIO_WriteHigh                     00008160   defined in Debug\stm8s_gpio.o section .text
+_GPIO_WriteLow                      00008167   defined in Debug\stm8s_gpio.o section .text
+_GPIO_WriteReverse                  0000816f   defined in Debug\stm8s_gpio.o section .text
+                                               used in Debug\ei_sampletask.o
+_TIM2_ARRPreloadConfig              ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_CCxCmd                        ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_ClearFlag                     ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_ClearITPendingBit             ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_Cmd                           ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_DeInit                        ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_ForcedOC1Config               ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_ForcedOC2Config               ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_ForcedOC3Config               ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_GenerateEvent                 ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_GetCapture1                   ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_GetCapture2                   ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_GetCapture3                   ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_GetCounter                    ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_GetFlagStatus                 ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_GetITStatus                   ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_GetPrescaler                  ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_ICInit                        ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_ITConfig                      ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_OC1Init                       ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_OC1PolarityConfig             ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_OC1PreloadConfig              ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_OC2Init                       ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_OC2PolarityConfig             ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_OC2PreloadConfig              ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_OC3Init                       ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_OC3PolarityConfig             ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_OC3PreloadConfig              ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_PWMIConfig                    ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_PrescalerConfig               ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SelectOCxM                    ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SelectOnePulseMode            ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SetAutoreload                 ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SetCompare1                   ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SetCompare2                   ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SetCompare3                   ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SetCounter                    ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SetIC1Prescaler               ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SetIC2Prescaler               ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_SetIC3Prescaler               ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_TimeBaseInit                  ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_UpdateDisableConfig           ********   *** removed from Debug\stm8s_tim2.o ***
+_TIM2_UpdateRequestConfig           ********   *** removed from Debug\stm8s_tim2.o ***
+__endmem                            000001ff   defined in command file
+                                               *** not used ***
+__endzp                             00000037   defined in command file section .ubsct
+                                               used in Debug\startup.o
+__idesc__                           00008086   defined in linker section .init
+                                               used in Debug\startup.o
+__memory                            00000100   defined in command file section .bss
+                                               used in Debug\startup.o
+__stack                             000003ff   defined in command file
+                                               used in Debug\startup.o
+__startmem                          00000100   defined in command file section .bss
+                                               *** not used ***
+__stext                             00008412   defined in Debug\startup.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+__vectab                            00008000   defined in Debug\stm8_interrupt_vector.o section .const
+_exit                               00008463   defined in Debug\startup.o section .text
+_u8_ei_krnl_QueueNumberTable        00008084   defined in Debug\ei_krnl_cfg.o section .const
+                                               used in Debug\ei_krnl.o
+_u8_ei_krnl_TasksAddressTable       00008080   defined in Debug\ei_krnl_cfg.o section .const
+                                               used in Debug\ei_krnl.o
+c_x                                 00000031   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xreg.o section .ubsct
+                                               used in Debug\ei_krnl_ticktimer.o
+                                                       Debug\startup.o
+c_y                                 00000034   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)yreg.o section .ubsct
+                                               used in Debug\ei_krnl_ticktimer.o
+                                                       Debug\startup.o
+f_ADC1_IRQHandler                   0000840f   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_AWU_IRQHandler                    00008400   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_CLK_IRQHandler                    00008401   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_EEPROM_EEC_IRQHandler             00008411   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_EI_krnl_Tick_it                   000081de   defined in Debug\ei_krnl_ticktimer.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_EXTI_PORTA_IRQHandler             00008402   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_EXTI_PORTB_IRQHandler             00008403   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_EXTI_PORTC_IRQHandler             00008404   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_EXTI_PORTD_IRQHandler             00008405   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_EXTI_PORTE_IRQHandler             00008406   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_I2C_IRQHandler                    0000840e   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_NonHandledInterrupt               000083fd   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_SPI_IRQHandler                    00008407   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_TIM1_CAP_COM_IRQHandler           00008409   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_TIM1_UPD_OVF_TRG_BRK_IRQHandler   00008408   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_TIM2_CAP_COM_IRQHandler           0000840b   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_TIM2_UPD_OVF_BRK_IRQHandler       0000840a   defined in Debug\stm8s_it.o section .text
+                                               *** not used ***
+f_TIM4_UPD_OVF_IRQHandler           00008410   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_TLI_IRQHandler                    000083ff   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_TRAP_IRQHandler                   000083fe   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_UART1_RX_IRQHandler               0000840d   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
+f_UART1_TX_IRQHandler               0000840c   defined in Debug\stm8s_it.o section .text
+                                               used in Debug\stm8_interrupt_vector.o
